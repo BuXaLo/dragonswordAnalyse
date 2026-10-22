@@ -2,7 +2,6 @@
 
 > **Навигация:** [← README](../README.md) · [Анализ боевой системы](../COMBAT_DATA_ANALYSIS.md) · [Вероника](../Veronica/VERONICA_SKILLS.md) · [Жером](../Jerome/JEROME_SKILLS.md) · [Логан](../Logan/LOGAN_SKILLS.md)
 
-**Версия источника:** commit `05fbb7ee0e621b803f31273d905c89f8b69137bc`  
 **Персонаж:** Вероника (`CharacterID=10019`; `PCComboData.ID=1000016`; `StatTableID=10019`; blueprint `DsPC_Veronica_V2`). Есть также служебные копии: `1509` («только для замены в команде / героический заказ Отелло») и `2000018` («пробный» персонаж) с теми же `ComboTableID` и blueprint.
 
 > Это восстановление игровых данных из таблиц. Числа `AttackWeight`, `HitFury`, `HitAggro`, `SuperArmorBreak` — поля системы комбо; `AttackWeight` нельзя автоматически считать процентом урона от ATK. Подстановка `{0}%` из строки «Урон {0}% от атаки» (`810010101`) в доступных таблицах **не найдена** (см. раздел 4).
