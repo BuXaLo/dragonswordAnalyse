@@ -4,14 +4,29 @@
 
 > **Статус документа:** схема построена по фактическим именам полей и примерам записей доступных таблиц. Там, где связь между таблицами ещё не доказана общим ключом, она помечена как гипотеза/требующая проверки. Числа `AttackWeight` и `DamageWeight` не следует автоматически считать процентами от ATK.
 
+> **Навигация:** **README** (таблицы и схема связей) · [Анализ боевой системы](COMBAT_DATA_ANALYSIS.md) · Разборы героев: [Вероника](Veronica/VERONICA_SKILLS.md) · [Жером](Jerome/JEROME_SKILLS.md) · [Логан](Logan/LOGAN_SKILLS.md)
+
 ## Содержание
 
+- [Документы репозитория](#документы-репозитория)
 - [Состав репозитория](#состав-репозитория)
 - [Что описывает каждый файл](#что-описывает-каждый-файл)
 - [Схема связей](#схема-связей)
 - [Ключевые поля](#ключевые-поля)
 - [Как восстанавливать навыки и урон](#как-восстанавливать-навыки-и-урон)
 - [Ограничения и следующие шаги](#ограничения-и-следующие-шаги)
+
+## Документы репозитория
+
+| Документ | О чём |
+|---|---|
+| [README.md](README.md) | Описание таблиц, ключевых полей и схема связей (этот файл). |
+| [COMBAT_DATA_ANALYSIS.md](COMBAT_DATA_ANALYSIS.md) | Анализ боевой системы: как читать `PCComboData`, `PCActionDamageData`, `PCComboLevelData`, `PCComboChangeData`, что подтверждено и что нет. |
+| [Veronica/VERONICA_SKILLS.md](Veronica/VERONICA_SKILLS.md) | Разбор навыков Вероники (`CharacterID=10019`). |
+| [Jerome/JEROME_SKILLS.md](Jerome/JEROME_SKILLS.md) | Разбор навыков Жерома (`CharacterID=10015`). |
+| [Logan/LOGAN_SKILLS.md](Logan/LOGAN_SKILLS.md) | Разбор навыков Логана (`CharacterID=10033`). |
+
+Файлы героев строятся по одному шаблону: навыки и локализация → записи `PCComboData` → эффекты и условия → структура ударов → что не соединено → что подтверждено.
 
 ## Состав репозитория
 
@@ -66,7 +81,7 @@
 Не путать:
 - `ID` — владелец/группа комбо в `PCComboData`;
 - `Index` — индекс конкретного комбо-действия;
-- `ComboID` в `PCComboLevelData` — ключ уровня комбо, который **не следует автоматически приравнивать к `PCComboData.ID`**. Сопоставлять уровневые строки нужно по полям, фактически совпадающим в обеих таблицах (`GroupIndex`, `SubGroupIndex`, `Level` и соответствующему ID/смыслу ComboID).
+- `ComboID` в `PCComboLevelData` — это `PCComboData.ID` (подтверждено для всех 27 значений). Уровневые строки соединяются по `ComboID` + `GroupIndex` + `SubGroupIndex`, `Level` задаёт уровень слота.
 
 `AttackWeight` из `PCComboData`/`PCComboLevelData` — боевой параметр комбо. Не доказано, что он является тем же самым, что `DamageWeight` из `PCActionDamageData`, или что любое из этих значений является непосредственным множителем ATK.
 
@@ -84,7 +99,7 @@
 
 ### 6. `PCComboChangeData.xml` — замена вариантов комбо
 
-`OriginalComboIndex` и `ChangeComboIndex` — последовательности, разделённые `#`. Внутри одной записи их следует разбивать и сопоставлять попарно по позиции, а не сортировать независимо. Фильтры `Master`, `Transcend`, `KarmaID` определяют вариант прогрессии. Для финальной схемы проверить, каким образом `PCSkillGrowthData.ComboChangeID` указывает на `PCComboChangeData.ID`.
+`OriginalComboIndex` и `ChangeComboIndex` — последовательности, разделённые `#`. Внутри одной записи их следует разбивать и сопоставлять попарно по позиции, а не сортировать независимо. `ID` записи равен `CharacterID` героя; строки есть не у всех героев. Для одного героя набор строк — это комбинации `Master` (True/False), `Transcend` (0/1/3/6) и `KarmaID` (0 или ID кармы): чем выше `Transcend`, тем больше пар. Фильтры определяют вариант прогрессии.
 
 ### 7. `SkillData.xml`, `PCSkillLevelData.xml`, `GameBuffData.xml` — эффекты
 
@@ -112,10 +127,10 @@ flowchart TD
     CH -->|StatTableID| STAT[PCStatData]
     CH -->|Name, Desc: строковые ID| STR[StringData_ru.txt]
     GROW[PCSkillGrowthData<br/>CharacterID, SlotOrder, SlotType, TypeValue] -->|Name, SkillDesc: строковые ID| STR
-    GROW -->|ComboChangeID: связь требует проверки| CHANGE[PCComboChangeData<br/>OriginalComboIndex → ChangeComboIndex]
+    GROW -->|ComboChangeID / ID = CharacterID| CHANGE[PCComboChangeData<br/>OriginalComboIndex → ChangeComboIndex]
     COMBO -->|Index ↔ ComboIndex: проверять вместе с актором/анимацией| DMG[PCActionDamageData<br/>ActionIndex, AnimationName, AttackKey, DamageWeight]
     COMBO -->|Index ↔ ComboIndex: проверять ключи| LINK[PCActionMonsterLinkData<br/>NotifyKey, MonsterLinkIndex]
-    COMBO -->|GroupIndex, SubGroupIndex, Level и ключ ComboID — сверить| LEVEL[PCComboLevelData<br/>AttackWeight, CoolTime]
+    COMBO -->|ComboID = PCComboData.ID; GroupIndex, SubGroupIndex, Level| LEVEL[PCComboLevelData<br/>AttackWeight, CoolTime]
     SKILL[SkillData<br/>ID, BuffID, DataAssetPath] -->|BuffID| BUFF[GameBuffData<br/>BuffTypeN, BuffValueN]
     PLEVEL[PCSkillLevelData<br/>ActionBuffID, Level, BuffID] -->|BuffID: проверить наличие| BUFF
     PLEVEL -->|ActionBuffID: смысловой мост ещё проверить| SKILL
@@ -130,20 +145,25 @@ flowchart TD
 | Связь | Статус | Примечание |
 |---|---|---|
 | `PCCharacterData.Name/Desc` и `PCSkillGrowthData.Name/SkillDesc` → `StringData_ru.txt` | Подтверждена форматом строковых ID | Ключ строки сопоставляется с ID. |
-| `PCCharacterData.StatTableID` → `PCStatData.ID` | Подтверждается совпадением ID в примерах | Проверять по всем персонажам и уникальности ключей. |
-| `PCComboData.Index` ↔ `PCActionDamageData.ComboIndex` | Сильный кандидат на связь | Требуется учитывать владельца/модель (`Name`, `ID`) и `ActionIndex`, так как индексы могут повторяться между персонажами. |
+| `PCCharacterData.StatTableID` → `PCStatData.ID` | Подтверждена: найдено 106 из 106 | — |
+| `PCCharacterData.ComboTableID` → `PCComboData.ID` | Подтверждена: найдено 106 из 106 | `PCComboData.ID` — это `ComboTableID`, а не `CharacterID`. |
+| `PCComboData.Index` ↔ `PCActionDamageData.ComboIndex` | Подтверждена при ключе `Name` (= имя blueprint из `PCCharacterData.BluePrint`) + `ID` (= `CharacterID`) | Для 39 пользовательских героев `ComboIndex` не найден в `PCComboData` у 127 из 2493 строк (напр. `3003` вместо `30030` у Жерома, `0` у Логана). Строки с `ID=2000xxx` — копии «пробных» персонажей, их надо исключать. |
 | `PCComboData.Index` ↔ `PCActionMonsterLinkData.ComboIndex` | Сильный кандидат на связь | Аналогично проверять по персонажу/действию и notify. |
-| `PCComboChangeData.OriginalComboIndex` → `ChangeComboIndex` | Подтверждена внутри таблицы | Списки позиционные; нужен контекст `KarmaID`, `Master`, `Transcend`. |
-| `PCSkillGrowthData.ComboChangeID` → `PCComboChangeData.ID` | Вероятная связь | Проверить фактическое распределение значений и количество совпадений. |
-| `PCSkillLevelData.BuffID` → `GameBuffData.ID` | Проверяемая прямая связь по ключу | Проверять нулевые/пустые значения отдельно. |
-| `PCSkillLevelData.ActionBuffID` ↔ `SkillData.ID` | Не считать подтверждённой автоматически | Нужно проверить совпадения и смысл поля в контексте. |
+| `PCComboChangeData.OriginalComboIndex` → `ChangeComboIndex` | Подтверждена внутри таблицы; позиционное сопоставление проверено на Калиене и Кассиусе (напр. `401 → 9010` «3 трансц.») | Списки позиционные; нужен контекст `KarmaID`, `Master`, `Transcend`. |
+| `PCComboChangeData.ID` = `CharacterID` | Подтверждена: все 19 ID таблицы — ID героев | Строки есть не у всех героев: нет у Жерома, Вероники, Логана, Исеры, Отелло, Шарлотты, Райзы, Аруру. |
+| `PCSkillGrowthData.ComboChangeID` → `PCComboChangeData.ID` | Подтверждена частично: ненулевое значение всегда равно `CharacterID` | У Виолы, Даны, Калиена и Лампи строки в `PCComboChangeData` есть, а `ComboChangeID=0`; у Исеры `ComboChangeID` ссылается на ID без строк. Надёжнее связывать по `PCComboChangeData.ID` = `CharacterID`. |
+| `PCSkillLevelData.BuffID` → `GameBuffData.ID` | Подтверждена: найдено 434 из 444 ненулевых значений | 10 значений не найдены. |
+| `PCSkillLevelData.ActionBuffID` ↔ `SkillData.ID` | ID совпадают: 46 из 47 | Смысловую связь проверять отдельно. Для боевых эффектов героев `PCSkillLevelData` часто строк не содержит — они лежат только в `SkillData`. |
+| `PCComboData.ActionBuffList` → `SkillData.ID` → `GameBuffData.ID` | Подтверждена на Веронике, Жероме, Логане (все ID найдены); `SkillData.BuffID` → `GameBuffData.ID` — 804 из 804 | Для `BuffID` вида `a#b` проверять каждый элемент. |
+| `PCComboData.TargetCondition` → `SkillComboConditionCheckData.ID` | Подтверждена на Веронике, Жероме, Логане | `Desc_Name` условий читается напрямую; у части условий в названии стоит имя героя. |
+| `PCComboLevelData.ComboID` = `PCComboData.ID` | Подтверждена: все 27 значений `ComboID` присутствуют в `PCComboData.ID` | У Вероники, Жерома и Логана `AttackWeight` в этой таблице равен 1 на всех уровнях — рост урона по уровням здесь не хранится. |
 | `PCComboData.AttackWeight` ↔ `PCActionDamageData.DamageWeight` | Не эквивалентны по одному лишь имени | Нужны измерения/формула либо дополнительная таблица/логика Blueprint. |
 
 ## Ключевые поля
 
 | Поле | Интерпретация |
 |---|---|
-| `CharacterID` | ID персонажа в таблице навыков; может отличаться от `PCCharacterData.ID` и `PCComboData.ID`. Проверять мосты по таблицам, не переносить ID между доменами без подтверждения. |
+| `CharacterID` | ID персонажа. В `PCSkillGrowthData` совпадает с `PCCharacterData.ID` (26 из 26); `PCComboData.ID` — это `ComboTableID`, а не `CharacterID`. Один герой может иметь служебные копии (`1509`, `2000018` и т.п. для Вероники) с теми же `ComboTableID` и blueprint — для разбора брать запись с `IsUserCharacter=true`. |
 | `TypeValue`, `SlotType`, `SlotOrder`, `SkllType` | Классификация/расположение навыка в системе прокачки. Значения нужно описывать как наблюдаемые enum-коды; не приписывать универсальные значения без проверки всех строк. |
 | `Index` | Индекс комбо-действия в `PCComboData`; например, у Джерома `701` — dodge, `801` — jump, `901` — dodge attack, `902` — дополнительный ввод после dodge attack, `915` — dash attack. |
 | `GroupIndex`, `SubGroupIndex` | Группировка действий и вариантов комбо; полезны для уровневых/вариантных строк, но не гарантируют уникальность записи сами по себе. |
@@ -175,9 +195,9 @@ flowchart TD
 
 1. Разрешить `PCCharacterData` и сопоставить персонажей с `ComboTableID`, `StatTableID`, Blueprint и AnimInst.
 2. Для каждого персонажа получить `PCComboData` по его ID и сгруппировать действия по `GroupIndex`/`SubGroupIndex`, `Index` и описанию.
-3. Применить `PCComboChangeData` с учётом `KarmaID`, `Master` и `Transcend`, чтобы построить варианты комбо.
+3. Применить `PCComboChangeData` (строки с `ID` = `CharacterID`; у части героев их нет) с учётом `KarmaID`, `Master` и `Transcend`, чтобы построить варианты комбо.
 4. Связать combo-index с `PCActionDamageData` и `PCActionMonsterLinkData`; при совпадении индекса проверять `Name`, `ID`, `ActionIndex`, `AnimationName`, `AttackKey`.
-5. Добавить параметры `PCComboLevelData` по уровню, не смешивая `ComboID` с `PCComboData.ID` без доказанного ключа.
+5. Добавить параметры `PCComboLevelData` по `ComboID` = `PCComboData.ID` и уровню (проверено: у Вероники, Жерома, Логана `AttackWeight` по уровням не меняется).
 6. Разрешить баффы и условия по `SkillData`, `PCSkillLevelData`, `GameBuffData` и `SkillComboConditionCheckData`.
 7. Перевести строковые ID в русский текст через `StringData_ru.txt`.
 8. Только после этого сопоставлять игровые коэффициенты с измеренным уроном и выводить формулу.
@@ -189,3 +209,6 @@ flowchart TD
 - Для доказательства формулы урона нужны контрольные игровые замеры с известными ATK, критом, защитой цели и несколькими отдельными ударами.
 - Не объединять записи только по одному числовому индексу: в разных персонажах/типах действий индексы могут повторяться.
 - В документации отделять «поле прямо присутствует в таблице» от «смысл поля подтверждён» и от «формула подтверждена игровым тестом».
+- Значение `{0}` из строки «Урон {0}% от атаки» (`810010101`) в проверенных таблицах (Вероника, Жером, Логан) не найдено: `PCSkillLevelData` для их боевых эффектов строк не содержит, `AttackWeight` в `PCComboLevelData` постоянен. Источник вне этих таблиц (DataAsset/Blueprint).
+- Мастер-слот без реального текста («Скоро в обновлении» в описании) у пяти героев: Жером, Вероника, Логан (также в поле названия), Виола и Аруру. Это не равнозначно отсутствию строк `PCComboChangeData` (у Виолы они есть) и само по себе не доказывает, что герой не выпущен.
+- Для героев с призывами событий удара под именем персонажа в `PCActionDamageData` очень мало (у Калиена `10037` — 2 строки), урон наносят отдельные объекты.

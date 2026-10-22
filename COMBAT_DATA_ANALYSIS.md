@@ -1,6 +1,10 @@
 # Предварительный анализ боевой системы DragonSword: Awakening
 
+> **Навигация:** [README](README.md) · **Анализ боевой системы** · Разборы героев: [Вероника](Veronica/VERONICA_SKILLS.md) · [Жером](Jerome/JEROME_SKILLS.md) · [Логан](Logan/LOGAN_SKILLS.md)
+
 Этот документ фиксирует выводы, которые можно подтвердить по текущим таблицам. Он намеренно не выдаёт предположительные joins или коэффициенты за окончательную формулу.
+
+Связи, подтверждённые при разборе Вероники, Жерома и Логана, собраны в [разделе 7](#7-что-подтверждено-после-разбора-вероники-жерома-и-логана); подробные разборы — в `Veronica/`, `Jerome/`, `Logan/`.
 
 ## 1. Что уже видно в таблицах
 
@@ -44,20 +48,22 @@
 Для анализа необходимо сохранять как минимум:
 `Name`, `ID`, `ActionIndex`, `AnimationName`, `ComboIndex`, `AttackKey`, `DamageWeight`, `HitGroupIndex`.
 
+Ключ соединения проверен: `PCActionDamageData.Name` = имя blueprint персонажа (`DsPC_Jerome_V2`), `ID` = `CharacterID`. Строки с `ID=2000xxx` — копии «пробных» персонажей и дублируют основные (у Жерома 204 строки = 102 × 2), их нужно исключать. Суммы `DamageWeight` по одному `ComboIndex` у Жерома часто близки к 1, у Логана равны числу событий (3.0, 8.0), поэтому «доля урона навыка» остаётся гипотезой.
+
 `DamageWeight` нельзя интерпретировать как «процент ATK» без подтверждения формулой или игровыми тестами. Аналогично `AttackWeight` из `PCComboData`/`PCComboLevelData` — отдельное поле и не должно заменять `DamageWeight`.
 
 ## 3. Параметры комбо по уровням
 
-`PCComboLevelData.xml` хранит `Level`, `ComboID`, `GroupIndex`, `SubGroupIndex`, `AttackWeight`, `CoolTime` и параметры воздействия. Пример записей для Lute показывает изменение `AttackWeight` от уровня к уровню. Но связь `PCComboLevelData.ComboID` с `PCComboData.ID` не следует считать прямой: в примерах `PCComboData.ID` — ID набора персонажа, а уровневый `ComboID` принимает отдельные значения. Перед объединением нужно определить составной ключ и проверить его на всей таблице.
+`PCComboLevelData.xml` хранит `Level`, `ComboID`, `GroupIndex`, `SubGroupIndex`, `AttackWeight`, `CoolTime` и параметры воздействия. Пример записей для Lute показывает изменение `AttackWeight` от уровня к уровню. Связь `PCComboLevelData.ComboID` = `PCComboData.ID` подтверждена: все 27 значений `ComboID` присутствуют в `PCComboData.ID` (у Вероники 187 строк, у Жерома 247, у Логана 90). Но у этих трёх героев `AttackWeight` в `PCComboLevelData` равен 1 на всех уровнях, то есть рост урона по уровням в этой таблице не хранится.
 
 ## 4. Схема событий
 
 Предварительная цепочка анализа:
 
-`PCCharacterData` → идентификатор/таблица комбо → `PCComboData` → (индекс действия) → `PCActionDamageData` → `AttackKey`/`DamageWeight`
+`PCCharacterData` → `ComboTableID` → `PCComboData.ID` → (индекс действия) → `PCActionDamageData` → `AttackKey`/`DamageWeight`
 
 Параллельные ветки:
-- `PCComboChangeData` — какие индексы комбо заменяются на другие при определённых `KarmaID`, `Master`, `Transcend`;
+- `PCComboChangeData` — какие индексы комбо заменяются на другие при определённых `KarmaID`, `Master`, `Transcend`; `ID` записи = `CharacterID` героя, строки есть не у всех героев;
 - `PCComboLevelData` — параметры комбо по уровням;
 - `PCActionMonsterLinkData` — события notify и взаимодействия с целью;
 - `PCSkillGrowthData` → `StringData_ru.txt` — отображаемые названия и описания;
@@ -83,3 +89,21 @@
 - confidence: `confirmed`, `probable`, `unresolved`.
 
 Так можно будет обновлять справочник при следующих патчах и понимать, какие значения получены непосредственно из файлов, а какие являются выводом анализа.
+
+## 7. Что подтверждено после разбора Вероники, Жерома и Логана
+
+| Вопрос | Результат | Статус |
+|---|---|---|
+| Ключ `PCCharacterData` → `PCComboData` | `ComboTableID` = `PCComboData.ID` (106 из 106) | confirmed |
+| Ключ `PCComboLevelData` → `PCComboData` | `ComboID` = `PCComboData.ID` (27 из 27) | confirmed |
+| Ключ `PCActionDamageData` → персонаж | `Name` = имя blueprint, `ID` = `CharacterID`; `ID=2000xxx` — дубликаты | confirmed |
+| `ComboIndex` в `PCActionDamageData` ↔ `Index` в `PCComboData` | совпадает, но у 127 из 2493 строк индекса в `PCComboData` нет | confirmed с исключениями |
+| `PCComboChangeData` → персонаж | `ID` = `CharacterID`; позиционные пары осмысленны (Калиен, Кассиус); у ряда героев строк нет | confirmed |
+| `ActionBuffList` → `SkillData.ID` → `GameBuffData.ID` | все ID трёх героев найдены | confirmed |
+| `TargetCondition` → `SkillComboConditionCheckData.ID` | `Desc_Name` читается напрямую | confirmed |
+| Значение `{0}` в «Урон {0}% от атаки» | не найдено; `AttackWeight` по уровням постоянен | unresolved |
+| Смысл `DamageWeight` | суммы по навыкам различаются (≈1 у Жерома, 3.0 и 8.0 у Логана) | unresolved |
+| Единицы `*_Per` в `GameBuffData` (напр. `Defence_Per#-0.05`) | у Вероники значение эффекта (−5%) расходится с текстом (25%) | unresolved |
+| Улучшения (мастер, карма, трансценденции) у Жерома, Вероники, Логана | записи в `PCComboData` есть у Жерома и Вероники, строк `PCComboChangeData` у всех троих нет | не подключены в этой выгрузке |
+
+Примечание о статусе героев: мастер-слот без реального текста («Скоро в обновлении» в описании) у Жерома, Вероники, Логана, Виолы и Аруру. Это не равнозначно отсутствию строк `PCComboChangeData` и не доказывает, что герой не выпущен.
