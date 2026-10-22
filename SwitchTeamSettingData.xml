@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:SwitchTeamSettingDataMap xmlns:ns1="http://leigient.549n.com/schema/SwitchTeamSettingInfo">
+	<ns1:SwitchTeamSettingData ns1:ID="106" ns1:Memo="용추종자던전 탈출 류트 싱글 모드" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1002" ns1:CharacterLevel="10" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="107" ns1:Memo="이세라VS로피" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1010" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="108" ns1:Memo="각성 류트 (임시로 슈퍼 류트)" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1202" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="109" ns1:Memo="걷는 모션 류트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1302" ns1:CharacterLevel="10" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="110" ns1:Memo="라르고 전투 조니" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1007" ns1:CharacterLevel="21" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="111" ns1:Memo="니니안 퀘스트 카스텔라" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1003" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="112" ns1:Memo="니니안 퀘스트 류트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1002" ns1:CharacterLevel="22" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="113" ns1:Memo="탐욕의 무덤 류트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1502" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="113" ns1:Memo="탐욕의 무덤 조니" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1507" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="114" ns1:Memo="전류핵 조니" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1007" ns1:CharacterLevel="45" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="115" ns1:Memo="전류핵 오네트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1020" ns1:CharacterLevel="45" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="116" ns1:Memo="지하의 메아리 류트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1040" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="116" ns1:Memo="지하의 메아리 카스텔라" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1041" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="116" ns1:Memo="지하의 메아리 아리아" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1042" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="117" ns1:Memo="함정과 기습 록시" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1050" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="118" ns1:Memo="함정과 기습 각성 류트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1051" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="119" ns1:Memo="함정과 기습 조니" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1052" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="120" ns1:Memo="탐욕의 무덤 류트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1502" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="120" ns1:Memo="탐욕의 무덤 조니" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1507" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="120" ns1:Memo="탐욕의 무덤 칼리엔" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1508" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="121" ns1:Memo="2월드 비올라" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1060" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="122" ns1:Memo="2월드 3챕터 류트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1002" ns1:CharacterLevel="50" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="123" ns1:Memo="오네트 영웅의뢰 전용 오네트" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1070" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="124" ns1:Memo="세리스 영웅의뢰 전용 세리스" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1032" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="125" ns1:Memo="세리스 영웅의뢰 전용 세리스" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1029" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="126" ns1:Memo="칼리엔 영웅의뢰 전용 칼리엔" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1035" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="127" ns1:Memo="테레지아 영웅의뢰 전용 테레지아" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1034" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="128" ns1:Memo="칼리엔 영웅의뢰 전용 칼리엔 코스튬 버전" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1037" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="129" ns1:Memo="에일린 영웅 서브 의뢰" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1039" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="130" ns1:Memo="다나 영웅의뢰 전용 다나 - 코스튬" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1043" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="131" ns1:Memo="샬롯 영웅의뢰 전용 샬롯" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1016" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="132" ns1:Memo="다나 영웅의뢰 전용 다나 - 일반" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1044" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend=""/>
+	<ns1:SwitchTeamSettingData ns1:ID="133" ns1:Memo="오셀로 영웅의뢰 전용 베로니카 - 일반" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1509" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="134" ns1:Memo="오셀로 영웅의뢰 전용 오셀로 - 일반" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1510" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="135" ns1:Memo="오셀로 영웅의뢰 전용 오셀로 - 음유시인 코스튬" ns1:SwitchTeamType="QUEST" ns1:CharacterID="1511" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1001" ns1:Memo="체험하기 세리스 픽업 팀 - 세리스" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000001" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1001" ns1:Memo="체험하기 세리스 픽업 팀 - 에일린" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000002" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1001" ns1:Memo="체험하기 세리스 픽업 팀 - 레이나" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000008" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1002" ns1:Memo="체험하기 오네트 픽업 팀 - 오네트" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000004" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1002" ns1:Memo="체험하기 오네트 픽업 팀 - 시온" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000005" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1002" ns1:Memo="체험하기 오네트 픽업 팀 - 타르테" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000006" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1003" ns1:Memo="체험하기 다나 픽업 팀 - 다나" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000003" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1003" ns1:Memo="체험하기 다나 픽업 팀 - 세리스" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000001" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1003" ns1:Memo="체험하기 다나 픽업 팀 - 아스트리아" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000022" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1004" ns1:Memo="체험하기 테레지아 픽업 팀 - 테레지아" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000020" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1004" ns1:Memo="체험하기 테레지아 픽업 팀 - 록시" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000011" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1004" ns1:Memo="체험하기 테레지아 픽업 팀 - 류트" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000009" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1005" ns1:Memo="체험하기 칼리엔 픽업 팀 - 칼리엔" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000026" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1005" ns1:Memo="체험하기 칼리엔 픽업 팀 - 카시우스" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000013" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+	<ns1:SwitchTeamSettingData ns1:ID="1005" ns1:Memo="체험하기 칼리엔 픽업 팀 - 류트" ns1:SwitchTeamType="EXPERIENCE" ns1:CharacterID="2000009" ns1:CharacterLevel="60" ns1:VehicleID="" ns1:Transcend="6"/>
+</ns1:SwitchTeamSettingDataMap>

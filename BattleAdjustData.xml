@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns4:BattleAdjustDataMap xmlns:ns4="http://leigient.549n.com/schema/BattleAdjustInfo">
+	<ns4:BattleAdjustData ns4:ID="1" ns4:Memo="방어자가 레벨이 -20 높음" ns4:LevelDifference="-20" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="2" ns4:Memo="방어자가 레벨이 -19 높음" ns4:LevelDifference="-19" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="3" ns4:Memo="방어자가 레벨이 -18 높음" ns4:LevelDifference="-18" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="4" ns4:Memo="방어자가 레벨이 -17 높음" ns4:LevelDifference="-17" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="5" ns4:Memo="방어자가 레벨이 -16 높음" ns4:LevelDifference="-16" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="6" ns4:Memo="방어자가 레벨이 -15 높음" ns4:LevelDifference="-15" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="7" ns4:Memo="방어자가 레벨이 -14 높음" ns4:LevelDifference="-14" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="8" ns4:Memo="방어자가 레벨이 -13 높음" ns4:LevelDifference="-13" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="9" ns4:Memo="방어자가 레벨이 -12 높음" ns4:LevelDifference="-12" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="10" ns4:Memo="방어자가 레벨이 -11 높음" ns4:LevelDifference="-11" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="11" ns4:Memo="방어자가 레벨이 -10 높음" ns4:LevelDifference="-10" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="12" ns4:Memo="방어자가 레벨이 -9 높음" ns4:LevelDifference="-9" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="13" ns4:Memo="방어자가 레벨이 -8 높음" ns4:LevelDifference="-8" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="14" ns4:Memo="방어자가 레벨이 -7 높음" ns4:LevelDifference="-7" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="15" ns4:Memo="방어자가 레벨이 -6 높음" ns4:LevelDifference="-6" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="16" ns4:Memo="방어자가 레벨이 -5 높음" ns4:LevelDifference="-5" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="17" ns4:Memo="방어자가 레벨이 -4 높음" ns4:LevelDifference="-4" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="18" ns4:Memo="방어자가 레벨이 -3 높음" ns4:LevelDifference="-3" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="19" ns4:Memo="방어자가 레벨이 -2 높음" ns4:LevelDifference="-2" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="20" ns4:Memo="방어자가 레벨이 -1 높음" ns4:LevelDifference="-1" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="21" ns4:Memo="공격자와 방어자 레벨 동일 ( 보정 없음 )" ns4:LevelDifference="0" ns4:Critical_Adjust="0"/>
+	<ns4:BattleAdjustData ns4:ID="22" ns4:Memo="공격자가 레벨이 1 높음, 치명타 확률 0.1% 보정" ns4:LevelDifference="1" ns4:Critical_Adjust="10"/>
+	<ns4:BattleAdjustData ns4:ID="23" ns4:Memo="공격자가 레벨이 2 높음, 치명타 확률 0.2% 보정" ns4:LevelDifference="2" ns4:Critical_Adjust="20"/>
+	<ns4:BattleAdjustData ns4:ID="24" ns4:Memo="공격자가 레벨이 3 높음, 치명타 확률 0.45% 보정" ns4:LevelDifference="3" ns4:Critical_Adjust="45"/>
+	<ns4:BattleAdjustData ns4:ID="25" ns4:Memo="공격자가 레벨이 4 높음, 치명타 확률 0.8% 보정" ns4:LevelDifference="4" ns4:Critical_Adjust="80"/>
+	<ns4:BattleAdjustData ns4:ID="26" ns4:Memo="공격자가 레벨이 5 높음, 치명타 확률 1.25% 보정" ns4:LevelDifference="5" ns4:Critical_Adjust="125"/>
+	<ns4:BattleAdjustData ns4:ID="27" ns4:Memo="공격자가 레벨이 6 높음, 치명타 확률 1.8% 보정" ns4:LevelDifference="6" ns4:Critical_Adjust="180"/>
+	<ns4:BattleAdjustData ns4:ID="28" ns4:Memo="공격자가 레벨이 7 높음, 치명타 확률 2.45% 보정" ns4:LevelDifference="7" ns4:Critical_Adjust="245"/>
+	<ns4:BattleAdjustData ns4:ID="29" ns4:Memo="공격자가 레벨이 8 높음, 치명타 확률 3.2% 보정" ns4:LevelDifference="8" ns4:Critical_Adjust="320"/>
+	<ns4:BattleAdjustData ns4:ID="30" ns4:Memo="공격자가 레벨이 9 높음, 치명타 확률 4.05% 보정" ns4:LevelDifference="9" ns4:Critical_Adjust="405"/>
+	<ns4:BattleAdjustData ns4:ID="31" ns4:Memo="공격자가 레벨이 10 높음, 치명타 확률 5% 보정" ns4:LevelDifference="10" ns4:Critical_Adjust="500"/>
+	<ns4:BattleAdjustData ns4:ID="32" ns4:Memo="공격자가 레벨이 11 높음, 치명타 확률 6.5% 보정" ns4:LevelDifference="11" ns4:Critical_Adjust="650"/>
+	<ns4:BattleAdjustData ns4:ID="33" ns4:Memo="공격자가 레벨이 12 높음, 치명타 확률 8% 보정" ns4:LevelDifference="12" ns4:Critical_Adjust="800"/>
+	<ns4:BattleAdjustData ns4:ID="34" ns4:Memo="공격자가 레벨이 13 높음, 치명타 확률 9.5% 보정" ns4:LevelDifference="13" ns4:Critical_Adjust="950"/>
+	<ns4:BattleAdjustData ns4:ID="35" ns4:Memo="공격자가 레벨이 14 높음, 치명타 확률 11% 보정" ns4:LevelDifference="14" ns4:Critical_Adjust="1100"/>
+	<ns4:BattleAdjustData ns4:ID="36" ns4:Memo="공격자가 레벨이 15 높음, 치명타 확률 12.5% 보정" ns4:LevelDifference="15" ns4:Critical_Adjust="1250"/>
+	<ns4:BattleAdjustData ns4:ID="37" ns4:Memo="공격자가 레벨이 16 높음, 치명타 확률 14% 보정" ns4:LevelDifference="16" ns4:Critical_Adjust="1400"/>
+	<ns4:BattleAdjustData ns4:ID="38" ns4:Memo="공격자가 레벨이 17 높음, 치명타 확률 15.5% 보정" ns4:LevelDifference="17" ns4:Critical_Adjust="1550"/>
+	<ns4:BattleAdjustData ns4:ID="39" ns4:Memo="공격자가 레벨이 18 높음, 치명타 확률 17% 보정" ns4:LevelDifference="18" ns4:Critical_Adjust="1700"/>
+	<ns4:BattleAdjustData ns4:ID="40" ns4:Memo="공격자가 레벨이 19 높음, 치명타 확률 18.5% 보정" ns4:LevelDifference="19" ns4:Critical_Adjust="1850"/>
+	<ns4:BattleAdjustData ns4:ID="41" ns4:Memo="공격자가 레벨이 20 높음, 치명타 확률 20% 보정" ns4:LevelDifference="20" ns4:Critical_Adjust="2000"/>
+</ns4:BattleAdjustDataMap>

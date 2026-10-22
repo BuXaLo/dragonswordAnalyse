@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:SwitchDataMap xmlns:ns3="http://leigient.549n.com/schema/SwitchInfo">
+	<ns3:SwitchData ns3:ID="1" ns3:TableType="System" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo="첫 캐릭터 소환"/>
+	<ns3:SwitchData ns3:ID="2" ns3:TableType="System" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo="첫 카르마 소환"/>
+	<ns3:SwitchData ns3:ID="3" ns3:TableType="System" ns3:TableKey="4000000" ns3:EarlySwitch="" ns3:Memo="설문조사 버튼 터치 보상 지급 유무 체크 (TableKey가 리워드ID)"/>
+	<ns3:SwitchData ns3:ID="4" ns3:TableType="TYPE_NONE" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="5" ns3:TableType="TYPE_NONE" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="6" ns3:TableType="TYPE_NONE" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="7" ns3:TableType="TYPE_NONE" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="8" ns3:TableType="TYPE_NONE" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="9" ns3:TableType="WayPointData" ns3:TableKey="1" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="10" ns3:TableType="WayPointData" ns3:TableKey="2" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="11" ns3:TableType="WayPointData" ns3:TableKey="3" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="12" ns3:TableType="WayPointData" ns3:TableKey="4" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="13" ns3:TableType="WayPointData" ns3:TableKey="5" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="14" ns3:TableType="WayPointData" ns3:TableKey="6" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="15" ns3:TableType="WayPointData" ns3:TableKey="7" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="17" ns3:TableType="WayPointData" ns3:TableKey="9" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="18" ns3:TableType="WayPointData" ns3:TableKey="10" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="19" ns3:TableType="TYPE_NONE" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="20" ns3:TableType="TYPE_NONE" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="21" ns3:TableType="TYPE_NONE" ns3:TableKey="" ns3:EarlySwitch="" ns3:Memo=""/>
+	<ns3:SwitchData ns3:ID="22" ns3:TableType="WayPointData" ns3:TableKey="10101" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 01 (시작의 초원)"/>
+	<ns3:SwitchData ns3:ID="23" ns3:TableType="WayPointData" ns3:TableKey="10103" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 02 (풍요의 대지)"/>
+	<ns3:SwitchData ns3:ID="24" ns3:TableType="WayPointData" ns3:TableKey="10102" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 03 (그림자 삼림)"/>
+	<ns3:SwitchData ns3:ID="25" ns3:TableType="WayPointData" ns3:TableKey="10104" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 04 (산들바람 언덕)"/>
+	<ns3:SwitchData ns3:ID="26" ns3:TableType="WayPointData" ns3:TableKey="10105" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 05 (강철심장 요새)"/>
+	<ns3:SwitchData ns3:ID="27" ns3:TableType="WayPointData" ns3:TableKey="10106" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 09 (이끼숲 벌목지)"/>
+	<ns3:SwitchData ns3:ID="28" ns3:TableType="WayPointData" ns3:TableKey="10107" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 10 (은빛여울 호수)"/>
+	<ns3:SwitchData ns3:ID="29" ns3:TableType="WayPointData" ns3:TableKey="10108" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 06 (용오름 분지)"/>
+	<ns3:SwitchData ns3:ID="30" ns3:TableType="WayPointData" ns3:TableKey="10109" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 07 (깊은바람 경계구역)"/>
+	<ns3:SwitchData ns3:ID="31" ns3:TableType="WayPointData" ns3:TableKey="10110" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 08 (하늘마루 구릉지)"/>
+	<ns3:SwitchData ns3:ID="32" ns3:TableType="WayPointData" ns3:TableKey="11" ns3:EarlySwitch="" ns3:Memo="용 바위산 웨이포인트"/>
+	<ns3:SwitchData ns3:ID="33" ns3:TableType="WayPointData" ns3:TableKey="12" ns3:EarlySwitch="" ns3:Memo="산들바람 언덕 세 갈래길"/>
+	<ns3:SwitchData ns3:ID="34" ns3:TableType="WayPointData" ns3:TableKey="13" ns3:EarlySwitch="" ns3:Memo="영광의 다리 검문소"/>
+	<ns3:SwitchData ns3:ID="35" ns3:TableType="WayPointData" ns3:TableKey="14" ns3:EarlySwitch="" ns3:Memo="경계의 눈 초소"/>
+	<ns3:SwitchData ns3:ID="36" ns3:TableType="WayPointData" ns3:TableKey="15" ns3:EarlySwitch="" ns3:Memo="하늘마루 구릉지 입구"/>
+	<ns3:SwitchData ns3:ID="37" ns3:TableType="WayPointData" ns3:TableKey="16" ns3:EarlySwitch="" ns3:Memo="어스름 동굴 출구"/>
+	<ns3:SwitchData ns3:ID="38" ns3:TableType="WayPointData" ns3:TableKey="17" ns3:EarlySwitch="" ns3:Memo="1월드 시련의 탑"/>
+	<ns3:SwitchData ns3:ID="39" ns3:TableType="WayPointData" ns3:TableKey="18" ns3:EarlySwitch="" ns3:Memo="빛내림 동굴"/>
+	<ns3:SwitchData ns3:ID="40" ns3:TableType="WayPointData" ns3:TableKey="19" ns3:EarlySwitch="" ns3:Memo="하늘기둥 바위산"/>
+	<ns3:SwitchData ns3:ID="41" ns3:TableType="WayPointData" ns3:TableKey="20" ns3:EarlySwitch="" ns3:Memo="푸른 호수 섬"/>
+	<ns3:SwitchData ns3:ID="42" ns3:TableType="WayPointData" ns3:TableKey="21" ns3:EarlySwitch="" ns3:Memo="폐허가 된 신전 (지하 2층)"/>
+	<ns3:SwitchData ns3:ID="43" ns3:TableType="WayPointData" ns3:TableKey="22" ns3:EarlySwitch="" ns3:Memo="습원 외곽"/>
+	<ns3:SwitchData ns3:ID="44" ns3:TableType="WayPointData" ns3:TableKey="23" ns3:EarlySwitch="" ns3:Memo="앰버 항구"/>
+	<ns3:SwitchData ns3:ID="45" ns3:TableType="WayPointData" ns3:TableKey="24" ns3:EarlySwitch="" ns3:Memo="이끼 벌목장"/>
+	<ns3:SwitchData ns3:ID="46" ns3:TableType="WayPointData" ns3:TableKey="25" ns3:EarlySwitch="" ns3:Memo="은빛여울 초소"/>
+	<ns3:SwitchData ns3:ID="47" ns3:TableType="WayPointData" ns3:TableKey="26" ns3:EarlySwitch="" ns3:Memo="별그늘 숲"/>
+	<ns3:SwitchData ns3:ID="48" ns3:TableType="WayPointData" ns3:TableKey="27" ns3:EarlySwitch="" ns3:Memo="하늘깃 능선"/>
+	<ns3:SwitchData ns3:ID="49" ns3:TableType="WayPointData" ns3:TableKey="28" ns3:EarlySwitch="" ns3:Memo="붉은 도끼 부락"/>
+	<ns3:SwitchData ns3:ID="50" ns3:TableType="WayPointData" ns3:TableKey="29" ns3:EarlySwitch="" ns3:Memo="속삼임의 길 여행자 캠프"/>
+	<ns3:SwitchData ns3:ID="51" ns3:TableType="WayPointData" ns3:TableKey="30" ns3:EarlySwitch="" ns3:Memo="잊혀진 쉼터"/>
+	<ns3:SwitchData ns3:ID="52" ns3:TableType="WayPointData" ns3:TableKey="31" ns3:EarlySwitch="" ns3:Memo="고요한 호수 제단"/>
+	<ns3:SwitchData ns3:ID="53" ns3:TableType="WayPointData" ns3:TableKey="32" ns3:EarlySwitch="" ns3:Memo="안개 꽃 마을"/>
+	<ns3:SwitchData ns3:ID="54" ns3:TableType="WayPointData" ns3:TableKey="10111" ns3:EarlySwitch="" ns3:Memo="1월드 에오나의 유산 11 (별그늘 숲지대)"/>
+	<ns3:SwitchData ns3:ID="201" ns3:TableType="WayPointData" ns3:TableKey="201" ns3:EarlySwitch="" ns3:Memo="2월드_작은 암초 섬_1"/>
+	<ns3:SwitchData ns3:ID="202" ns3:TableType="WayPointData" ns3:TableKey="202" ns3:EarlySwitch="" ns3:Memo="2월드_작은 암초 섬_2"/>
+	<ns3:SwitchData ns3:ID="203" ns3:TableType="WayPointData" ns3:TableKey="203" ns3:EarlySwitch="" ns3:Memo="2월드_폭풍도_1"/>
+	<ns3:SwitchData ns3:ID="204" ns3:TableType="WayPointData" ns3:TableKey="204" ns3:EarlySwitch="" ns3:Memo="2월드_폭풍도_2"/>
+	<ns3:SwitchData ns3:ID="205" ns3:TableType="WayPointData" ns3:TableKey="205" ns3:EarlySwitch="" ns3:Memo="2월드_폭풍도_3"/>
+	<ns3:SwitchData ns3:ID="206" ns3:TableType="WayPointData" ns3:TableKey="206" ns3:EarlySwitch="" ns3:Memo="2월드_폭풍도_4"/>
+	<ns3:SwitchData ns3:ID="207" ns3:TableType="WayPointData" ns3:TableKey="207" ns3:EarlySwitch="" ns3:Memo="2월드_더스트헤이븐_1"/>
+	<ns3:SwitchData ns3:ID="208" ns3:TableType="WayPointData" ns3:TableKey="208" ns3:EarlySwitch="" ns3:Memo="2월드_더스트헤이븐_2"/>
+	<ns3:SwitchData ns3:ID="209" ns3:TableType="WayPointData" ns3:TableKey="209" ns3:EarlySwitch="" ns3:Memo="2월드_더스트헤이븐_3"/>
+	<ns3:SwitchData ns3:ID="210" ns3:TableType="WayPointData" ns3:TableKey="210" ns3:EarlySwitch="" ns3:Memo="2월드_속삭임의 섬_1"/>
+	<ns3:SwitchData ns3:ID="211" ns3:TableType="WayPointData" ns3:TableKey="211" ns3:EarlySwitch="" ns3:Memo="2월드_죽음의광산_1"/>
+	<ns3:SwitchData ns3:ID="212" ns3:TableType="WayPointData" ns3:TableKey="212" ns3:EarlySwitch="" ns3:Memo="2월드_죽음의광산_2"/>
+	<ns3:SwitchData ns3:ID="213" ns3:TableType="WayPointData" ns3:TableKey="213" ns3:EarlySwitch="" ns3:Memo="2월드_죽음의광산_3"/>
+	<ns3:SwitchData ns3:ID="214" ns3:TableType="WayPointData" ns3:TableKey="214" ns3:EarlySwitch="" ns3:Memo="2월드_죽음의광산_4"/>
+	<ns3:SwitchData ns3:ID="215" ns3:TableType="WayPointData" ns3:TableKey="215" ns3:EarlySwitch="" ns3:Memo="2월드_죽음의광산_5"/>
+	<ns3:SwitchData ns3:ID="216" ns3:TableType="WayPointData" ns3:TableKey="216" ns3:EarlySwitch="" ns3:Memo="2월드_죽음의광산_6"/>
+	<ns3:SwitchData ns3:ID="217" ns3:TableType="WayPointData" ns3:TableKey="217" ns3:EarlySwitch="" ns3:Memo="2월드_죽음의광산_7"/>
+	<ns3:SwitchData ns3:ID="218" ns3:TableType="WayPointData" ns3:TableKey="218" ns3:EarlySwitch="" ns3:Memo="2월드_폭풍도_5"/>
+	<ns3:SwitchData ns3:ID="219" ns3:TableType="WayPointData" ns3:TableKey="219" ns3:EarlySwitch="" ns3:Memo="2월드_폭풍도_6"/>
+	<ns3:SwitchData ns3:ID="220" ns3:TableType="WayPointData" ns3:TableKey="220" ns3:EarlySwitch="" ns3:Memo="2월드_폭풍도_7"/>
+	<ns3:SwitchData ns3:ID="221" ns3:TableType="WayPointData" ns3:TableKey="221" ns3:EarlySwitch="" ns3:Memo="2월드_폭풍의심장_1"/>
+	<ns3:SwitchData ns3:ID="222" ns3:TableType="WayPointData" ns3:TableKey="222" ns3:EarlySwitch="" ns3:Memo="2월드_작은 섬_1"/>
+	<ns3:SwitchData ns3:ID="223" ns3:TableType="WayPointData" ns3:TableKey="223" ns3:EarlySwitch="" ns3:Memo="2월드_작은 섬_2"/>
+	<ns3:SwitchData ns3:ID="224" ns3:TableType="WayPointData" ns3:TableKey="224" ns3:EarlySwitch="" ns3:Memo="2월드_하늘 미궁_1"/>
+	<ns3:SwitchData ns3:ID="225" ns3:TableType="WayPointData" ns3:TableKey="225" ns3:EarlySwitch="" ns3:Memo="2월드_죽음의 광산 직전 섬_1"/>
+	<ns3:SwitchData ns3:ID="326" ns3:TableType="WayPointData" ns3:TableKey="100000" ns3:EarlySwitch="true" ns3:Memo="1월드 석상 01 (오르비스 왕성)"/>
+	<ns3:SwitchData ns3:ID="327" ns3:TableType="WayPointData" ns3:TableKey="100001" ns3:EarlySwitch="" ns3:Memo="1월드 석상 02 (시작의 초원 / 여정의 언덕)"/>
+	<ns3:SwitchData ns3:ID="328" ns3:TableType="WayPointData" ns3:TableKey="100011" ns3:EarlySwitch="" ns3:Memo="1월드 석상 03 (그림자 삼림 / 요새 고개)"/>
+	<ns3:SwitchData ns3:ID="329" ns3:TableType="WayPointData" ns3:TableKey="100021" ns3:EarlySwitch="" ns3:Memo="1월드 석상 04 (풍요의 대지 / 메아리 협로)"/>
+	<ns3:SwitchData ns3:ID="330" ns3:TableType="WayPointData" ns3:TableKey="100031" ns3:EarlySwitch="" ns3:Memo="1월드 석상(골렘) 05 (풍요의 대지 / 갈매기 마을)"/>
+	<ns3:SwitchData ns3:ID="331" ns3:TableType="WayPointData" ns3:TableKey="100041" ns3:EarlySwitch="" ns3:Memo="1월드 석상 06 (시작의 초원 / 나무 그늘 언덕)"/>
+	<ns3:SwitchData ns3:ID="333" ns3:TableType="WayPointData" ns3:TableKey="100051" ns3:EarlySwitch="" ns3:Memo="1월드 석상 07  (용오름 분지 / 용 바위산)"/>
+	<ns3:SwitchData ns3:ID="334" ns3:TableType="WayPointData" ns3:TableKey="100061" ns3:EarlySwitch="" ns3:Memo="1월드 석상 08 (깊은 바람 경계 구역 / 폐허가 된 신전)"/>
+	<ns3:SwitchData ns3:ID="335" ns3:TableType="WayPointData" ns3:TableKey="100071" ns3:EarlySwitch="" ns3:Memo="1월드 석상 09 (하늘 마루 구릉지)"/>
+	<ns3:SwitchData ns3:ID="336" ns3:TableType="WayPointData" ns3:TableKey="100081" ns3:EarlySwitch="" ns3:Memo="1월드 석상 10 (산들 바람 언덕)"/>
+	<ns3:SwitchData ns3:ID="337" ns3:TableType="WayPointData" ns3:TableKey="100091" ns3:EarlySwitch="" ns3:Memo="1월드 석상 11 (동부 / 바람맞이 놀 부락 )"/>
+	<ns3:SwitchData ns3:ID="338" ns3:TableType="WayPointData" ns3:TableKey="100101" ns3:EarlySwitch="" ns3:Memo="1월드 석상 12 (동부 / 하늘깃 능선)"/>
+	<ns3:SwitchData ns3:ID="339" ns3:TableType="WayPointData" ns3:TableKey="100111" ns3:EarlySwitch="" ns3:Memo="1월드 석상 13 (동부 / 속삭임의 길)"/>
+	<ns3:SwitchData ns3:ID="340" ns3:TableType="WayPointData" ns3:TableKey="100121" ns3:EarlySwitch="" ns3:Memo="1월드 석상 14 (동부 / 두개의 호수 언덕 )"/>
+	<ns3:SwitchData ns3:ID="341" ns3:TableType="WayPointData" ns3:TableKey="100131" ns3:EarlySwitch="" ns3:Memo="1월드 석상 15 (은빛여울 호수 / 잊혀진 교류의 터)"/>
+	<ns3:SwitchData ns3:ID="400" ns3:TableType="WayPointData" ns3:TableKey="200000" ns3:EarlySwitch="" ns3:Memo="2월드 석상 00 (더스트헤이븐(마을))"/>
+	<ns3:SwitchData ns3:ID="401" ns3:TableType="WayPointData" ns3:TableKey="200001" ns3:EarlySwitch="" ns3:Memo="2월드 석상 01 (작은암초섬(수인섬))"/>
+	<ns3:SwitchData ns3:ID="402" ns3:TableType="WayPointData" ns3:TableKey="200011" ns3:EarlySwitch="" ns3:Memo="2월드 석상 02 (폭풍도)"/>
+	<ns3:SwitchData ns3:ID="403" ns3:TableType="WayPointData" ns3:TableKey="200021" ns3:EarlySwitch="" ns3:Memo="2월드 석상 03 (죽음의 광산)"/>
+	<ns3:SwitchData ns3:ID="1001" ns3:TableType="CookRecipeData" ns3:TableKey="80001" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 고기)"/>
+	<ns3:SwitchData ns3:ID="1002" ns3:TableType="CookRecipeData" ns3:TableKey="80002" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1003" ns3:TableType="CookRecipeData" ns3:TableKey="80003" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1004" ns3:TableType="CookRecipeData" ns3:TableKey="80004" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1005" ns3:TableType="CookRecipeData" ns3:TableKey="80005" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (허브 그릴)"/>
+	<ns3:SwitchData ns3:ID="1006" ns3:TableType="CookRecipeData" ns3:TableKey="80006" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1007" ns3:TableType="CookRecipeData" ns3:TableKey="80007" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1008" ns3:TableType="CookRecipeData" ns3:TableKey="80008" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1009" ns3:TableType="CookRecipeData" ns3:TableKey="80009" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란 프라이)"/>
+	<ns3:SwitchData ns3:ID="1010" ns3:TableType="CookRecipeData" ns3:TableKey="80010" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 고기)"/>
+	<ns3:SwitchData ns3:ID="1011" ns3:TableType="CookRecipeData" ns3:TableKey="80011" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1012" ns3:TableType="CookRecipeData" ns3:TableKey="80012" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1013" ns3:TableType="CookRecipeData" ns3:TableKey="80013" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1014" ns3:TableType="CookRecipeData" ns3:TableKey="80014" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1015" ns3:TableType="CookRecipeData" ns3:TableKey="80015" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1016" ns3:TableType="CookRecipeData" ns3:TableKey="80016" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1017" ns3:TableType="CookRecipeData" ns3:TableKey="80017" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1018" ns3:TableType="CookRecipeData" ns3:TableKey="80018" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1019" ns3:TableType="CookRecipeData" ns3:TableKey="80019" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1020" ns3:TableType="CookRecipeData" ns3:TableKey="80020" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1021" ns3:TableType="CookRecipeData" ns3:TableKey="80021" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1022" ns3:TableType="CookRecipeData" ns3:TableKey="80022" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1023" ns3:TableType="CookRecipeData" ns3:TableKey="80023" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1024" ns3:TableType="CookRecipeData" ns3:TableKey="80024" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1025" ns3:TableType="CookRecipeData" ns3:TableKey="80025" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1026" ns3:TableType="CookRecipeData" ns3:TableKey="80026" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1027" ns3:TableType="CookRecipeData" ns3:TableKey="80027" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1028" ns3:TableType="CookRecipeData" ns3:TableKey="80028" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1029" ns3:TableType="CookRecipeData" ns3:TableKey="80029" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1030" ns3:TableType="CookRecipeData" ns3:TableKey="80030" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1031" ns3:TableType="CookRecipeData" ns3:TableKey="80031" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파스타)"/>
+	<ns3:SwitchData ns3:ID="1032" ns3:TableType="CookRecipeData" ns3:TableKey="80032" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1033" ns3:TableType="CookRecipeData" ns3:TableKey="80033" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1034" ns3:TableType="CookRecipeData" ns3:TableKey="80034" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1035" ns3:TableType="CookRecipeData" ns3:TableKey="80035" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1036" ns3:TableType="CookRecipeData" ns3:TableKey="80036" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 야채 볶음)"/>
+	<ns3:SwitchData ns3:ID="1037" ns3:TableType="CookRecipeData" ns3:TableKey="80037" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1038" ns3:TableType="CookRecipeData" ns3:TableKey="80038" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1039" ns3:TableType="CookRecipeData" ns3:TableKey="80039" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1040" ns3:TableType="CookRecipeData" ns3:TableKey="80040" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (허브 그릴)"/>
+	<ns3:SwitchData ns3:ID="1041" ns3:TableType="CookRecipeData" ns3:TableKey="80041" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1042" ns3:TableType="CookRecipeData" ns3:TableKey="80042" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1043" ns3:TableType="CookRecipeData" ns3:TableKey="80043" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1044" ns3:TableType="CookRecipeData" ns3:TableKey="80044" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1045" ns3:TableType="CookRecipeData" ns3:TableKey="80045" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1046" ns3:TableType="CookRecipeData" ns3:TableKey="80046" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1047" ns3:TableType="CookRecipeData" ns3:TableKey="80047" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1048" ns3:TableType="CookRecipeData" ns3:TableKey="80048" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1049" ns3:TableType="CookRecipeData" ns3:TableKey="80049" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1050" ns3:TableType="CookRecipeData" ns3:TableKey="80050" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1051" ns3:TableType="CookRecipeData" ns3:TableKey="80051" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1052" ns3:TableType="CookRecipeData" ns3:TableKey="80052" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1053" ns3:TableType="CookRecipeData" ns3:TableKey="80053" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1054" ns3:TableType="CookRecipeData" ns3:TableKey="80054" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란 프라이)"/>
+	<ns3:SwitchData ns3:ID="1055" ns3:TableType="CookRecipeData" ns3:TableKey="80055" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 고기)"/>
+	<ns3:SwitchData ns3:ID="1056" ns3:TableType="CookRecipeData" ns3:TableKey="80056" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1057" ns3:TableType="CookRecipeData" ns3:TableKey="80057" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1058" ns3:TableType="CookRecipeData" ns3:TableKey="80058" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1059" ns3:TableType="CookRecipeData" ns3:TableKey="80059" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1060" ns3:TableType="CookRecipeData" ns3:TableKey="80060" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1061" ns3:TableType="CookRecipeData" ns3:TableKey="80061" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1062" ns3:TableType="CookRecipeData" ns3:TableKey="80062" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1063" ns3:TableType="CookRecipeData" ns3:TableKey="80063" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1064" ns3:TableType="CookRecipeData" ns3:TableKey="80064" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1065" ns3:TableType="CookRecipeData" ns3:TableKey="80065" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1066" ns3:TableType="CookRecipeData" ns3:TableKey="80066" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1067" ns3:TableType="CookRecipeData" ns3:TableKey="80067" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1068" ns3:TableType="CookRecipeData" ns3:TableKey="80068" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1069" ns3:TableType="CookRecipeData" ns3:TableKey="80069" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1070" ns3:TableType="CookRecipeData" ns3:TableKey="80070" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1071" ns3:TableType="CookRecipeData" ns3:TableKey="80071" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1072" ns3:TableType="CookRecipeData" ns3:TableKey="80072" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1073" ns3:TableType="CookRecipeData" ns3:TableKey="80073" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스테이크 정식)"/>
+	<ns3:SwitchData ns3:ID="1074" ns3:TableType="CookRecipeData" ns3:TableKey="80074" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스테이크 정식)"/>
+	<ns3:SwitchData ns3:ID="1075" ns3:TableType="CookRecipeData" ns3:TableKey="80075" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스테이크 정식)"/>
+	<ns3:SwitchData ns3:ID="1076" ns3:TableType="CookRecipeData" ns3:TableKey="80076" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스테이크 정식)"/>
+	<ns3:SwitchData ns3:ID="1077" ns3:TableType="CookRecipeData" ns3:TableKey="80077" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스테이크 정식)"/>
+	<ns3:SwitchData ns3:ID="1078" ns3:TableType="CookRecipeData" ns3:TableKey="80078" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스테이크 정식)"/>
+	<ns3:SwitchData ns3:ID="1079" ns3:TableType="CookRecipeData" ns3:TableKey="80079" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1080" ns3:TableType="CookRecipeData" ns3:TableKey="80080" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1081" ns3:TableType="CookRecipeData" ns3:TableKey="80081" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1082" ns3:TableType="CookRecipeData" ns3:TableKey="80082" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1083" ns3:TableType="CookRecipeData" ns3:TableKey="80083" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1084" ns3:TableType="CookRecipeData" ns3:TableKey="80084" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (햄버그 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1085" ns3:TableType="CookRecipeData" ns3:TableKey="80085" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1086" ns3:TableType="CookRecipeData" ns3:TableKey="80086" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1087" ns3:TableType="CookRecipeData" ns3:TableKey="80087" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1088" ns3:TableType="CookRecipeData" ns3:TableKey="80088" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1089" ns3:TableType="CookRecipeData" ns3:TableKey="80089" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (햄버그 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1090" ns3:TableType="CookRecipeData" ns3:TableKey="80090" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1091" ns3:TableType="CookRecipeData" ns3:TableKey="80091" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1092" ns3:TableType="CookRecipeData" ns3:TableKey="80092" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1093" ns3:TableType="CookRecipeData" ns3:TableKey="80093" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (햄버그 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1094" ns3:TableType="CookRecipeData" ns3:TableKey="80094" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1095" ns3:TableType="CookRecipeData" ns3:TableKey="80095" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1096" ns3:TableType="CookRecipeData" ns3:TableKey="80096" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1097" ns3:TableType="CookRecipeData" ns3:TableKey="80097" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1098" ns3:TableType="CookRecipeData" ns3:TableKey="80098" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (햄버그 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1099" ns3:TableType="CookRecipeData" ns3:TableKey="80099" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1100" ns3:TableType="CookRecipeData" ns3:TableKey="80100" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1101" ns3:TableType="CookRecipeData" ns3:TableKey="80101" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1102" ns3:TableType="CookRecipeData" ns3:TableKey="80102" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1103" ns3:TableType="CookRecipeData" ns3:TableKey="80103" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1104" ns3:TableType="CookRecipeData" ns3:TableKey="80104" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1105" ns3:TableType="CookRecipeData" ns3:TableKey="80105" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1106" ns3:TableType="CookRecipeData" ns3:TableKey="80106" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1107" ns3:TableType="CookRecipeData" ns3:TableKey="80107" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1108" ns3:TableType="CookRecipeData" ns3:TableKey="80108" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1109" ns3:TableType="CookRecipeData" ns3:TableKey="80109" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1110" ns3:TableType="CookRecipeData" ns3:TableKey="80110" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1111" ns3:TableType="CookRecipeData" ns3:TableKey="80111" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1112" ns3:TableType="CookRecipeData" ns3:TableKey="80112" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1113" ns3:TableType="CookRecipeData" ns3:TableKey="80113" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1114" ns3:TableType="CookRecipeData" ns3:TableKey="80114" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1115" ns3:TableType="CookRecipeData" ns3:TableKey="80115" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1116" ns3:TableType="CookRecipeData" ns3:TableKey="80116" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1117" ns3:TableType="CookRecipeData" ns3:TableKey="80117" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1118" ns3:TableType="CookRecipeData" ns3:TableKey="80118" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1119" ns3:TableType="CookRecipeData" ns3:TableKey="80119" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1120" ns3:TableType="CookRecipeData" ns3:TableKey="80120" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1121" ns3:TableType="CookRecipeData" ns3:TableKey="80121" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1122" ns3:TableType="CookRecipeData" ns3:TableKey="80122" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1123" ns3:TableType="CookRecipeData" ns3:TableKey="80123" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1124" ns3:TableType="CookRecipeData" ns3:TableKey="80124" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1125" ns3:TableType="CookRecipeData" ns3:TableKey="80125" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1126" ns3:TableType="CookRecipeData" ns3:TableKey="80126" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1127" ns3:TableType="CookRecipeData" ns3:TableKey="80127" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1128" ns3:TableType="CookRecipeData" ns3:TableKey="80128" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1129" ns3:TableType="CookRecipeData" ns3:TableKey="80129" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1130" ns3:TableType="CookRecipeData" ns3:TableKey="80130" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1131" ns3:TableType="CookRecipeData" ns3:TableKey="80131" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1132" ns3:TableType="CookRecipeData" ns3:TableKey="80132" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1133" ns3:TableType="CookRecipeData" ns3:TableKey="80133" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1134" ns3:TableType="CookRecipeData" ns3:TableKey="80134" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1135" ns3:TableType="CookRecipeData" ns3:TableKey="80135" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1136" ns3:TableType="CookRecipeData" ns3:TableKey="80136" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1137" ns3:TableType="CookRecipeData" ns3:TableKey="80137" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1138" ns3:TableType="CookRecipeData" ns3:TableKey="80138" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1139" ns3:TableType="CookRecipeData" ns3:TableKey="80139" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1140" ns3:TableType="CookRecipeData" ns3:TableKey="80140" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파스타)"/>
+	<ns3:SwitchData ns3:ID="1141" ns3:TableType="CookRecipeData" ns3:TableKey="80141" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1142" ns3:TableType="CookRecipeData" ns3:TableKey="80142" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1143" ns3:TableType="CookRecipeData" ns3:TableKey="80143" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1144" ns3:TableType="CookRecipeData" ns3:TableKey="80144" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 철판구이)"/>
+	<ns3:SwitchData ns3:ID="1145" ns3:TableType="CookRecipeData" ns3:TableKey="80145" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 철판구이)"/>
+	<ns3:SwitchData ns3:ID="1146" ns3:TableType="CookRecipeData" ns3:TableKey="80146" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파스타)"/>
+	<ns3:SwitchData ns3:ID="1147" ns3:TableType="CookRecipeData" ns3:TableKey="80147" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1148" ns3:TableType="CookRecipeData" ns3:TableKey="80148" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 철판구이)"/>
+	<ns3:SwitchData ns3:ID="1149" ns3:TableType="CookRecipeData" ns3:TableKey="80149" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1150" ns3:TableType="CookRecipeData" ns3:TableKey="80150" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 철판구이)"/>
+	<ns3:SwitchData ns3:ID="1151" ns3:TableType="CookRecipeData" ns3:TableKey="80151" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파스타)"/>
+	<ns3:SwitchData ns3:ID="1152" ns3:TableType="CookRecipeData" ns3:TableKey="80152" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1153" ns3:TableType="CookRecipeData" ns3:TableKey="80153" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 철판구이)"/>
+	<ns3:SwitchData ns3:ID="1154" ns3:TableType="CookRecipeData" ns3:TableKey="80154" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1155" ns3:TableType="CookRecipeData" ns3:TableKey="80155" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파스타)"/>
+	<ns3:SwitchData ns3:ID="1156" ns3:TableType="CookRecipeData" ns3:TableKey="80156" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1157" ns3:TableType="CookRecipeData" ns3:TableKey="80157" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 철판구이)"/>
+	<ns3:SwitchData ns3:ID="1158" ns3:TableType="CookRecipeData" ns3:TableKey="80158" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파스타)"/>
+	<ns3:SwitchData ns3:ID="1159" ns3:TableType="CookRecipeData" ns3:TableKey="80159" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1160" ns3:TableType="CookRecipeData" ns3:TableKey="80160" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1161" ns3:TableType="CookRecipeData" ns3:TableKey="80161" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파스타)"/>
+	<ns3:SwitchData ns3:ID="1162" ns3:TableType="CookRecipeData" ns3:TableKey="80162" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1163" ns3:TableType="CookRecipeData" ns3:TableKey="80163" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1164" ns3:TableType="CookRecipeData" ns3:TableKey="80164" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1165" ns3:TableType="CookRecipeData" ns3:TableKey="80165" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1166" ns3:TableType="CookRecipeData" ns3:TableKey="80166" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 야채 볶음)"/>
+	<ns3:SwitchData ns3:ID="1167" ns3:TableType="CookRecipeData" ns3:TableKey="80167" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1168" ns3:TableType="CookRecipeData" ns3:TableKey="80168" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1169" ns3:TableType="CookRecipeData" ns3:TableKey="80169" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1170" ns3:TableType="CookRecipeData" ns3:TableKey="80170" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1171" ns3:TableType="CookRecipeData" ns3:TableKey="80171" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 야채 볶음)"/>
+	<ns3:SwitchData ns3:ID="1172" ns3:TableType="CookRecipeData" ns3:TableKey="80172" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1173" ns3:TableType="CookRecipeData" ns3:TableKey="80173" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1174" ns3:TableType="CookRecipeData" ns3:TableKey="80174" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1175" ns3:TableType="CookRecipeData" ns3:TableKey="80175" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 야채 볶음)"/>
+	<ns3:SwitchData ns3:ID="1176" ns3:TableType="CookRecipeData" ns3:TableKey="80176" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1177" ns3:TableType="CookRecipeData" ns3:TableKey="80177" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1178" ns3:TableType="CookRecipeData" ns3:TableKey="80178" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오믈렛)"/>
+	<ns3:SwitchData ns3:ID="1179" ns3:TableType="CookRecipeData" ns3:TableKey="80179" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1180" ns3:TableType="CookRecipeData" ns3:TableKey="80180" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1181" ns3:TableType="CookRecipeData" ns3:TableKey="80181" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1182" ns3:TableType="CookRecipeData" ns3:TableKey="80182" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1183" ns3:TableType="CookRecipeData" ns3:TableKey="80183" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1184" ns3:TableType="CookRecipeData" ns3:TableKey="80184" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1185" ns3:TableType="CookRecipeData" ns3:TableKey="80185" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (허브 그릴)"/>
+	<ns3:SwitchData ns3:ID="1186" ns3:TableType="CookRecipeData" ns3:TableKey="80186" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1187" ns3:TableType="CookRecipeData" ns3:TableKey="80187" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1188" ns3:TableType="CookRecipeData" ns3:TableKey="80188" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1189" ns3:TableType="CookRecipeData" ns3:TableKey="80189" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1190" ns3:TableType="CookRecipeData" ns3:TableKey="80190" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1191" ns3:TableType="CookRecipeData" ns3:TableKey="80191" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1192" ns3:TableType="CookRecipeData" ns3:TableKey="80192" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1193" ns3:TableType="CookRecipeData" ns3:TableKey="80193" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오믈렛)"/>
+	<ns3:SwitchData ns3:ID="1194" ns3:TableType="CookRecipeData" ns3:TableKey="80194" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1195" ns3:TableType="CookRecipeData" ns3:TableKey="80195" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1196" ns3:TableType="CookRecipeData" ns3:TableKey="80196" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1197" ns3:TableType="CookRecipeData" ns3:TableKey="80197" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1198" ns3:TableType="CookRecipeData" ns3:TableKey="80198" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1199" ns3:TableType="CookRecipeData" ns3:TableKey="80199" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1200" ns3:TableType="CookRecipeData" ns3:TableKey="80200" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1201" ns3:TableType="CookRecipeData" ns3:TableKey="80201" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1202" ns3:TableType="CookRecipeData" ns3:TableKey="80202" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1203" ns3:TableType="CookRecipeData" ns3:TableKey="80203" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1204" ns3:TableType="CookRecipeData" ns3:TableKey="80204" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1205" ns3:TableType="CookRecipeData" ns3:TableKey="80205" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1206" ns3:TableType="CookRecipeData" ns3:TableKey="80206" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1207" ns3:TableType="CookRecipeData" ns3:TableKey="80207" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1208" ns3:TableType="CookRecipeData" ns3:TableKey="80208" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1209" ns3:TableType="CookRecipeData" ns3:TableKey="80209" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1210" ns3:TableType="CookRecipeData" ns3:TableKey="80210" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1211" ns3:TableType="CookRecipeData" ns3:TableKey="80211" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1212" ns3:TableType="CookRecipeData" ns3:TableKey="80212" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1213" ns3:TableType="CookRecipeData" ns3:TableKey="80213" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1214" ns3:TableType="CookRecipeData" ns3:TableKey="80214" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1215" ns3:TableType="CookRecipeData" ns3:TableKey="80215" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1216" ns3:TableType="CookRecipeData" ns3:TableKey="80216" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1217" ns3:TableType="CookRecipeData" ns3:TableKey="80217" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1218" ns3:TableType="CookRecipeData" ns3:TableKey="80218" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1219" ns3:TableType="CookRecipeData" ns3:TableKey="80219" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란 프라이)"/>
+	<ns3:SwitchData ns3:ID="1220" ns3:TableType="CookRecipeData" ns3:TableKey="80220" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 고기)"/>
+	<ns3:SwitchData ns3:ID="1221" ns3:TableType="CookRecipeData" ns3:TableKey="80221" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1222" ns3:TableType="CookRecipeData" ns3:TableKey="80222" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1223" ns3:TableType="CookRecipeData" ns3:TableKey="80223" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1224" ns3:TableType="CookRecipeData" ns3:TableKey="80224" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (허브 그릴)"/>
+	<ns3:SwitchData ns3:ID="1225" ns3:TableType="CookRecipeData" ns3:TableKey="80225" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1226" ns3:TableType="CookRecipeData" ns3:TableKey="80226" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1227" ns3:TableType="CookRecipeData" ns3:TableKey="80227" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1228" ns3:TableType="CookRecipeData" ns3:TableKey="80228" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란 프라이)"/>
+	<ns3:SwitchData ns3:ID="1229" ns3:TableType="CookRecipeData" ns3:TableKey="80229" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 고기)"/>
+	<ns3:SwitchData ns3:ID="1230" ns3:TableType="CookRecipeData" ns3:TableKey="80230" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1231" ns3:TableType="CookRecipeData" ns3:TableKey="80231" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1232" ns3:TableType="CookRecipeData" ns3:TableKey="80232" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1233" ns3:TableType="CookRecipeData" ns3:TableKey="80233" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (허브 그릴)"/>
+	<ns3:SwitchData ns3:ID="1234" ns3:TableType="CookRecipeData" ns3:TableKey="80234" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1235" ns3:TableType="CookRecipeData" ns3:TableKey="80235" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1236" ns3:TableType="CookRecipeData" ns3:TableKey="80236" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1237" ns3:TableType="CookRecipeData" ns3:TableKey="80237" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란 프라이)"/>
+	<ns3:SwitchData ns3:ID="1238" ns3:TableType="CookRecipeData" ns3:TableKey="80238" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 고기)"/>
+	<ns3:SwitchData ns3:ID="1239" ns3:TableType="CookRecipeData" ns3:TableKey="80239" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (더블 스테이크)"/>
+	<ns3:SwitchData ns3:ID="1240" ns3:TableType="CookRecipeData" ns3:TableKey="80240" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1241" ns3:TableType="CookRecipeData" ns3:TableKey="80241" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1242" ns3:TableType="CookRecipeData" ns3:TableKey="80242" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1243" ns3:TableType="CookRecipeData" ns3:TableKey="80243" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1244" ns3:TableType="CookRecipeData" ns3:TableKey="80244" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1245" ns3:TableType="CookRecipeData" ns3:TableKey="80245" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1246" ns3:TableType="CookRecipeData" ns3:TableKey="80246" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (고기 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1247" ns3:TableType="CookRecipeData" ns3:TableKey="80247" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 모듬 구이)"/>
+	<ns3:SwitchData ns3:ID="1248" ns3:TableType="CookRecipeData" ns3:TableKey="80248" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 플래터)"/>
+	<ns3:SwitchData ns3:ID="1249" ns3:TableType="CookRecipeData" ns3:TableKey="80249" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1250" ns3:TableType="CookRecipeData" ns3:TableKey="80250" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1251" ns3:TableType="CookRecipeData" ns3:TableKey="80251" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1252" ns3:TableType="CookRecipeData" ns3:TableKey="80252" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1253" ns3:TableType="CookRecipeData" ns3:TableKey="80253" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이 덮밥)"/>
+	<ns3:SwitchData ns3:ID="1254" ns3:TableType="CookRecipeData" ns3:TableKey="80254" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 구이)"/>
+	<ns3:SwitchData ns3:ID="1255" ns3:TableType="CookRecipeData" ns3:TableKey="80255" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1256" ns3:TableType="CookRecipeData" ns3:TableKey="80256" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1257" ns3:TableType="CookRecipeData" ns3:TableKey="80257" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1258" ns3:TableType="CookRecipeData" ns3:TableKey="80258" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1259" ns3:TableType="CookRecipeData" ns3:TableKey="80259" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파스타)"/>
+	<ns3:SwitchData ns3:ID="1260" ns3:TableType="CookRecipeData" ns3:TableKey="80260" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1261" ns3:TableType="CookRecipeData" ns3:TableKey="80261" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 구이)"/>
+	<ns3:SwitchData ns3:ID="1262" ns3:TableType="CookRecipeData" ns3:TableKey="80262" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1263" ns3:TableType="CookRecipeData" ns3:TableKey="80263" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (구운 야채)"/>
+	<ns3:SwitchData ns3:ID="1264" ns3:TableType="CookRecipeData" ns3:TableKey="80264" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 야채 볶음)"/>
+	<ns3:SwitchData ns3:ID="1265" ns3:TableType="CookRecipeData" ns3:TableKey="80265" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1266" ns3:TableType="CookRecipeData" ns3:TableKey="80266" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1267" ns3:TableType="CookRecipeData" ns3:TableKey="80267" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1268" ns3:TableType="CookRecipeData" ns3:TableKey="80268" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (허브 그릴)"/>
+	<ns3:SwitchData ns3:ID="1269" ns3:TableType="CookRecipeData" ns3:TableKey="80269" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1270" ns3:TableType="CookRecipeData" ns3:TableKey="80270" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1271" ns3:TableType="CookRecipeData" ns3:TableKey="80271" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1272" ns3:TableType="CookRecipeData" ns3:TableKey="80272" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1273" ns3:TableType="CookRecipeData" ns3:TableKey="80273" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 구이)"/>
+	<ns3:SwitchData ns3:ID="1274" ns3:TableType="CookRecipeData" ns3:TableKey="80274" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (클래식 피자)"/>
+	<ns3:SwitchData ns3:ID="1275" ns3:TableType="CookRecipeData" ns3:TableKey="80275" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1276" ns3:TableType="CookRecipeData" ns3:TableKey="80276" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1277" ns3:TableType="CookRecipeData" ns3:TableKey="80277" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (군만두)"/>
+	<ns3:SwitchData ns3:ID="1278" ns3:TableType="CookRecipeData" ns3:TableKey="80278" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1279" ns3:TableType="CookRecipeData" ns3:TableKey="80279" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1280" ns3:TableType="CookRecipeData" ns3:TableKey="80280" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란말이)"/>
+	<ns3:SwitchData ns3:ID="1281" ns3:TableType="CookRecipeData" ns3:TableKey="80281" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (볶음밥)"/>
+	<ns3:SwitchData ns3:ID="1282" ns3:TableType="CookRecipeData" ns3:TableKey="80282" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (계란 프라이)"/>
+	<ns3:SwitchData ns3:ID="1283" ns3:TableType="CookRecipeData" ns3:TableKey="80283" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1284" ns3:TableType="CookRecipeData" ns3:TableKey="80284" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1285" ns3:TableType="CookRecipeData" ns3:TableKey="80285" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1286" ns3:TableType="CookRecipeData" ns3:TableKey="80286" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1287" ns3:TableType="CookRecipeData" ns3:TableKey="80287" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1288" ns3:TableType="CookRecipeData" ns3:TableKey="80288" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1289" ns3:TableType="CookRecipeData" ns3:TableKey="80289" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1290" ns3:TableType="CookRecipeData" ns3:TableKey="80290" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1291" ns3:TableType="CookRecipeData" ns3:TableKey="80291" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1292" ns3:TableType="CookRecipeData" ns3:TableKey="80292" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1293" ns3:TableType="CookRecipeData" ns3:TableKey="80293" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스파게티)"/>
+	<ns3:SwitchData ns3:ID="1294" ns3:TableType="CookRecipeData" ns3:TableKey="80294" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1295" ns3:TableType="CookRecipeData" ns3:TableKey="80295" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1296" ns3:TableType="CookRecipeData" ns3:TableKey="80296" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1297" ns3:TableType="CookRecipeData" ns3:TableKey="80297" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1298" ns3:TableType="CookRecipeData" ns3:TableKey="80298" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1299" ns3:TableType="CookRecipeData" ns3:TableKey="80299" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1300" ns3:TableType="CookRecipeData" ns3:TableKey="80300" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1301" ns3:TableType="CookRecipeData" ns3:TableKey="80301" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1302" ns3:TableType="CookRecipeData" ns3:TableKey="80302" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (포테이토 피자)"/>
+	<ns3:SwitchData ns3:ID="1303" ns3:TableType="CookRecipeData" ns3:TableKey="80303" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1304" ns3:TableType="CookRecipeData" ns3:TableKey="80304" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1305" ns3:TableType="CookRecipeData" ns3:TableKey="80305" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1306" ns3:TableType="CookRecipeData" ns3:TableKey="80306" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1307" ns3:TableType="CookRecipeData" ns3:TableKey="80307" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1308" ns3:TableType="CookRecipeData" ns3:TableKey="80308" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1309" ns3:TableType="CookRecipeData" ns3:TableKey="80309" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1310" ns3:TableType="CookRecipeData" ns3:TableKey="80310" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1311" ns3:TableType="CookRecipeData" ns3:TableKey="80311" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1312" ns3:TableType="CookRecipeData" ns3:TableKey="80312" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (피쉬 앤 칩스)"/>
+	<ns3:SwitchData ns3:ID="1313" ns3:TableType="CookRecipeData" ns3:TableKey="80313" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1314" ns3:TableType="CookRecipeData" ns3:TableKey="80314" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1315" ns3:TableType="CookRecipeData" ns3:TableKey="80315" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1316" ns3:TableType="CookRecipeData" ns3:TableKey="80316" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1317" ns3:TableType="CookRecipeData" ns3:TableKey="80317" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1318" ns3:TableType="CookRecipeData" ns3:TableKey="80318" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1319" ns3:TableType="CookRecipeData" ns3:TableKey="80319" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1320" ns3:TableType="CookRecipeData" ns3:TableKey="80320" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1321" ns3:TableType="CookRecipeData" ns3:TableKey="80321" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1322" ns3:TableType="CookRecipeData" ns3:TableKey="80322" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1323" ns3:TableType="CookRecipeData" ns3:TableKey="80323" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1324" ns3:TableType="CookRecipeData" ns3:TableKey="80324" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1325" ns3:TableType="CookRecipeData" ns3:TableKey="80325" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1326" ns3:TableType="CookRecipeData" ns3:TableKey="80326" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1327" ns3:TableType="CookRecipeData" ns3:TableKey="80327" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1328" ns3:TableType="CookRecipeData" ns3:TableKey="80328" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1329" ns3:TableType="CookRecipeData" ns3:TableKey="80329" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1330" ns3:TableType="CookRecipeData" ns3:TableKey="80330" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1331" ns3:TableType="CookRecipeData" ns3:TableKey="80331" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1332" ns3:TableType="CookRecipeData" ns3:TableKey="80332" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1333" ns3:TableType="CookRecipeData" ns3:TableKey="80333" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1334" ns3:TableType="CookRecipeData" ns3:TableKey="80334" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1335" ns3:TableType="CookRecipeData" ns3:TableKey="80335" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1336" ns3:TableType="CookRecipeData" ns3:TableKey="80336" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1337" ns3:TableType="CookRecipeData" ns3:TableKey="80337" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1338" ns3:TableType="CookRecipeData" ns3:TableKey="80338" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1339" ns3:TableType="CookRecipeData" ns3:TableKey="80339" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1340" ns3:TableType="CookRecipeData" ns3:TableKey="80340" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1341" ns3:TableType="CookRecipeData" ns3:TableKey="80341" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1342" ns3:TableType="CookRecipeData" ns3:TableKey="80342" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1343" ns3:TableType="CookRecipeData" ns3:TableKey="80343" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1344" ns3:TableType="CookRecipeData" ns3:TableKey="80344" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1345" ns3:TableType="CookRecipeData" ns3:TableKey="80345" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1346" ns3:TableType="CookRecipeData" ns3:TableKey="80346" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1347" ns3:TableType="CookRecipeData" ns3:TableKey="80347" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1348" ns3:TableType="CookRecipeData" ns3:TableKey="80348" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1349" ns3:TableType="CookRecipeData" ns3:TableKey="80349" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1350" ns3:TableType="CookRecipeData" ns3:TableKey="80350" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1351" ns3:TableType="CookRecipeData" ns3:TableKey="80351" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1352" ns3:TableType="CookRecipeData" ns3:TableKey="80352" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1353" ns3:TableType="CookRecipeData" ns3:TableKey="80353" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1354" ns3:TableType="CookRecipeData" ns3:TableKey="80354" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1355" ns3:TableType="CookRecipeData" ns3:TableKey="80355" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1356" ns3:TableType="CookRecipeData" ns3:TableKey="80356" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1357" ns3:TableType="CookRecipeData" ns3:TableKey="80357" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1358" ns3:TableType="CookRecipeData" ns3:TableKey="80358" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1359" ns3:TableType="CookRecipeData" ns3:TableKey="80359" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1360" ns3:TableType="CookRecipeData" ns3:TableKey="80360" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="1361" ns3:TableType="CookRecipeData" ns3:TableKey="80361" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (누가)"/>
+	<ns3:SwitchData ns3:ID="2000" ns3:TableType="CookRecipeData" ns3:TableKey="81001" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2001" ns3:TableType="CookRecipeData" ns3:TableKey="81002" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2002" ns3:TableType="CookRecipeData" ns3:TableKey="81003" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2003" ns3:TableType="CookRecipeData" ns3:TableKey="81004" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2004" ns3:TableType="CookRecipeData" ns3:TableKey="81005" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2005" ns3:TableType="CookRecipeData" ns3:TableKey="81006" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2006" ns3:TableType="CookRecipeData" ns3:TableKey="81007" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2007" ns3:TableType="CookRecipeData" ns3:TableKey="81008" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2008" ns3:TableType="CookRecipeData" ns3:TableKey="81009" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (삶은 계란)"/>
+	<ns3:SwitchData ns3:ID="2009" ns3:TableType="CookRecipeData" ns3:TableKey="81010" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2010" ns3:TableType="CookRecipeData" ns3:TableKey="81011" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 더블 스튜)"/>
+	<ns3:SwitchData ns3:ID="2011" ns3:TableType="CookRecipeData" ns3:TableKey="81012" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 스튜)"/>
+	<ns3:SwitchData ns3:ID="2012" ns3:TableType="CookRecipeData" ns3:TableKey="81013" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2013" ns3:TableType="CookRecipeData" ns3:TableKey="81014" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2014" ns3:TableType="CookRecipeData" ns3:TableKey="81015" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2015" ns3:TableType="CookRecipeData" ns3:TableKey="81016" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2016" ns3:TableType="CookRecipeData" ns3:TableKey="81017" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2017" ns3:TableType="CookRecipeData" ns3:TableKey="81018" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2018" ns3:TableType="CookRecipeData" ns3:TableKey="81019" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2019" ns3:TableType="CookRecipeData" ns3:TableKey="81020" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2020" ns3:TableType="CookRecipeData" ns3:TableKey="81021" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2021" ns3:TableType="CookRecipeData" ns3:TableKey="81022" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2022" ns3:TableType="CookRecipeData" ns3:TableKey="81023" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2023" ns3:TableType="CookRecipeData" ns3:TableKey="81024" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2024" ns3:TableType="CookRecipeData" ns3:TableKey="81025" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (어죽)"/>
+	<ns3:SwitchData ns3:ID="2025" ns3:TableType="CookRecipeData" ns3:TableKey="81026" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2026" ns3:TableType="CookRecipeData" ns3:TableKey="81027" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2027" ns3:TableType="CookRecipeData" ns3:TableKey="81028" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2028" ns3:TableType="CookRecipeData" ns3:TableKey="81029" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2029" ns3:TableType="CookRecipeData" ns3:TableKey="81030" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2030" ns3:TableType="CookRecipeData" ns3:TableKey="81031" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2031" ns3:TableType="CookRecipeData" ns3:TableKey="81032" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물죽)"/>
+	<ns3:SwitchData ns3:ID="2032" ns3:TableType="CookRecipeData" ns3:TableKey="81033" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2033" ns3:TableType="CookRecipeData" ns3:TableKey="81034" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2034" ns3:TableType="CookRecipeData" ns3:TableKey="81035" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2035" ns3:TableType="CookRecipeData" ns3:TableKey="81036" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2036" ns3:TableType="CookRecipeData" ns3:TableKey="81037" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2037" ns3:TableType="CookRecipeData" ns3:TableKey="81038" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2038" ns3:TableType="CookRecipeData" ns3:TableKey="81039" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2039" ns3:TableType="CookRecipeData" ns3:TableKey="81040" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2040" ns3:TableType="CookRecipeData" ns3:TableKey="81041" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯차)"/>
+	<ns3:SwitchData ns3:ID="2041" ns3:TableType="CookRecipeData" ns3:TableKey="81042" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2042" ns3:TableType="CookRecipeData" ns3:TableKey="81043" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2043" ns3:TableType="CookRecipeData" ns3:TableKey="81044" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2044" ns3:TableType="CookRecipeData" ns3:TableKey="81045" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2045" ns3:TableType="CookRecipeData" ns3:TableKey="81046" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2046" ns3:TableType="CookRecipeData" ns3:TableKey="81047" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯죽)"/>
+	<ns3:SwitchData ns3:ID="2047" ns3:TableType="CookRecipeData" ns3:TableKey="81048" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2048" ns3:TableType="CookRecipeData" ns3:TableKey="81049" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2049" ns3:TableType="CookRecipeData" ns3:TableKey="81050" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2050" ns3:TableType="CookRecipeData" ns3:TableKey="81051" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2051" ns3:TableType="CookRecipeData" ns3:TableKey="81052" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2052" ns3:TableType="CookRecipeData" ns3:TableKey="81053" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2053" ns3:TableType="CookRecipeData" ns3:TableKey="81054" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (삶은 계란)"/>
+	<ns3:SwitchData ns3:ID="2054" ns3:TableType="CookRecipeData" ns3:TableKey="81055" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2055" ns3:TableType="CookRecipeData" ns3:TableKey="81056" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 더블 스튜)"/>
+	<ns3:SwitchData ns3:ID="2056" ns3:TableType="CookRecipeData" ns3:TableKey="81057" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 스튜)"/>
+	<ns3:SwitchData ns3:ID="2057" ns3:TableType="CookRecipeData" ns3:TableKey="81058" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2058" ns3:TableType="CookRecipeData" ns3:TableKey="81059" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2059" ns3:TableType="CookRecipeData" ns3:TableKey="81060" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2060" ns3:TableType="CookRecipeData" ns3:TableKey="81061" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2061" ns3:TableType="CookRecipeData" ns3:TableKey="81062" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2062" ns3:TableType="CookRecipeData" ns3:TableKey="81063" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2063" ns3:TableType="CookRecipeData" ns3:TableKey="81064" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 더블 스튜)"/>
+	<ns3:SwitchData ns3:ID="2064" ns3:TableType="CookRecipeData" ns3:TableKey="81065" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 특제 스튜)"/>
+	<ns3:SwitchData ns3:ID="2065" ns3:TableType="CookRecipeData" ns3:TableKey="81066" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 더블 스튜)"/>
+	<ns3:SwitchData ns3:ID="2066" ns3:TableType="CookRecipeData" ns3:TableKey="81067" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양탕)"/>
+	<ns3:SwitchData ns3:ID="2067" ns3:TableType="CookRecipeData" ns3:TableKey="81068" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 더블 스튜)"/>
+	<ns3:SwitchData ns3:ID="2068" ns3:TableType="CookRecipeData" ns3:TableKey="81069" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 더블 스튜)"/>
+	<ns3:SwitchData ns3:ID="2069" ns3:TableType="CookRecipeData" ns3:TableKey="81070" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파에야)"/>
+	<ns3:SwitchData ns3:ID="2070" ns3:TableType="CookRecipeData" ns3:TableKey="81071" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 더블 스튜)"/>
+	<ns3:SwitchData ns3:ID="2071" ns3:TableType="CookRecipeData" ns3:TableKey="81072" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 스튜)"/>
+	<ns3:SwitchData ns3:ID="2072" ns3:TableType="CookRecipeData" ns3:TableKey="81073" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 스튜)"/>
+	<ns3:SwitchData ns3:ID="2073" ns3:TableType="CookRecipeData" ns3:TableKey="81074" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양탕)"/>
+	<ns3:SwitchData ns3:ID="2074" ns3:TableType="CookRecipeData" ns3:TableKey="81075" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 스튜)"/>
+	<ns3:SwitchData ns3:ID="2075" ns3:TableType="CookRecipeData" ns3:TableKey="81076" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 스튜)"/>
+	<ns3:SwitchData ns3:ID="2076" ns3:TableType="CookRecipeData" ns3:TableKey="81077" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파에야)"/>
+	<ns3:SwitchData ns3:ID="2077" ns3:TableType="CookRecipeData" ns3:TableKey="81078" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 스튜)"/>
+	<ns3:SwitchData ns3:ID="2078" ns3:TableType="CookRecipeData" ns3:TableKey="81079" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2079" ns3:TableType="CookRecipeData" ns3:TableKey="81080" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양탕)"/>
+	<ns3:SwitchData ns3:ID="2080" ns3:TableType="CookRecipeData" ns3:TableKey="81081" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2081" ns3:TableType="CookRecipeData" ns3:TableKey="81082" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2082" ns3:TableType="CookRecipeData" ns3:TableKey="81083" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2083" ns3:TableType="CookRecipeData" ns3:TableKey="81084" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2084" ns3:TableType="CookRecipeData" ns3:TableKey="81085" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2085" ns3:TableType="CookRecipeData" ns3:TableKey="81086" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양탕)"/>
+	<ns3:SwitchData ns3:ID="2086" ns3:TableType="CookRecipeData" ns3:TableKey="81087" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양탕)"/>
+	<ns3:SwitchData ns3:ID="2087" ns3:TableType="CookRecipeData" ns3:TableKey="81088" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양탕)"/>
+	<ns3:SwitchData ns3:ID="2088" ns3:TableType="CookRecipeData" ns3:TableKey="81089" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양탕)"/>
+	<ns3:SwitchData ns3:ID="2089" ns3:TableType="CookRecipeData" ns3:TableKey="81090" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2090" ns3:TableType="CookRecipeData" ns3:TableKey="81091" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2091" ns3:TableType="CookRecipeData" ns3:TableKey="81092" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2092" ns3:TableType="CookRecipeData" ns3:TableKey="81093" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2093" ns3:TableType="CookRecipeData" ns3:TableKey="81094" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2094" ns3:TableType="CookRecipeData" ns3:TableKey="81095" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2095" ns3:TableType="CookRecipeData" ns3:TableKey="81096" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2096" ns3:TableType="CookRecipeData" ns3:TableKey="81097" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2097" ns3:TableType="CookRecipeData" ns3:TableKey="81098" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2098" ns3:TableType="CookRecipeData" ns3:TableKey="81099" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2099" ns3:TableType="CookRecipeData" ns3:TableKey="81100" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2100" ns3:TableType="CookRecipeData" ns3:TableKey="81101" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2101" ns3:TableType="CookRecipeData" ns3:TableKey="81102" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2102" ns3:TableType="CookRecipeData" ns3:TableKey="81103" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2103" ns3:TableType="CookRecipeData" ns3:TableKey="81104" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2104" ns3:TableType="CookRecipeData" ns3:TableKey="81105" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2105" ns3:TableType="CookRecipeData" ns3:TableKey="81106" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (어죽)"/>
+	<ns3:SwitchData ns3:ID="2106" ns3:TableType="CookRecipeData" ns3:TableKey="81107" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2107" ns3:TableType="CookRecipeData" ns3:TableKey="81108" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2108" ns3:TableType="CookRecipeData" ns3:TableKey="81109" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2109" ns3:TableType="CookRecipeData" ns3:TableKey="81110" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2110" ns3:TableType="CookRecipeData" ns3:TableKey="81111" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2111" ns3:TableType="CookRecipeData" ns3:TableKey="81112" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2112" ns3:TableType="CookRecipeData" ns3:TableKey="81113" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파에야)"/>
+	<ns3:SwitchData ns3:ID="2113" ns3:TableType="CookRecipeData" ns3:TableKey="81114" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2114" ns3:TableType="CookRecipeData" ns3:TableKey="81115" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2115" ns3:TableType="CookRecipeData" ns3:TableKey="81116" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2116" ns3:TableType="CookRecipeData" ns3:TableKey="81117" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2117" ns3:TableType="CookRecipeData" ns3:TableKey="81118" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2118" ns3:TableType="CookRecipeData" ns3:TableKey="81119" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (어죽)"/>
+	<ns3:SwitchData ns3:ID="2119" ns3:TableType="CookRecipeData" ns3:TableKey="81120" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2120" ns3:TableType="CookRecipeData" ns3:TableKey="81121" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2121" ns3:TableType="CookRecipeData" ns3:TableKey="81122" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2122" ns3:TableType="CookRecipeData" ns3:TableKey="81123" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (원기 회복의 죽)"/>
+	<ns3:SwitchData ns3:ID="2123" ns3:TableType="CookRecipeData" ns3:TableKey="81124" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (원기 회복의 죽)"/>
+	<ns3:SwitchData ns3:ID="2124" ns3:TableType="CookRecipeData" ns3:TableKey="81125" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2125" ns3:TableType="CookRecipeData" ns3:TableKey="81126" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2126" ns3:TableType="CookRecipeData" ns3:TableKey="81127" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2127" ns3:TableType="CookRecipeData" ns3:TableKey="81128" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파에야)"/>
+	<ns3:SwitchData ns3:ID="2128" ns3:TableType="CookRecipeData" ns3:TableKey="81129" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2129" ns3:TableType="CookRecipeData" ns3:TableKey="81130" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2130" ns3:TableType="CookRecipeData" ns3:TableKey="81131" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (어죽)"/>
+	<ns3:SwitchData ns3:ID="2131" ns3:TableType="CookRecipeData" ns3:TableKey="81132" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (어죽)"/>
+	<ns3:SwitchData ns3:ID="2132" ns3:TableType="CookRecipeData" ns3:TableKey="81133" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2133" ns3:TableType="CookRecipeData" ns3:TableKey="81134" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (어죽)"/>
+	<ns3:SwitchData ns3:ID="2134" ns3:TableType="CookRecipeData" ns3:TableKey="81135" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2135" ns3:TableType="CookRecipeData" ns3:TableKey="81136" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2136" ns3:TableType="CookRecipeData" ns3:TableKey="81137" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2137" ns3:TableType="CookRecipeData" ns3:TableKey="81138" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2138" ns3:TableType="CookRecipeData" ns3:TableKey="81139" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2139" ns3:TableType="CookRecipeData" ns3:TableKey="81140" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2140" ns3:TableType="CookRecipeData" ns3:TableKey="81141" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물죽)"/>
+	<ns3:SwitchData ns3:ID="2141" ns3:TableType="CookRecipeData" ns3:TableKey="81142" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2142" ns3:TableType="CookRecipeData" ns3:TableKey="81143" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2143" ns3:TableType="CookRecipeData" ns3:TableKey="81144" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2144" ns3:TableType="CookRecipeData" ns3:TableKey="81145" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2145" ns3:TableType="CookRecipeData" ns3:TableKey="81146" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2146" ns3:TableType="CookRecipeData" ns3:TableKey="81147" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물죽)"/>
+	<ns3:SwitchData ns3:ID="2147" ns3:TableType="CookRecipeData" ns3:TableKey="81148" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2148" ns3:TableType="CookRecipeData" ns3:TableKey="81149" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2149" ns3:TableType="CookRecipeData" ns3:TableKey="81150" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2150" ns3:TableType="CookRecipeData" ns3:TableKey="81151" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (원기 회복의 죽)"/>
+	<ns3:SwitchData ns3:ID="2151" ns3:TableType="CookRecipeData" ns3:TableKey="81152" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (원기 회복의 죽)"/>
+	<ns3:SwitchData ns3:ID="2152" ns3:TableType="CookRecipeData" ns3:TableKey="81153" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2153" ns3:TableType="CookRecipeData" ns3:TableKey="81154" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2154" ns3:TableType="CookRecipeData" ns3:TableKey="81155" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2155" ns3:TableType="CookRecipeData" ns3:TableKey="81156" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 파에야)"/>
+	<ns3:SwitchData ns3:ID="2156" ns3:TableType="CookRecipeData" ns3:TableKey="81157" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2157" ns3:TableType="CookRecipeData" ns3:TableKey="81158" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2158" ns3:TableType="CookRecipeData" ns3:TableKey="81159" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물죽)"/>
+	<ns3:SwitchData ns3:ID="2159" ns3:TableType="CookRecipeData" ns3:TableKey="81160" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물죽)"/>
+	<ns3:SwitchData ns3:ID="2160" ns3:TableType="CookRecipeData" ns3:TableKey="81161" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2161" ns3:TableType="CookRecipeData" ns3:TableKey="81162" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물죽)"/>
+	<ns3:SwitchData ns3:ID="2162" ns3:TableType="CookRecipeData" ns3:TableKey="81163" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2163" ns3:TableType="CookRecipeData" ns3:TableKey="81164" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2164" ns3:TableType="CookRecipeData" ns3:TableKey="81165" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2165" ns3:TableType="CookRecipeData" ns3:TableKey="81166" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2166" ns3:TableType="CookRecipeData" ns3:TableKey="81167" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2167" ns3:TableType="CookRecipeData" ns3:TableKey="81168" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2168" ns3:TableType="CookRecipeData" ns3:TableKey="81169" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2169" ns3:TableType="CookRecipeData" ns3:TableKey="81170" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2170" ns3:TableType="CookRecipeData" ns3:TableKey="81171" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2171" ns3:TableType="CookRecipeData" ns3:TableKey="81172" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (원기 회복의 죽)"/>
+	<ns3:SwitchData ns3:ID="2172" ns3:TableType="CookRecipeData" ns3:TableKey="81173" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (원기 회복의 죽)"/>
+	<ns3:SwitchData ns3:ID="2173" ns3:TableType="CookRecipeData" ns3:TableKey="81174" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2174" ns3:TableType="CookRecipeData" ns3:TableKey="81175" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2175" ns3:TableType="CookRecipeData" ns3:TableKey="81176" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2176" ns3:TableType="CookRecipeData" ns3:TableKey="81177" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯죽)"/>
+	<ns3:SwitchData ns3:ID="2177" ns3:TableType="CookRecipeData" ns3:TableKey="81178" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2178" ns3:TableType="CookRecipeData" ns3:TableKey="81179" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2179" ns3:TableType="CookRecipeData" ns3:TableKey="81180" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2180" ns3:TableType="CookRecipeData" ns3:TableKey="81181" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2181" ns3:TableType="CookRecipeData" ns3:TableKey="81182" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2182" ns3:TableType="CookRecipeData" ns3:TableKey="81183" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2183" ns3:TableType="CookRecipeData" ns3:TableKey="81184" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2184" ns3:TableType="CookRecipeData" ns3:TableKey="81185" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2185" ns3:TableType="CookRecipeData" ns3:TableKey="81186" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯차)"/>
+	<ns3:SwitchData ns3:ID="2186" ns3:TableType="CookRecipeData" ns3:TableKey="81187" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2187" ns3:TableType="CookRecipeData" ns3:TableKey="81188" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2188" ns3:TableType="CookRecipeData" ns3:TableKey="81189" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2189" ns3:TableType="CookRecipeData" ns3:TableKey="81190" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯차)"/>
+	<ns3:SwitchData ns3:ID="2190" ns3:TableType="CookRecipeData" ns3:TableKey="81191" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (원기 회복의 죽)"/>
+	<ns3:SwitchData ns3:ID="2191" ns3:TableType="CookRecipeData" ns3:TableKey="81192" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (원기 회복의 죽)"/>
+	<ns3:SwitchData ns3:ID="2192" ns3:TableType="CookRecipeData" ns3:TableKey="81193" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯차)"/>
+	<ns3:SwitchData ns3:ID="2193" ns3:TableType="CookRecipeData" ns3:TableKey="81194" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2194" ns3:TableType="CookRecipeData" ns3:TableKey="81195" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2195" ns3:TableType="CookRecipeData" ns3:TableKey="81196" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2196" ns3:TableType="CookRecipeData" ns3:TableKey="81197" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2197" ns3:TableType="CookRecipeData" ns3:TableKey="81198" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2198" ns3:TableType="CookRecipeData" ns3:TableKey="81199" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2199" ns3:TableType="CookRecipeData" ns3:TableKey="81200" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2200" ns3:TableType="CookRecipeData" ns3:TableKey="81201" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2201" ns3:TableType="CookRecipeData" ns3:TableKey="81202" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯죽)"/>
+	<ns3:SwitchData ns3:ID="2202" ns3:TableType="CookRecipeData" ns3:TableKey="81203" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2203" ns3:TableType="CookRecipeData" ns3:TableKey="81204" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2204" ns3:TableType="CookRecipeData" ns3:TableKey="81205" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯죽)"/>
+	<ns3:SwitchData ns3:ID="2205" ns3:TableType="CookRecipeData" ns3:TableKey="81206" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯죽)"/>
+	<ns3:SwitchData ns3:ID="2206" ns3:TableType="CookRecipeData" ns3:TableKey="81207" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2207" ns3:TableType="CookRecipeData" ns3:TableKey="81208" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯죽)"/>
+	<ns3:SwitchData ns3:ID="2208" ns3:TableType="CookRecipeData" ns3:TableKey="81209" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2209" ns3:TableType="CookRecipeData" ns3:TableKey="81210" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2210" ns3:TableType="CookRecipeData" ns3:TableKey="81211" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2211" ns3:TableType="CookRecipeData" ns3:TableKey="81212" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2212" ns3:TableType="CookRecipeData" ns3:TableKey="81213" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2213" ns3:TableType="CookRecipeData" ns3:TableKey="81214" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2214" ns3:TableType="CookRecipeData" ns3:TableKey="81215" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2215" ns3:TableType="CookRecipeData" ns3:TableKey="81216" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2216" ns3:TableType="CookRecipeData" ns3:TableKey="81217" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2217" ns3:TableType="CookRecipeData" ns3:TableKey="81218" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2218" ns3:TableType="CookRecipeData" ns3:TableKey="81219" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (삶은 계란)"/>
+	<ns3:SwitchData ns3:ID="2219" ns3:TableType="CookRecipeData" ns3:TableKey="81220" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2220" ns3:TableType="CookRecipeData" ns3:TableKey="81221" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2221" ns3:TableType="CookRecipeData" ns3:TableKey="81222" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2222" ns3:TableType="CookRecipeData" ns3:TableKey="81223" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2223" ns3:TableType="CookRecipeData" ns3:TableKey="81224" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2224" ns3:TableType="CookRecipeData" ns3:TableKey="81225" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2225" ns3:TableType="CookRecipeData" ns3:TableKey="81226" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2226" ns3:TableType="CookRecipeData" ns3:TableKey="81227" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2227" ns3:TableType="CookRecipeData" ns3:TableKey="81228" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (삶은 계란)"/>
+	<ns3:SwitchData ns3:ID="2228" ns3:TableType="CookRecipeData" ns3:TableKey="81229" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2229" ns3:TableType="CookRecipeData" ns3:TableKey="81230" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2230" ns3:TableType="CookRecipeData" ns3:TableKey="81231" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2231" ns3:TableType="CookRecipeData" ns3:TableKey="81232" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2232" ns3:TableType="CookRecipeData" ns3:TableKey="81233" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2233" ns3:TableType="CookRecipeData" ns3:TableKey="81234" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2234" ns3:TableType="CookRecipeData" ns3:TableKey="81235" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2235" ns3:TableType="CookRecipeData" ns3:TableKey="81236" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2236" ns3:TableType="CookRecipeData" ns3:TableKey="81237" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (삶은 계란)"/>
+	<ns3:SwitchData ns3:ID="2237" ns3:TableType="CookRecipeData" ns3:TableKey="81238" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2238" ns3:TableType="CookRecipeData" ns3:TableKey="81239" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 더블 스튜)"/>
+	<ns3:SwitchData ns3:ID="2239" ns3:TableType="CookRecipeData" ns3:TableKey="81240" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (오르비스 식 스튜)"/>
+	<ns3:SwitchData ns3:ID="2240" ns3:TableType="CookRecipeData" ns3:TableKey="81241" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2241" ns3:TableType="CookRecipeData" ns3:TableKey="81242" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2242" ns3:TableType="CookRecipeData" ns3:TableKey="81243" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (콩소메)"/>
+	<ns3:SwitchData ns3:ID="2243" ns3:TableType="CookRecipeData" ns3:TableKey="81244" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2244" ns3:TableType="CookRecipeData" ns3:TableKey="81245" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2245" ns3:TableType="CookRecipeData" ns3:TableKey="81246" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (미트 스튜)"/>
+	<ns3:SwitchData ns3:ID="2246" ns3:TableType="CookRecipeData" ns3:TableKey="81247" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2247" ns3:TableType="CookRecipeData" ns3:TableKey="81248" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물 잡탕)"/>
+	<ns3:SwitchData ns3:ID="2248" ns3:TableType="CookRecipeData" ns3:TableKey="81249" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2249" ns3:TableType="CookRecipeData" ns3:TableKey="81250" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2250" ns3:TableType="CookRecipeData" ns3:TableKey="81251" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2251" ns3:TableType="CookRecipeData" ns3:TableKey="81252" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2252" ns3:TableType="CookRecipeData" ns3:TableKey="81253" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (어죽)"/>
+	<ns3:SwitchData ns3:ID="2253" ns3:TableType="CookRecipeData" ns3:TableKey="81254" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 수프)"/>
+	<ns3:SwitchData ns3:ID="2254" ns3:TableType="CookRecipeData" ns3:TableKey="81255" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2255" ns3:TableType="CookRecipeData" ns3:TableKey="81256" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2256" ns3:TableType="CookRecipeData" ns3:TableKey="81257" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (선상차)"/>
+	<ns3:SwitchData ns3:ID="2257" ns3:TableType="CookRecipeData" ns3:TableKey="81258" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2258" ns3:TableType="CookRecipeData" ns3:TableKey="81259" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2259" ns3:TableType="CookRecipeData" ns3:TableKey="81260" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물죽)"/>
+	<ns3:SwitchData ns3:ID="2260" ns3:TableType="CookRecipeData" ns3:TableKey="81261" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물탕)"/>
+	<ns3:SwitchData ns3:ID="2261" ns3:TableType="CookRecipeData" ns3:TableKey="81262" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2262" ns3:TableType="CookRecipeData" ns3:TableKey="81263" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2263" ns3:TableType="CookRecipeData" ns3:TableKey="81264" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2264" ns3:TableType="CookRecipeData" ns3:TableKey="81265" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2265" ns3:TableType="CookRecipeData" ns3:TableKey="81266" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (리조또)"/>
+	<ns3:SwitchData ns3:ID="2266" ns3:TableType="CookRecipeData" ns3:TableKey="81267" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (야채 수프)"/>
+	<ns3:SwitchData ns3:ID="2267" ns3:TableType="CookRecipeData" ns3:TableKey="81268" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2268" ns3:TableType="CookRecipeData" ns3:TableKey="81269" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯차)"/>
+	<ns3:SwitchData ns3:ID="2269" ns3:TableType="CookRecipeData" ns3:TableKey="81270" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2270" ns3:TableType="CookRecipeData" ns3:TableKey="81271" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2271" ns3:TableType="CookRecipeData" ns3:TableKey="81272" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (한방차)"/>
+	<ns3:SwitchData ns3:ID="2272" ns3:TableType="CookRecipeData" ns3:TableKey="81273" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2273" ns3:TableType="CookRecipeData" ns3:TableKey="81274" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2274" ns3:TableType="CookRecipeData" ns3:TableKey="81275" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯죽)"/>
+	<ns3:SwitchData ns3:ID="2275" ns3:TableType="CookRecipeData" ns3:TableKey="81276" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (버섯 수프)"/>
+	<ns3:SwitchData ns3:ID="2276" ns3:TableType="CookRecipeData" ns3:TableKey="81277" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2277" ns3:TableType="CookRecipeData" ns3:TableKey="81278" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2278" ns3:TableType="CookRecipeData" ns3:TableKey="81279" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2279" ns3:TableType="CookRecipeData" ns3:TableKey="81280" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2280" ns3:TableType="CookRecipeData" ns3:TableKey="81281" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2281" ns3:TableType="CookRecipeData" ns3:TableKey="81282" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (삶은 계란)"/>
+	<ns3:SwitchData ns3:ID="2282" ns3:TableType="CookRecipeData" ns3:TableKey="81283" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (꿀차)"/>
+	<ns3:SwitchData ns3:ID="2283" ns3:TableType="CookRecipeData" ns3:TableKey="81284" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (꿀차)"/>
+	<ns3:SwitchData ns3:ID="2284" ns3:TableType="CookRecipeData" ns3:TableKey="81285" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (꿀차)"/>
+	<ns3:SwitchData ns3:ID="2285" ns3:TableType="CookRecipeData" ns3:TableKey="81286" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2286" ns3:TableType="CookRecipeData" ns3:TableKey="81287" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2287" ns3:TableType="CookRecipeData" ns3:TableKey="81288" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2288" ns3:TableType="CookRecipeData" ns3:TableKey="81289" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2289" ns3:TableType="CookRecipeData" ns3:TableKey="81290" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2290" ns3:TableType="CookRecipeData" ns3:TableKey="81291" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2291" ns3:TableType="CookRecipeData" ns3:TableKey="81292" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2292" ns3:TableType="CookRecipeData" ns3:TableKey="81293" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2293" ns3:TableType="CookRecipeData" ns3:TableKey="81294" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2294" ns3:TableType="CookRecipeData" ns3:TableKey="81295" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2295" ns3:TableType="CookRecipeData" ns3:TableKey="81296" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2296" ns3:TableType="CookRecipeData" ns3:TableKey="81297" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2297" ns3:TableType="CookRecipeData" ns3:TableKey="81298" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2298" ns3:TableType="CookRecipeData" ns3:TableKey="81299" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2299" ns3:TableType="CookRecipeData" ns3:TableKey="81300" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2300" ns3:TableType="CookRecipeData" ns3:TableKey="81301" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2301" ns3:TableType="CookRecipeData" ns3:TableKey="81302" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2302" ns3:TableType="CookRecipeData" ns3:TableKey="81303" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2303" ns3:TableType="CookRecipeData" ns3:TableKey="81304" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2304" ns3:TableType="CookRecipeData" ns3:TableKey="81305" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2305" ns3:TableType="CookRecipeData" ns3:TableKey="81306" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2306" ns3:TableType="CookRecipeData" ns3:TableKey="81307" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2307" ns3:TableType="CookRecipeData" ns3:TableKey="81308" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2308" ns3:TableType="CookRecipeData" ns3:TableKey="81309" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2309" ns3:TableType="CookRecipeData" ns3:TableKey="81310" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2310" ns3:TableType="CookRecipeData" ns3:TableKey="81311" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2311" ns3:TableType="CookRecipeData" ns3:TableKey="81312" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2312" ns3:TableType="CookRecipeData" ns3:TableKey="81313" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2313" ns3:TableType="CookRecipeData" ns3:TableKey="81314" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2314" ns3:TableType="CookRecipeData" ns3:TableKey="81315" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2315" ns3:TableType="CookRecipeData" ns3:TableKey="81316" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2316" ns3:TableType="CookRecipeData" ns3:TableKey="81317" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2317" ns3:TableType="CookRecipeData" ns3:TableKey="81318" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (토마토 스튜)"/>
+	<ns3:SwitchData ns3:ID="2318" ns3:TableType="CookRecipeData" ns3:TableKey="81319" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2319" ns3:TableType="CookRecipeData" ns3:TableKey="81320" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2320" ns3:TableType="CookRecipeData" ns3:TableKey="81321" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2321" ns3:TableType="CookRecipeData" ns3:TableKey="81322" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2322" ns3:TableType="CookRecipeData" ns3:TableKey="81323" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="2323" ns3:TableType="CookRecipeData" ns3:TableKey="81324" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (곡물차)"/>
+	<ns3:SwitchData ns3:ID="3000" ns3:TableType="CookRecipeData" ns3:TableKey="82001" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3001" ns3:TableType="CookRecipeData" ns3:TableKey="82002" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3002" ns3:TableType="CookRecipeData" ns3:TableKey="82003" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3003" ns3:TableType="CookRecipeData" ns3:TableKey="82004" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3004" ns3:TableType="CookRecipeData" ns3:TableKey="82005" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3005" ns3:TableType="CookRecipeData" ns3:TableKey="82006" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3006" ns3:TableType="CookRecipeData" ns3:TableKey="82007" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3007" ns3:TableType="CookRecipeData" ns3:TableKey="82008" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3008" ns3:TableType="CookRecipeData" ns3:TableKey="82009" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (에그 리뉴)"/>
+	<ns3:SwitchData ns3:ID="3009" ns3:TableType="CookRecipeData" ns3:TableKey="82010" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3010" ns3:TableType="CookRecipeData" ns3:TableKey="82011" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3011" ns3:TableType="CookRecipeData" ns3:TableKey="82012" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (카르파쵸)"/>
+	<ns3:SwitchData ns3:ID="3012" ns3:TableType="CookRecipeData" ns3:TableKey="82013" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3013" ns3:TableType="CookRecipeData" ns3:TableKey="82014" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3014" ns3:TableType="CookRecipeData" ns3:TableKey="82015" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3015" ns3:TableType="CookRecipeData" ns3:TableKey="82016" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3016" ns3:TableType="CookRecipeData" ns3:TableKey="82017" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3017" ns3:TableType="CookRecipeData" ns3:TableKey="82018" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3018" ns3:TableType="CookRecipeData" ns3:TableKey="82019" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3019" ns3:TableType="CookRecipeData" ns3:TableKey="82020" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물장)"/>
+	<ns3:SwitchData ns3:ID="3020" ns3:TableType="CookRecipeData" ns3:TableKey="82021" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3021" ns3:TableType="CookRecipeData" ns3:TableKey="82022" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3022" ns3:TableType="CookRecipeData" ns3:TableKey="82023" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3023" ns3:TableType="CookRecipeData" ns3:TableKey="82024" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3024" ns3:TableType="CookRecipeData" ns3:TableKey="82025" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3025" ns3:TableType="CookRecipeData" ns3:TableKey="82026" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3026" ns3:TableType="CookRecipeData" ns3:TableKey="82027" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3027" ns3:TableType="CookRecipeData" ns3:TableKey="82028" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3028" ns3:TableType="CookRecipeData" ns3:TableKey="82029" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3029" ns3:TableType="CookRecipeData" ns3:TableKey="82030" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3030" ns3:TableType="CookRecipeData" ns3:TableKey="82031" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3031" ns3:TableType="CookRecipeData" ns3:TableKey="82032" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3032" ns3:TableType="CookRecipeData" ns3:TableKey="82033" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3033" ns3:TableType="CookRecipeData" ns3:TableKey="82034" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3034" ns3:TableType="CookRecipeData" ns3:TableKey="82035" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3035" ns3:TableType="CookRecipeData" ns3:TableKey="82036" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3036" ns3:TableType="CookRecipeData" ns3:TableKey="82037" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3037" ns3:TableType="CookRecipeData" ns3:TableKey="82038" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3038" ns3:TableType="CookRecipeData" ns3:TableKey="82039" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3039" ns3:TableType="CookRecipeData" ns3:TableKey="82040" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3040" ns3:TableType="CookRecipeData" ns3:TableKey="82041" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3041" ns3:TableType="CookRecipeData" ns3:TableKey="82042" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3042" ns3:TableType="CookRecipeData" ns3:TableKey="82043" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3043" ns3:TableType="CookRecipeData" ns3:TableKey="82044" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3044" ns3:TableType="CookRecipeData" ns3:TableKey="82045" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3045" ns3:TableType="CookRecipeData" ns3:TableKey="82046" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3046" ns3:TableType="CookRecipeData" ns3:TableKey="82047" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3047" ns3:TableType="CookRecipeData" ns3:TableKey="82048" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3048" ns3:TableType="CookRecipeData" ns3:TableKey="82049" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3049" ns3:TableType="CookRecipeData" ns3:TableKey="82050" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3050" ns3:TableType="CookRecipeData" ns3:TableKey="82051" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3051" ns3:TableType="CookRecipeData" ns3:TableKey="82052" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3052" ns3:TableType="CookRecipeData" ns3:TableKey="82053" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3053" ns3:TableType="CookRecipeData" ns3:TableKey="82054" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (에그 리뉴)"/>
+	<ns3:SwitchData ns3:ID="3054" ns3:TableType="CookRecipeData" ns3:TableKey="82055" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3055" ns3:TableType="CookRecipeData" ns3:TableKey="82056" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3056" ns3:TableType="CookRecipeData" ns3:TableKey="82057" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (카르파쵸)"/>
+	<ns3:SwitchData ns3:ID="3057" ns3:TableType="CookRecipeData" ns3:TableKey="82058" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3058" ns3:TableType="CookRecipeData" ns3:TableKey="82059" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3059" ns3:TableType="CookRecipeData" ns3:TableKey="82060" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3060" ns3:TableType="CookRecipeData" ns3:TableKey="82061" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3061" ns3:TableType="CookRecipeData" ns3:TableKey="82062" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3062" ns3:TableType="CookRecipeData" ns3:TableKey="82063" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3063" ns3:TableType="CookRecipeData" ns3:TableKey="82064" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3064" ns3:TableType="CookRecipeData" ns3:TableKey="82065" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3065" ns3:TableType="CookRecipeData" ns3:TableKey="82066" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3066" ns3:TableType="CookRecipeData" ns3:TableKey="82067" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3067" ns3:TableType="CookRecipeData" ns3:TableKey="82068" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3068" ns3:TableType="CookRecipeData" ns3:TableKey="82069" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3069" ns3:TableType="CookRecipeData" ns3:TableKey="82070" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 덮밥)"/>
+	<ns3:SwitchData ns3:ID="3070" ns3:TableType="CookRecipeData" ns3:TableKey="82071" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3071" ns3:TableType="CookRecipeData" ns3:TableKey="82072" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (카르파쵸)"/>
+	<ns3:SwitchData ns3:ID="3072" ns3:TableType="CookRecipeData" ns3:TableKey="82073" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (카르파쵸)"/>
+	<ns3:SwitchData ns3:ID="3073" ns3:TableType="CookRecipeData" ns3:TableKey="82074" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (카르파쵸)"/>
+	<ns3:SwitchData ns3:ID="3074" ns3:TableType="CookRecipeData" ns3:TableKey="82075" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (카르파쵸)"/>
+	<ns3:SwitchData ns3:ID="3075" ns3:TableType="CookRecipeData" ns3:TableKey="82076" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3076" ns3:TableType="CookRecipeData" ns3:TableKey="82077" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 덮밥)"/>
+	<ns3:SwitchData ns3:ID="3077" ns3:TableType="CookRecipeData" ns3:TableKey="82078" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (카르파쵸)"/>
+	<ns3:SwitchData ns3:ID="3078" ns3:TableType="CookRecipeData" ns3:TableKey="82079" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3079" ns3:TableType="CookRecipeData" ns3:TableKey="82080" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3080" ns3:TableType="CookRecipeData" ns3:TableKey="82081" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3081" ns3:TableType="CookRecipeData" ns3:TableKey="82082" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3082" ns3:TableType="CookRecipeData" ns3:TableKey="82083" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3083" ns3:TableType="CookRecipeData" ns3:TableKey="82084" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3084" ns3:TableType="CookRecipeData" ns3:TableKey="82085" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3085" ns3:TableType="CookRecipeData" ns3:TableKey="82086" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3086" ns3:TableType="CookRecipeData" ns3:TableKey="82087" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3087" ns3:TableType="CookRecipeData" ns3:TableKey="82088" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3088" ns3:TableType="CookRecipeData" ns3:TableKey="82089" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3089" ns3:TableType="CookRecipeData" ns3:TableKey="82090" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3090" ns3:TableType="CookRecipeData" ns3:TableKey="82091" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3091" ns3:TableType="CookRecipeData" ns3:TableKey="82092" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3092" ns3:TableType="CookRecipeData" ns3:TableKey="82093" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3093" ns3:TableType="CookRecipeData" ns3:TableKey="82094" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3094" ns3:TableType="CookRecipeData" ns3:TableKey="82095" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3095" ns3:TableType="CookRecipeData" ns3:TableKey="82096" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3096" ns3:TableType="CookRecipeData" ns3:TableKey="82097" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3097" ns3:TableType="CookRecipeData" ns3:TableKey="82098" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3098" ns3:TableType="CookRecipeData" ns3:TableKey="82099" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3099" ns3:TableType="CookRecipeData" ns3:TableKey="82100" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3100" ns3:TableType="CookRecipeData" ns3:TableKey="82101" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물장)"/>
+	<ns3:SwitchData ns3:ID="3101" ns3:TableType="CookRecipeData" ns3:TableKey="82102" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3102" ns3:TableType="CookRecipeData" ns3:TableKey="82103" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3103" ns3:TableType="CookRecipeData" ns3:TableKey="82104" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3104" ns3:TableType="CookRecipeData" ns3:TableKey="82105" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3105" ns3:TableType="CookRecipeData" ns3:TableKey="82106" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3106" ns3:TableType="CookRecipeData" ns3:TableKey="82107" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3107" ns3:TableType="CookRecipeData" ns3:TableKey="82108" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물장)"/>
+	<ns3:SwitchData ns3:ID="3108" ns3:TableType="CookRecipeData" ns3:TableKey="82109" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물장)"/>
+	<ns3:SwitchData ns3:ID="3109" ns3:TableType="CookRecipeData" ns3:TableKey="82110" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물장)"/>
+	<ns3:SwitchData ns3:ID="3110" ns3:TableType="CookRecipeData" ns3:TableKey="82111" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물장)"/>
+	<ns3:SwitchData ns3:ID="3111" ns3:TableType="CookRecipeData" ns3:TableKey="82112" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 덮밥)"/>
+	<ns3:SwitchData ns3:ID="3112" ns3:TableType="CookRecipeData" ns3:TableKey="82113" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 덮밥)"/>
+	<ns3:SwitchData ns3:ID="3113" ns3:TableType="CookRecipeData" ns3:TableKey="82114" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물장)"/>
+	<ns3:SwitchData ns3:ID="3114" ns3:TableType="CookRecipeData" ns3:TableKey="82115" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3115" ns3:TableType="CookRecipeData" ns3:TableKey="82116" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3116" ns3:TableType="CookRecipeData" ns3:TableKey="82117" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3117" ns3:TableType="CookRecipeData" ns3:TableKey="82118" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3118" ns3:TableType="CookRecipeData" ns3:TableKey="82119" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3119" ns3:TableType="CookRecipeData" ns3:TableKey="82120" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3120" ns3:TableType="CookRecipeData" ns3:TableKey="82121" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3121" ns3:TableType="CookRecipeData" ns3:TableKey="82122" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3122" ns3:TableType="CookRecipeData" ns3:TableKey="82123" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3123" ns3:TableType="CookRecipeData" ns3:TableKey="82124" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3124" ns3:TableType="CookRecipeData" ns3:TableKey="82125" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3125" ns3:TableType="CookRecipeData" ns3:TableKey="82126" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3126" ns3:TableType="CookRecipeData" ns3:TableKey="82127" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3127" ns3:TableType="CookRecipeData" ns3:TableKey="82128" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3128" ns3:TableType="CookRecipeData" ns3:TableKey="82129" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3129" ns3:TableType="CookRecipeData" ns3:TableKey="82130" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3130" ns3:TableType="CookRecipeData" ns3:TableKey="82131" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3131" ns3:TableType="CookRecipeData" ns3:TableKey="82132" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3132" ns3:TableType="CookRecipeData" ns3:TableKey="82133" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3133" ns3:TableType="CookRecipeData" ns3:TableKey="82134" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3134" ns3:TableType="CookRecipeData" ns3:TableKey="82135" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3135" ns3:TableType="CookRecipeData" ns3:TableKey="82136" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3136" ns3:TableType="CookRecipeData" ns3:TableKey="82137" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3137" ns3:TableType="CookRecipeData" ns3:TableKey="82138" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3138" ns3:TableType="CookRecipeData" ns3:TableKey="82139" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3139" ns3:TableType="CookRecipeData" ns3:TableKey="82140" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3140" ns3:TableType="CookRecipeData" ns3:TableKey="82141" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3141" ns3:TableType="CookRecipeData" ns3:TableKey="82142" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3142" ns3:TableType="CookRecipeData" ns3:TableKey="82143" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3143" ns3:TableType="CookRecipeData" ns3:TableKey="82144" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3144" ns3:TableType="CookRecipeData" ns3:TableKey="82145" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3145" ns3:TableType="CookRecipeData" ns3:TableKey="82146" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3146" ns3:TableType="CookRecipeData" ns3:TableKey="82147" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3147" ns3:TableType="CookRecipeData" ns3:TableKey="82148" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3148" ns3:TableType="CookRecipeData" ns3:TableKey="82149" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3149" ns3:TableType="CookRecipeData" ns3:TableKey="82150" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3150" ns3:TableType="CookRecipeData" ns3:TableKey="82151" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3151" ns3:TableType="CookRecipeData" ns3:TableKey="82152" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3152" ns3:TableType="CookRecipeData" ns3:TableKey="82153" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3153" ns3:TableType="CookRecipeData" ns3:TableKey="82154" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3154" ns3:TableType="CookRecipeData" ns3:TableKey="82155" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3155" ns3:TableType="CookRecipeData" ns3:TableKey="82156" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3156" ns3:TableType="CookRecipeData" ns3:TableKey="82157" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3157" ns3:TableType="CookRecipeData" ns3:TableKey="82158" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3158" ns3:TableType="CookRecipeData" ns3:TableKey="82159" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3159" ns3:TableType="CookRecipeData" ns3:TableKey="82160" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3160" ns3:TableType="CookRecipeData" ns3:TableKey="82161" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3161" ns3:TableType="CookRecipeData" ns3:TableKey="82162" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3162" ns3:TableType="CookRecipeData" ns3:TableKey="82163" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3163" ns3:TableType="CookRecipeData" ns3:TableKey="82164" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3164" ns3:TableType="CookRecipeData" ns3:TableKey="82165" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3165" ns3:TableType="CookRecipeData" ns3:TableKey="82166" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3166" ns3:TableType="CookRecipeData" ns3:TableKey="82167" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3167" ns3:TableType="CookRecipeData" ns3:TableKey="82168" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3168" ns3:TableType="CookRecipeData" ns3:TableKey="82169" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3169" ns3:TableType="CookRecipeData" ns3:TableKey="82170" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3170" ns3:TableType="CookRecipeData" ns3:TableKey="82171" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3171" ns3:TableType="CookRecipeData" ns3:TableKey="82172" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3172" ns3:TableType="CookRecipeData" ns3:TableKey="82173" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3173" ns3:TableType="CookRecipeData" ns3:TableKey="82174" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3174" ns3:TableType="CookRecipeData" ns3:TableKey="82175" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3175" ns3:TableType="CookRecipeData" ns3:TableKey="82176" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3176" ns3:TableType="CookRecipeData" ns3:TableKey="82177" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3177" ns3:TableType="CookRecipeData" ns3:TableKey="82178" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3178" ns3:TableType="CookRecipeData" ns3:TableKey="82179" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3179" ns3:TableType="CookRecipeData" ns3:TableKey="82180" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3180" ns3:TableType="CookRecipeData" ns3:TableKey="82181" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3181" ns3:TableType="CookRecipeData" ns3:TableKey="82182" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3182" ns3:TableType="CookRecipeData" ns3:TableKey="82183" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3183" ns3:TableType="CookRecipeData" ns3:TableKey="82184" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3184" ns3:TableType="CookRecipeData" ns3:TableKey="82185" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3185" ns3:TableType="CookRecipeData" ns3:TableKey="82186" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3186" ns3:TableType="CookRecipeData" ns3:TableKey="82187" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3187" ns3:TableType="CookRecipeData" ns3:TableKey="82188" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3188" ns3:TableType="CookRecipeData" ns3:TableKey="82189" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3189" ns3:TableType="CookRecipeData" ns3:TableKey="82190" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3190" ns3:TableType="CookRecipeData" ns3:TableKey="82191" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3191" ns3:TableType="CookRecipeData" ns3:TableKey="82192" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3192" ns3:TableType="CookRecipeData" ns3:TableKey="82193" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3193" ns3:TableType="CookRecipeData" ns3:TableKey="82194" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3194" ns3:TableType="CookRecipeData" ns3:TableKey="82195" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3195" ns3:TableType="CookRecipeData" ns3:TableKey="82196" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3196" ns3:TableType="CookRecipeData" ns3:TableKey="82197" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3197" ns3:TableType="CookRecipeData" ns3:TableKey="82198" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3198" ns3:TableType="CookRecipeData" ns3:TableKey="82199" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3199" ns3:TableType="CookRecipeData" ns3:TableKey="82200" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3200" ns3:TableType="CookRecipeData" ns3:TableKey="82201" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3201" ns3:TableType="CookRecipeData" ns3:TableKey="82202" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3202" ns3:TableType="CookRecipeData" ns3:TableKey="82203" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3203" ns3:TableType="CookRecipeData" ns3:TableKey="82204" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3204" ns3:TableType="CookRecipeData" ns3:TableKey="82205" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3205" ns3:TableType="CookRecipeData" ns3:TableKey="82206" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3206" ns3:TableType="CookRecipeData" ns3:TableKey="82207" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3207" ns3:TableType="CookRecipeData" ns3:TableKey="82208" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3208" ns3:TableType="CookRecipeData" ns3:TableKey="82209" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3209" ns3:TableType="CookRecipeData" ns3:TableKey="82210" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3210" ns3:TableType="CookRecipeData" ns3:TableKey="82211" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3211" ns3:TableType="CookRecipeData" ns3:TableKey="82212" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3212" ns3:TableType="CookRecipeData" ns3:TableKey="82213" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3213" ns3:TableType="CookRecipeData" ns3:TableKey="82214" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3214" ns3:TableType="CookRecipeData" ns3:TableKey="82215" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3215" ns3:TableType="CookRecipeData" ns3:TableKey="82216" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3216" ns3:TableType="CookRecipeData" ns3:TableKey="82217" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3217" ns3:TableType="CookRecipeData" ns3:TableKey="82218" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3218" ns3:TableType="CookRecipeData" ns3:TableKey="82219" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (에그 리뉴)"/>
+	<ns3:SwitchData ns3:ID="3219" ns3:TableType="CookRecipeData" ns3:TableKey="82220" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3220" ns3:TableType="CookRecipeData" ns3:TableKey="82221" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3221" ns3:TableType="CookRecipeData" ns3:TableKey="82222" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3222" ns3:TableType="CookRecipeData" ns3:TableKey="82223" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3223" ns3:TableType="CookRecipeData" ns3:TableKey="82224" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3224" ns3:TableType="CookRecipeData" ns3:TableKey="82225" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3225" ns3:TableType="CookRecipeData" ns3:TableKey="82226" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3226" ns3:TableType="CookRecipeData" ns3:TableKey="82227" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3227" ns3:TableType="CookRecipeData" ns3:TableKey="82228" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (에그 리뉴)"/>
+	<ns3:SwitchData ns3:ID="3228" ns3:TableType="CookRecipeData" ns3:TableKey="82229" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3229" ns3:TableType="CookRecipeData" ns3:TableKey="82230" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3230" ns3:TableType="CookRecipeData" ns3:TableKey="82231" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3231" ns3:TableType="CookRecipeData" ns3:TableKey="82232" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3232" ns3:TableType="CookRecipeData" ns3:TableKey="82233" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3233" ns3:TableType="CookRecipeData" ns3:TableKey="82234" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3234" ns3:TableType="CookRecipeData" ns3:TableKey="82235" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3235" ns3:TableType="CookRecipeData" ns3:TableKey="82236" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3236" ns3:TableType="CookRecipeData" ns3:TableKey="82237" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (에그 리뉴)"/>
+	<ns3:SwitchData ns3:ID="3237" ns3:TableType="CookRecipeData" ns3:TableKey="82238" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3238" ns3:TableType="CookRecipeData" ns3:TableKey="82239" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 회)"/>
+	<ns3:SwitchData ns3:ID="3239" ns3:TableType="CookRecipeData" ns3:TableKey="82240" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (카르파쵸)"/>
+	<ns3:SwitchData ns3:ID="3240" ns3:TableType="CookRecipeData" ns3:TableKey="82241" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3241" ns3:TableType="CookRecipeData" ns3:TableKey="82242" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3242" ns3:TableType="CookRecipeData" ns3:TableKey="82243" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3243" ns3:TableType="CookRecipeData" ns3:TableKey="82244" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3244" ns3:TableType="CookRecipeData" ns3:TableKey="82245" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회 비빔밥)"/>
+	<ns3:SwitchData ns3:ID="3245" ns3:TableType="CookRecipeData" ns3:TableKey="82246" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (육회)"/>
+	<ns3:SwitchData ns3:ID="3246" ns3:TableType="CookRecipeData" ns3:TableKey="82247" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3247" ns3:TableType="CookRecipeData" ns3:TableKey="82248" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해물장)"/>
+	<ns3:SwitchData ns3:ID="3248" ns3:TableType="CookRecipeData" ns3:TableKey="82249" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3249" ns3:TableType="CookRecipeData" ns3:TableKey="82250" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3250" ns3:TableType="CookRecipeData" ns3:TableKey="82251" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3251" ns3:TableType="CookRecipeData" ns3:TableKey="82252" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3252" ns3:TableType="CookRecipeData" ns3:TableKey="82253" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모듬 초밥)"/>
+	<ns3:SwitchData ns3:ID="3253" ns3:TableType="CookRecipeData" ns3:TableKey="82254" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (생선 회)"/>
+	<ns3:SwitchData ns3:ID="3254" ns3:TableType="CookRecipeData" ns3:TableKey="82255" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3255" ns3:TableType="CookRecipeData" ns3:TableKey="82256" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3256" ns3:TableType="CookRecipeData" ns3:TableKey="82257" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3257" ns3:TableType="CookRecipeData" ns3:TableKey="82258" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3258" ns3:TableType="CookRecipeData" ns3:TableKey="82259" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3259" ns3:TableType="CookRecipeData" ns3:TableKey="82260" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (해산물 세비체)"/>
+	<ns3:SwitchData ns3:ID="3260" ns3:TableType="CookRecipeData" ns3:TableKey="82261" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (관자 회)"/>
+	<ns3:SwitchData ns3:ID="3261" ns3:TableType="CookRecipeData" ns3:TableKey="82262" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3262" ns3:TableType="CookRecipeData" ns3:TableKey="82263" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3263" ns3:TableType="CookRecipeData" ns3:TableKey="82264" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3264" ns3:TableType="CookRecipeData" ns3:TableKey="82265" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3265" ns3:TableType="CookRecipeData" ns3:TableKey="82266" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3266" ns3:TableType="CookRecipeData" ns3:TableKey="82267" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (샐러드)"/>
+	<ns3:SwitchData ns3:ID="3267" ns3:TableType="CookRecipeData" ns3:TableKey="82268" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3268" ns3:TableType="CookRecipeData" ns3:TableKey="82269" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3269" ns3:TableType="CookRecipeData" ns3:TableKey="82270" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3270" ns3:TableType="CookRecipeData" ns3:TableKey="82271" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3271" ns3:TableType="CookRecipeData" ns3:TableKey="82272" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (영양 샐러드)"/>
+	<ns3:SwitchData ns3:ID="3272" ns3:TableType="CookRecipeData" ns3:TableKey="82273" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3273" ns3:TableType="CookRecipeData" ns3:TableKey="82274" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3274" ns3:TableType="CookRecipeData" ns3:TableKey="82275" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (스프링 롤)"/>
+	<ns3:SwitchData ns3:ID="3275" ns3:TableType="CookRecipeData" ns3:TableKey="82276" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (머쉬룸 카빙)"/>
+	<ns3:SwitchData ns3:ID="3276" ns3:TableType="CookRecipeData" ns3:TableKey="82277" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3277" ns3:TableType="CookRecipeData" ns3:TableKey="82278" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3278" ns3:TableType="CookRecipeData" ns3:TableKey="82279" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3279" ns3:TableType="CookRecipeData" ns3:TableKey="82280" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3280" ns3:TableType="CookRecipeData" ns3:TableKey="82281" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (모닝 밀)"/>
+	<ns3:SwitchData ns3:ID="3281" ns3:TableType="CookRecipeData" ns3:TableKey="82282" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (에그 리뉴)"/>
+	<ns3:SwitchData ns3:ID="3282" ns3:TableType="CookRecipeData" ns3:TableKey="82283" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3283" ns3:TableType="CookRecipeData" ns3:TableKey="82284" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3284" ns3:TableType="CookRecipeData" ns3:TableKey="82285" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3285" ns3:TableType="CookRecipeData" ns3:TableKey="82286" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3286" ns3:TableType="CookRecipeData" ns3:TableKey="82287" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3287" ns3:TableType="CookRecipeData" ns3:TableKey="82288" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3288" ns3:TableType="CookRecipeData" ns3:TableKey="82289" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3289" ns3:TableType="CookRecipeData" ns3:TableKey="82290" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3290" ns3:TableType="CookRecipeData" ns3:TableKey="82291" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3291" ns3:TableType="CookRecipeData" ns3:TableKey="82292" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3292" ns3:TableType="CookRecipeData" ns3:TableKey="82293" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3293" ns3:TableType="CookRecipeData" ns3:TableKey="82294" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3294" ns3:TableType="CookRecipeData" ns3:TableKey="82295" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3295" ns3:TableType="CookRecipeData" ns3:TableKey="82296" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3296" ns3:TableType="CookRecipeData" ns3:TableKey="82297" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3297" ns3:TableType="CookRecipeData" ns3:TableKey="82298" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3298" ns3:TableType="CookRecipeData" ns3:TableKey="82299" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3299" ns3:TableType="CookRecipeData" ns3:TableKey="82300" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3300" ns3:TableType="CookRecipeData" ns3:TableKey="82301" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3301" ns3:TableType="CookRecipeData" ns3:TableKey="82302" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3302" ns3:TableType="CookRecipeData" ns3:TableKey="82303" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3303" ns3:TableType="CookRecipeData" ns3:TableKey="82304" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3304" ns3:TableType="CookRecipeData" ns3:TableKey="82305" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3305" ns3:TableType="CookRecipeData" ns3:TableKey="82306" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3306" ns3:TableType="CookRecipeData" ns3:TableKey="82307" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3307" ns3:TableType="CookRecipeData" ns3:TableKey="82308" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3308" ns3:TableType="CookRecipeData" ns3:TableKey="82309" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3309" ns3:TableType="CookRecipeData" ns3:TableKey="82310" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3310" ns3:TableType="CookRecipeData" ns3:TableKey="82311" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3311" ns3:TableType="CookRecipeData" ns3:TableKey="82312" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3312" ns3:TableType="CookRecipeData" ns3:TableKey="82313" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3313" ns3:TableType="CookRecipeData" ns3:TableKey="82314" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3314" ns3:TableType="CookRecipeData" ns3:TableKey="82315" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3315" ns3:TableType="CookRecipeData" ns3:TableKey="82316" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3316" ns3:TableType="CookRecipeData" ns3:TableKey="82317" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3317" ns3:TableType="CookRecipeData" ns3:TableKey="82318" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3318" ns3:TableType="CookRecipeData" ns3:TableKey="82319" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3319" ns3:TableType="CookRecipeData" ns3:TableKey="82320" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3320" ns3:TableType="CookRecipeData" ns3:TableKey="82321" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3321" ns3:TableType="CookRecipeData" ns3:TableKey="82322" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3322" ns3:TableType="CookRecipeData" ns3:TableKey="82323" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3323" ns3:TableType="CookRecipeData" ns3:TableKey="82324" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3324" ns3:TableType="CookRecipeData" ns3:TableKey="82325" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3325" ns3:TableType="CookRecipeData" ns3:TableKey="82326" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3326" ns3:TableType="CookRecipeData" ns3:TableKey="82327" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3327" ns3:TableType="CookRecipeData" ns3:TableKey="82328" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3328" ns3:TableType="CookRecipeData" ns3:TableKey="82329" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3329" ns3:TableType="CookRecipeData" ns3:TableKey="82330" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="3330" ns3:TableType="CookRecipeData" ns3:TableKey="82331" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (씨리얼)"/>
+	<ns3:SwitchData ns3:ID="4000" ns3:TableType="CookRecipeData" ns3:TableKey="83001" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (조개 구이)"/>
+	<ns3:SwitchData ns3:ID="4001" ns3:TableType="CookRecipeData" ns3:TableKey="83002" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (조개 구이)"/>
+	<ns3:SwitchData ns3:ID="4002" ns3:TableType="CookRecipeData" ns3:TableKey="83003" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (조개 구이)"/>
+	<ns3:SwitchData ns3:ID="4003" ns3:TableType="CookRecipeData" ns3:TableKey="84001" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (조개탕)"/>
+	<ns3:SwitchData ns3:ID="4004" ns3:TableType="CookRecipeData" ns3:TableKey="84002" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (조개탕)"/>
+	<ns3:SwitchData ns3:ID="4005" ns3:TableType="CookRecipeData" ns3:TableKey="84003" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (조개탕)"/>
+	<ns3:SwitchData ns3:ID="4006" ns3:TableType="CookRecipeData" ns3:TableKey="84004" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (무국)"/>
+	<ns3:SwitchData ns3:ID="4007" ns3:TableType="CookRecipeData" ns3:TableKey="84005" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (무국)"/>
+	<ns3:SwitchData ns3:ID="4008" ns3:TableType="CookRecipeData" ns3:TableKey="84006" ns3:EarlySwitch="" ns3:Memo="요리 레시피 북 (무국)"/>
+</ns3:SwitchDataMap>

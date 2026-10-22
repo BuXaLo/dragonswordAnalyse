@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:LevelBuffDataMap xmlns:ns1="http://leigient.549n.com/schema/LevelBuffInfo">
+	<ns1:LevelBuffData ns1:ID="1" ns1:Memo="테스트_공격력증가" ns1:BuffID="40001" ns1:Duration="10" ns1:BuffTarget="MONSTER" ns1:UseStackBuff="true" ns1:StackCycle="0.5" ns1:MaxStack="3"/>
+	<ns1:LevelBuffData ns1:ID="40002" ns1:Memo="모닥불 (PC)" ns1:BuffID="40002" ns1:Duration="0" ns1:BuffTarget="SINGLE" ns1:UseStackBuff="false" ns1:StackCycle="0" ns1:MaxStack="0"/>
+	<ns1:LevelBuffData ns1:ID="40009" ns1:Memo="모닥불 (Monster)" ns1:BuffID="40002" ns1:Duration="0" ns1:BuffTarget="MONSTER" ns1:UseStackBuff="false" ns1:StackCycle="0" ns1:MaxStack="0"/>
+	<ns1:LevelBuffData ns1:ID="40003" ns1:Memo="늪지대" ns1:BuffID="40003" ns1:Duration="0" ns1:BuffTarget="SINGLE" ns1:UseStackBuff="true" ns1:StackCycle="2" ns1:MaxStack="3"/>
+	<ns1:LevelBuffData ns1:ID="40004" ns1:Memo="중독지대" ns1:BuffID="40004" ns1:Duration="0" ns1:BuffTarget="SINGLE" ns1:UseStackBuff="false" ns1:StackCycle="0" ns1:MaxStack="0"/>
+	<ns1:LevelBuffData ns1:ID="40005" ns1:Memo="여신상_회복" ns1:BuffID="40005" ns1:Duration="0" ns1:BuffTarget="SINGLE" ns1:UseStackBuff="false" ns1:StackCycle="0" ns1:MaxStack="0"/>
+	<ns1:LevelBuffData ns1:ID="40006" ns1:Memo="지역 디버프" ns1:BuffID="40006" ns1:Duration="0" ns1:BuffTarget="SINGLE" ns1:UseStackBuff="false" ns1:StackCycle="0" ns1:MaxStack="0"/>
+	<ns1:LevelBuffData ns1:ID="40007" ns1:Memo="지역 디버프" ns1:BuffID="40007" ns1:Duration="0" ns1:BuffTarget="SINGLE" ns1:UseStackBuff="false" ns1:StackCycle="0" ns1:MaxStack="0"/>
+	<ns1:LevelBuffData ns1:ID="40008" ns1:Memo="지역 디버프" ns1:BuffID="40008" ns1:Duration="0" ns1:BuffTarget="SINGLE" ns1:UseStackBuff="false" ns1:StackCycle="0" ns1:MaxStack="0"/>
+</ns1:LevelBuffDataMap>

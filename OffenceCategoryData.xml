@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:OffenceCategoryDataMap xmlns:ns1="http://leigient.549n.com/schema/OffenceCategoryInfo">
+	<ns1:OffenceCategoryData ns1:OffenceType="BASIC" ns1:Memo="기본" ns1:PropBreakRate="1"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="SLASH" ns1:Memo="베기" ns1:PropBreakRate="1"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="THRUST" ns1:Memo="찌르기" ns1:PropBreakRate="0.7"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="BLUNT" ns1:Memo="둔기공격" ns1:PropBreakRate="1.3"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="PHYSIQUE" ns1:Memo="체술" ns1:PropBreakRate="0.5"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="ARROW" ns1:Memo="화살" ns1:PropBreakRate="0.3"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="BULLET" ns1:Memo="총격" ns1:PropBreakRate="0.6"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="BLAST" ns1:Memo="충격파" ns1:PropBreakRate="1.5"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="BOSS_ATTACK" ns1:Memo="보스 공격" ns1:PropBreakRate="3"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="BOSS_BIG_ATTACK" ns1:Memo="보스 강공격" ns1:PropBreakRate="10"/>
+	<ns1:OffenceCategoryData ns1:OffenceType="BOSS_UNIQUE_ATTACK" ns1:Memo="보스 특수 공격" ns1:PropBreakRate="100"/>
+</ns1:OffenceCategoryDataMap>
