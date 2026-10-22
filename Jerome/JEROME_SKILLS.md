@@ -2,7 +2,6 @@
 
 > **Навигация:** [← README](../README.md) · [Анализ боевой системы](../COMBAT_DATA_ANALYSIS.md) · [Вероника](../Veronica/VERONICA_SKILLS.md) · [Жером](../Jerome/JEROME_SKILLS.md) · [Логан](../Logan/LOGAN_SKILLS.md)
 
-**Версия источника:** commit `05fbb7ee0e621b803f31273d905c89f8b69137bc`  
 **Персонаж:** Жером (`CharacterID=10015`; `PCComboData.ID=1000013`; `StatTableID=10015`; blueprint `DsPC_Jerome_V2`)
 
 > Это восстановление игровых данных из таблиц. Числа `AttackWeight`, `HitFury`, `HitAggro`, `SuperArmorBreak` — поля системы комбо; `AttackWeight` нельзя автоматически считать процентом урона от ATK. Подстановка `{0}%` из строки «Урон {0}% от атаки» (`810010101`) в доступных таблицах **не найдена** (см. раздел 4).
