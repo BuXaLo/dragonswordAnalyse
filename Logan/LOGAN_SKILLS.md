@@ -1,7 +1,6 @@
 # Dragon Sword: Awakening — Логан: разбор навыков (черновик по XML)
 
-> **Навигация:** [← README](../README.md) · [Анализ боевой системы](../COMBAT_DATA_ANALYSIS.md) · [Формулы урона](../damage-research/DAMAGE_FORMULA.md) · [Вероника](../Veronica/VERONICA_SKILLS.md) · [Жером](../Jerome/JEROME_SKILLS.md) · [Логан](../Logan/LOGAN_SKILLS.md)
-
+> **Навигация:** [← README](../README.md) · [Анализ боевой системы](../COMBAT_DATA_ANALYSIS.md) · [Формулы урона](../damage-research/DAMAGE_FORMULA.md) · Разбор героев: [<img src="../Veronica/Icon_Mark_Use_Veronica.png" width="32" /> Вероника](../Veronica/VERONICA_SKILLS.md) · [<img src="../Jerome/Icon_Mark_Use_Jerome.png" width="32" /> Жером](../Jerome/JEROME_SKILLS.md) 
 > Значения `Desc_Combo` и названия условий в этом документе даны в русском переводе (в исходных таблицах они на корейском).
 
 **Персонаж:** Логан (`CharacterID=10033`; `PCComboData.ID=1000030`; `StatTableID=10033`; blueprint `DsPC_Logan_V2`; `PassiveActionBuffList=13330`)
