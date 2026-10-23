@@ -1,0 +1,536 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DsReaction_PCMonster_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "DS/Content/Design/DsCharacter/DsReaction_PCMonster",
+    "SuperStruct": {
+      "ObjectName": "Class'DsReactionInfo'",
+      "ObjectPath": "/Script/DS"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DsReaction_PCMonster_C'Default__DsReaction_PCMonster_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/DsReaction_PCMonster.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "DsReaction_PCMonster_C",
+    "Name": "Default__DsReaction_PCMonster_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'DS/Content/Design/DsCharacter/DsReaction_PCMonster.DsReaction_PCMonster_C'",
+    "Package": "DS/Content/Design/DsCharacter/DsReaction_PCMonster",
+    "Properties": {
+      "FallingIgnoreSABlendAlpha": true,
+      "ActionSet_Damage_Left": "DAMAGE_LEFT",
+      "ActionSet_Damage_Right": "DAMAGE_RIGHT",
+      "ActionSet_Damage_Front": "DAMAGE_FRONT",
+      "ActionSet_Damage_Back": "DAMAGE_BACK",
+      "ActionSet_Damage_KnockBack": "DAMAGE_KNOCK_BACK",
+      "ActionSet_Damage_Down": "DAMAGE_DOWN",
+      "ActionSet_Damage_Rising": "DAMAGE_RISING",
+      "ActionSet_Damage_AirRising": "DAMAGE_AIR_RISING",
+      "ActionSet_Damage_Wall": "DAMAGE_WALL",
+      "ActionSet_Damage_Crash": "DAMAGE_KNOCK_BACK",
+      "ActionSet_Die": "DIE",
+      "ActionSet_DieFalling": "DIE_FALLING",
+      "bDieFallingInstant": true,
+      "IgnoreForceAndDirectionWhenHitMountAttack": true,
+      "ActionSet_Mesmerized_Stun": "MESMERIZED_STUN",
+      "ActionSet_Mesmerized_Down": "MESMERIZED_DOWN",
+      "ActionSet_Mesmerized_Air": "DAMAGE_RISING",
+      "ActionSet_Mesmerized_Hold": "MESMERIZED_HOLD",
+      "ActionSet_Damage_Freeze": "MESMERIZED_STUN",
+      "ActionSet_Mesmerized_Falling_Stun": "DAMAGE_AIR_RISING",
+      "ActionSet_Mesmerized_Falling_Down": "DAMAGE_AIR_RISING",
+      "ActionSet_Mesmerized_Falling_Air": "DAMAGE_RISING",
+      "ActionSet_Mesmerized_Falling_Hold": "DAMAGE_RISING",
+      "MesChangeReaction": [
+        {
+          "Key": "EMesmerizedType::DOWN",
+          "Value": {
+            "FChangeReactionData": [
+              {
+                "CurrentSet": "SLEEP_01",
+                "ChangeSet": "None",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.SLEEP_01"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.None"
+                }
+              },
+              {
+                "CurrentSet": "SLEEP_02",
+                "ChangeSet": "None",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.SLEEP_02"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.None"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "MesAndHitReactionMap": [
+        {
+          "Key": "EMesmerizedType::DOWN",
+          "Value": {
+            "FChangeReactionData": [
+              {
+                "CurrentSet": "DAMAGE_RISING",
+                "ChangeSet": "DAMAGE_RISING",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_RISING"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_RISING"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_AIR_RISING",
+                "ChangeSet": "DAMAGE_AIR_RISING",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_AIR_RISING"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_AIR_RISING"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMesmerizedType::STUN",
+          "Value": {
+            "FChangeReactionData": [
+              {
+                "CurrentSet": "DAMAGE_RISING",
+                "ChangeSet": "DAMAGE_RISING",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_RISING"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_RISING"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_AIR_RISING",
+                "ChangeSet": "DAMAGE_AIR_RISING",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_AIR_RISING"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_AIR_RISING"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_KNOCK_BACK",
+                "ChangeSet": "DAMAGE_KNOCK_BACK",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_KNOCK_BACK"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_KNOCK_BACK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMesmerizedType::HOLD",
+          "Value": {
+            "FChangeReactionData": [
+              {
+                "CurrentSet": "DAMAGE_RISING",
+                "ChangeSet": "DAMAGE_RISING",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_RISING"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_RISING"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_AIR_RISING",
+                "ChangeSet": "DAMAGE_AIR_RISING",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_AIR_RISING"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_AIR_RISING"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "MesIngHitReactionMap": [
+        {
+          "Key": "EMesmerizedType::STUN",
+          "Value": {
+            "FChangeReactionData": [
+              {
+                "CurrentSet": "DAMAGE_LEFT",
+                "ChangeSet": "DAMAGE_LEFT",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_LEFT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_LEFT"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_RIGHT",
+                "ChangeSet": "DAMAGE_RIGHT",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_RIGHT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_RIGHT"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_FRONT",
+                "ChangeSet": "DAMAGE_FRONT",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_FRONT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_FRONT"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_BACK",
+                "ChangeSet": "DAMAGE_BACK",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_BACK"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_BACK"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_DOWN",
+                "ChangeSet": "DAMAGE_DOWN",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_DOWN"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_DOWN"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_KNOCK_BACK",
+                "ChangeSet": "DAMAGE_KNOCK_BACK",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_KNOCK_BACK"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_KNOCK_BACK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMesmerizedType::DOWN",
+          "Value": {
+            "FChangeReactionData": [
+              {
+                "CurrentSet": "DAMAGE_LEFT",
+                "ChangeSet": "MESMERIZED_DOWN",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_LEFT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.MESMERIZED_DOWN"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_RIGHT",
+                "ChangeSet": "MESMERIZED_DOWN",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_RIGHT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.MESMERIZED_DOWN"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_FRONT",
+                "ChangeSet": "MESMERIZED_DOWN",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_FRONT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.MESMERIZED_DOWN"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_BACK",
+                "ChangeSet": "MESMERIZED_DOWN",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_BACK"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.MESMERIZED_DOWN"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_DOWN",
+                "ChangeSet": "MESMERIZED_DOWN",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_DOWN"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.MESMERIZED_DOWN"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_KNOCK_BACK",
+                "ChangeSet": "MESMERIZED_DOWN",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_KNOCK_BACK"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.MESMERIZED_DOWN"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMesmerizedType::HOLD",
+          "Value": {
+            "FChangeReactionData": [
+              {
+                "CurrentSet": "DAMAGE_LEFT",
+                "ChangeSet": "DAMAGE_HOLD_HIT",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_LEFT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_HOLD_HIT"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_RIGHT",
+                "ChangeSet": "DAMAGE_HOLD_HIT",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_RIGHT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_HOLD_HIT"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_FRONT",
+                "ChangeSet": "DAMAGE_HOLD_HIT",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_FRONT"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_HOLD_HIT"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_BACK",
+                "ChangeSet": "DAMAGE_HOLD_HIT",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_BACK"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_HOLD_HIT"
+                }
+              },
+              {
+                "CurrentSet": "DAMAGE_KNOCK_BACK",
+                "ChangeSet": "DAMAGE_HOLD_HIT",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.DAMAGE_KNOCK_BACK"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.DAMAGE_HOLD_HIT"
+                }
+              },
+              {
+                "CurrentSet": "None",
+                "ChangeSet": "None",
+                "TagCurrentSet": {
+                  "TagName": "ActionSet.None"
+                },
+                "TagChangeSet": {
+                  "TagName": "ActionSet.None"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "RisingRate": 0.5,
+      "MinRisingSpeed": 600.0,
+      "AirRate": 1.0,
+      "HitWallDistance": 400.0,
+      "HitWallLaunchVelocity": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": 600.0
+      },
+      "HitEffectInfo": {
+        "HitDirectionWeaponName": "Default_Wall"
+      },
+      "LevelActionReactionMes": [
+        {
+          "Key": "EMesmerizedType::FIRE",
+          "Value": {
+            "OverlapTime": 1.0,
+            "ActionSet": "FIRE_BACK",
+            "TagActionSet": {
+              "TagName": "ActionSet.FIRE_BACK"
+            },
+            "DelayTime": 10.0
+          }
+        }
+      ],
+      "TagActionSet_Damage_Left": {
+        "TagName": "ActionSet.DAMAGE_LEFT"
+      },
+      "TagActionSet_Damage_Right": {
+        "TagName": "ActionSet.DAMAGE_RIGHT"
+      },
+      "TagActionSet_Damage_Front": {
+        "TagName": "ActionSet.DAMAGE_FRONT"
+      },
+      "TagActionSet_Damage_Back": {
+        "TagName": "ActionSet.DAMAGE_BACK"
+      },
+      "TagActionSet_Damage_KnockBack": {
+        "TagName": "ActionSet.DAMAGE_KNOCK_BACK"
+      },
+      "TagActionSet_Damage_Down": {
+        "TagName": "ActionSet.DAMAGE_DOWN"
+      },
+      "TagActionSet_Damage_Rising": {
+        "TagName": "ActionSet.DAMAGE_RISING"
+      },
+      "TagActionSet_Damage_AirRising": {
+        "TagName": "ActionSet.DAMAGE_AIR_RISING"
+      },
+      "TagActionSet_Damage_Wall": {
+        "TagName": "ActionSet.DAMAGE_WALL"
+      },
+      "TagActionSet_Damage_Crash": {
+        "TagName": "ActionSet.DAMAGE_KNOCK_BACK"
+      },
+      "TagActionSet_Die": {
+        "TagName": "ActionSet.DIE"
+      },
+      "TagActionSet_DieFalling": {
+        "TagName": "ActionSet.DIE_FALLING"
+      },
+      "TagActionSet_DieFalling_Instant": {
+        "TagName": "ActionSet.DIE_FALLING_INSTANT"
+      },
+      "TagActionSet_Die_Swim_Instance": {
+        "TagName": "ActionSet.None"
+      },
+      "TagActionSet_MultiMount_TimeEnd": {
+        "TagName": "ActionSet.None"
+      },
+      "TagActionSet_MultiMount_Hit": {
+        "TagName": "ActionSet.None"
+      },
+      "TagActionSet_MultiMountEnd_JustMonster": {
+        "TagName": "ActionSet.None"
+      },
+      "TagActionSet_Mesmerized_Stun": {
+        "TagName": "ActionSet.MESMERIZED_STUN"
+      },
+      "TagActionSet_Mesmerized_Down": {
+        "TagName": "ActionSet.MESMERIZED_DOWN"
+      },
+      "TagActionSet_Mesmerized_Air": {
+        "TagName": "ActionSet.DAMAGE_RISING"
+      },
+      "TagActionSet_Mesmerized_Hold": {
+        "TagName": "ActionSet.MESMERIZED_HOLD"
+      },
+      "TagActionSet_Damage_Freeze": {
+        "TagName": "ActionSet.MESMERIZED_STUN"
+      },
+      "TagActionSet_Mesmerized_Falling_Stun": {
+        "TagName": "ActionSet.DAMAGE_AIR_RISING"
+      },
+      "TagActionSet_Mesmerized_Falling_Down": {
+        "TagName": "ActionSet.DAMAGE_AIR_RISING"
+      },
+      "TagActionSet_Mesmerized_Falling_Air": {
+        "TagName": "ActionSet.DAMAGE_RISING"
+      },
+      "TagActionSet_Mesmerized_Falling_Hold": {
+        "TagName": "ActionSet.DAMAGE_RISING"
+      },
+      "ActionSetCurveData": [
+        {
+          "Key": "DAMAGE_RISING",
+          "Value": {
+            "GravityCurve": {
+              "ObjectName": "CurveFloat'DsCurve_Common_RisingGravity'",
+              "ObjectPath": "DS/Content/Design/DsCharacter/Player/ActionGraph_Common/Curve/DsCurve_Common_RisingGravity.0"
+            },
+            "CurveDuration": 0.95
+          }
+        },
+        {
+          "Key": "DAMAGE_AIR_RISING",
+          "Value": {
+            "GravityCurve": {
+              "ObjectName": "CurveFloat'DsCurve_Common_RisingGravity'",
+              "ObjectPath": "DS/Content/Design/DsCharacter/Player/ActionGraph_Common/Curve/DsCurve_Common_RisingGravity.0"
+            },
+            "CurveDuration": 0.95
+          }
+        }
+      ],
+      "TagActionSetCurveData": [
+        {
+          "Key": {
+            "TagName": "ActionSet.DAMAGE_RISING"
+          },
+          "Value": {
+            "GravityCurve": {
+              "ObjectName": "CurveFloat'DsCurve_Common_RisingGravity'",
+              "ObjectPath": "DS/Content/Design/DsCharacter/Player/ActionGraph_Common/Curve/DsCurve_Common_RisingGravity.0"
+            },
+            "CurveDuration": 0.95
+          }
+        },
+        {
+          "Key": {
+            "TagName": "ActionSet.DAMAGE_AIR_RISING"
+          },
+          "Value": {
+            "GravityCurve": {
+              "ObjectName": "CurveFloat'DsCurve_Common_RisingGravity'",
+              "ObjectPath": "DS/Content/Design/DsCharacter/Player/ActionGraph_Common/Curve/DsCurve_Common_RisingGravity.0"
+            },
+            "CurveDuration": 0.95
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "DsHitFilterDataAsset",
+    "Name": "DsHF_IgnoreDamage",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsHitFilterDataAsset'",
+    "Package": "DS/Content/Design/DsCharacter/DsHF_IgnoreDamage",
+    "Properties": {
+      "HitFilterInfoArray": [
+        {
+          "IgnoreTeamTypeMask": "DENM_TeamType::TeamA",
+          "bIgnoreHPProcess": true,
+          "bIgnoreSAProcess": false,
+          "bIgnoreMesProcess": false,
+          "bIgnoreHitEffectProcess": false,
+          "bIgnoreSkillProcess": true
+        },
+        {
+          "IgnoreTeamTypeMask": "DENM_TeamType::TeamB",
+          "bIgnoreHPProcess": true,
+          "bIgnoreSAProcess": false,
+          "bIgnoreMesProcess": false,
+          "bIgnoreHitEffectProcess": false,
+          "bIgnoreSkillProcess": true
+        },
+        {
+          "IgnoreTeamTypeMask": "DENM_TeamType::TeamC",
+          "bIgnoreHPProcess": true,
+          "bIgnoreSAProcess": false,
+          "bIgnoreMesProcess": false,
+          "bIgnoreHitEffectProcess": false,
+          "bIgnoreSkillProcess": true
+        },
+        {
+          "IgnoreTeamTypeMask": "DENM_TeamType::TeamD",
+          "bIgnoreHPProcess": true,
+          "bIgnoreSAProcess": false,
+          "bIgnoreMesProcess": false,
+          "bIgnoreHitEffectProcess": false,
+          "bIgnoreSkillProcess": true
+        },
+        {
+          "IgnoreTeamTypeMask": "DENM_TeamType::TeamE",
+          "bIgnoreHPProcess": true,
+          "bIgnoreSAProcess": false,
+          "bIgnoreMesProcess": false,
+          "bIgnoreHitEffectProcess": false,
+          "bIgnoreSkillProcess": true
+        },
+        {
+          "IgnoreTeamTypeMask": "DENM_TeamType::TeamF",
+          "bIgnoreHPProcess": true,
+          "bIgnoreSAProcess": false,
+          "bIgnoreMesProcess": false,
+          "bIgnoreHitEffectProcess": false,
+          "bIgnoreSkillProcess": true
+        }
+      ]
+    }
+  }
+]

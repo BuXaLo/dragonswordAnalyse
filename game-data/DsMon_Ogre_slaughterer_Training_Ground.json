@@ -1,0 +1,852 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DsMon_Ogre_slaughterer_Training_Ground_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'DsMon_Ogre_slaughterer_Training_Ground_C:SimpleConstructionScript_0'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.37"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'DsMonsterCharacter'",
+      "ObjectPath": "/Script/DS"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "DDefenceBoundCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DDefenceBoundCapsuleComponent'",
+          "ObjectPath": "/Script/DS"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 150.0,
+      "CapsuleRadius": 100.0,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_GameTraceChannel3",
+        "CollisionProfileName": "DMonsterMovement",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "DPlayerCharacter",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "DMonsterCharacter",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "DDefeenceBoundBlock",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "DWaterBlockCheck",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "DNpcCharacter",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "DCameraSeeThrough",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "DAICharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DAICharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "GravityDirection": {
+        "X": 3.0517567E-05,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "WorldToGravityTransform": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0,
+        "IsNormalized": false,
+        "Size": 0.0,
+        "SizeSquared": 0.0
+      },
+      "RotationRate": {
+        "Pitch": "-Infinity",
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bApplyGravityWhileJumping": false,
+      "bMovementInProgress": false,
+      "bShrinkProxyCapsule": false,
+      "bWasSimulatingRootMotion": false,
+      "NavMeshProjectionInterval": 0.0
+    }
+  },
+  {
+    "Type": "DDefenceBoundCapsuleComponent",
+    "Name": "DDefenceBoundCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DDefenceBoundCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.0"
+    },
+    "Properties": {
+      "ShapeBodySetup": null,
+      "ShapeColor": {
+        "B": 0,
+        "G": 0,
+        "R": 240,
+        "A": 66,
+        "Hex": "42F00000"
+      },
+      "MinDrawDistance": "NaN",
+      "LDMaxDrawDistance": 0.0
+    }
+  },
+  {
+    "Type": "DHandIKTargetActorComponent",
+    "Name": "HandIKTargetActorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DHandIKTargetActorComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "SkeletalMeshComponent": {
+        "ObjectName": "DsSkeletalMeshCompBudgeted'Default__DsMon_Ogre_slaughterer_Training_Ground_C:CharacterMesh0'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.31"
+      }
+    }
+  },
+  {
+    "Type": "DInteractableComponent",
+    "Name": "InteractionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DInteractableComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsActionObjectControlComponent",
+    "Name": "ActionObjectControlComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsActionObjectControlComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "ActionObjectDataClass": {
+        "ObjectName": "BlueprintGeneratedClass'ObjectPositonData_OgreShape_C'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/AttachBoneList/BossType/ObjectPositonData_OgreShape.0"
+      }
+    }
+  },
+  {
+    "Type": "DsAITargetingComponent",
+    "Name": "DsTargetingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsAITargetingComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsCharacterActionComponent",
+    "Name": "DsActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsCharacterActionComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "ActionDataAssetRef": {
+        "ObjectName": "DsActionDataAsset'DsActionGraph_DsMon_Ogre_slaughterer_Raid_V2'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Ogres/Ogre_slaughterer/ActionGraphData/DsActionGraph_DsMon_Ogre_slaughterer_Raid_V2.0"
+      }
+    }
+  },
+  {
+    "Type": "DsCharacterCombatComponent",
+    "Name": "DsCombatComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsCharacterCombatComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "ReactionInfoClass": {
+        "ObjectName": "BlueprintGeneratedClass'DsReaction_raid_C'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/DsReaction_raid.0"
+      }
+    }
+  },
+  {
+    "Type": "DsCharacterEscortComponent",
+    "Name": "EscortComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsCharacterEscortComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsCharacterGrabComponent",
+    "Name": "MonsterGrabComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsCharacterGrabComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsCharacterMountComponent",
+    "Name": "DsMountComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsCharacterMountComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "MultiMountDataAsset": {
+        "ObjectName": "DsMultiMountDataAsset'MultiMountDataAsset_Common'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/MultiMountDataAsset_Common.0"
+      }
+    }
+  },
+  {
+    "Type": "DsCharacterRenderComponent",
+    "Name": "CharacterRenderComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsCharacterRenderComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "UCSSerializationIndex": 1
+    }
+  },
+  {
+    "Type": "DsCharacterSkillComponent",
+    "Name": "DsSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsCharacterSkillComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsCostumeComponent",
+    "Name": "CostumeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsCostumeComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsDialogComponent",
+    "Name": "DialogComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsDialogComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsDoSummonComponent",
+    "Name": "DoSummonComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsDoSummonComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsHideControlComponent",
+    "Name": "HideControlComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsHideControlComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsHitCheckComponent",
+    "Name": "DsHitCheckComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsHitCheckComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsLifeTimeComponent",
+    "Name": "LifeTimeComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsLifeTimeComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsMon_Ogre_slaughterer_Training_Ground_C",
+    "Name": "Default__DsMon_Ogre_slaughterer_Training_Ground_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.DsMon_Ogre_slaughterer_Training_Ground_C'",
+    "Package": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground",
+    "Properties": {
+      "SpawnableActorComponent": {
+        "ObjectName": "DSpawnableActorComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:SpawnableCMP'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.28"
+      },
+      "LifeTimeComponent": {
+        "ObjectName": "DsLifeTimeComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:LifeTimeComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.20"
+      },
+      "SummonedComponent": {
+        "ObjectName": "DsSummonedComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:SummonedComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.32"
+      },
+      "DoSummonComponent": {
+        "ObjectName": "DsDoSummonComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:DoSummonComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.17"
+      },
+      "CharacterEscortComponent": {
+        "ObjectName": "DsCharacterEscortComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:EscortComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.10"
+      },
+      "CharacterRoamingComponent": {
+        "ObjectName": "DsRoamingComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:RoamingComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.30"
+      },
+      "CharacterDialogComponent": {
+        "ObjectName": "DsDialogComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:DialogComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.16"
+      },
+      "NPCInteractionComponent": {
+        "ObjectName": "DsNPCInteractionComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:NPCInreractionComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.26"
+      },
+      "MonsterUniqueID": 900300,
+      "MonsterSenseData": {
+        "PerceptionRadius": 2000.0,
+        "CombatRadius": 3300.0,
+        "AlertVisionAngle": 180.0,
+        "WarningVisionAngle": 180.0,
+        "SightSocket": "sight",
+        "bIgnoreCombatRadiusWall": true,
+        "IgnoreStateInfo": {
+          "bIgnoreNoneCombatState": false,
+          "bIgnoreAlertState": false,
+          "bIgnoreWarningState": false,
+          "bIgnoreNormalReturnState": false
+        }
+      },
+      "ReturnDataAsset": {
+        "ObjectName": "DsReturnDataAsset'BaseReturnDataAsset'",
+        "ObjectPath": "DS/Content/Design/GameData/Common_DataAsset/ReturnDataAsset/BaseReturnDataAsset.0"
+      },
+      "LookAtActor": {
+        "ObjectName": "DHandIKTargetActorComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:HandIKTargetActorComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.4"
+      },
+      "BehaviorTreeLog_EDITOR": "\t\u0000\u0000\u0000\n\u0000\u0000\u0000\u0014\u0000\u0000",
+      "GrabComponent": {
+        "ObjectName": "DsMonsterStatComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:DsStatComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.25"
+      },
+      "ActionComponent": {
+        "ObjectName": "DsMonsterComboComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:DsComboComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.22"
+      },
+      "CombatComponent": {
+        "ObjectName": "DsMonsterMesmerizedComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:DsMesmerizedComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.24"
+      },
+      "HitCheckComponent": {
+        "ObjectName": "DsCharacterSkillComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:DsSkillComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.14"
+      },
+      "StatComponent": {
+        "ObjectName": "DsActionObjectControlComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:ActionObjectControlComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.6"
+      },
+      "ComboComponent": {
+        "ObjectName": "DsCharacterMountComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:DsMountComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.12"
+      },
+      "MesmerizedComponent": {
+        "ObjectName": "DsPhysicsComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:PhysicsComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.29"
+      },
+      "SkillComponent": {
+        "ObjectName": "DsTargetEffectComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:TargetEffectComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.33"
+      },
+      "SpringArmComponent": {
+        "ObjectName": "DsParabolaComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:ParabolaComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.27"
+      },
+      "MountingComponent": {
+        "ObjectName": "DsMonsterLookAtComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:LookAtComponent'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.23"
+      },
+      "NotifySummonComponent": null,
+      "NotifySummonedComponent": null,
+      "PhysicsComponent": null,
+      "CharacterBubbleWidgetComponent": null
+    }
+  },
+  {
+    "Type": "DsMonsterComboComponent",
+    "Name": "DsComboComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsMonsterComboComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsMonsterLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsMonsterLookAtComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsMonsterMesmerizedComponent",
+    "Name": "DsMesmerizedComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsMonsterMesmerizedComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "TargetMesAddPerDataMap": [
+        {
+          "Key": "EMesmerizedType::STUN",
+          "Value": {
+            "AddPerDataArray": [
+              {
+                "MesType": "EMesmerizedType::SHOCK",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::FIRE",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::POISON",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::BLEED",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::ICE",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::EMesmerizedType_MAX",
+                "AddPer": 5.0
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMesmerizedType::DOWN",
+          "Value": {
+            "AddPerDataArray": [
+              {
+                "MesType": "EMesmerizedType::SHOCK",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::FIRE",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::POISON",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::BLEED",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::ICE",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::EMesmerizedType_MAX",
+                "AddPer": 5.0
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMesmerizedType::AIR",
+          "Value": {
+            "AddPerDataArray": [
+              {
+                "MesType": "EMesmerizedType::SHOCK",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::FIRE",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::POISON",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::BLEED",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::ICE",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::EMesmerizedType_MAX",
+                "AddPer": 5.0
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EMesmerizedType::HOLD",
+          "Value": {
+            "AddPerDataArray": [
+              {
+                "MesType": "EMesmerizedType::SHOCK",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::FIRE",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::POISON",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::BLEED",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::ICE",
+                "AddPer": 2.0
+              },
+              {
+                "MesType": "EMesmerizedType::EMesmerizedType_MAX",
+                "AddPer": 5.0
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DsMonsterStatComponent",
+    "Name": "DsStatComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsMonsterStatComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsNPCInteractionComponent",
+    "Name": "NPCInreractionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsNPCInteractionComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsParabolaComponent",
+    "Name": "ParabolaComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsParabolaComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DSpawnableActorComponent",
+    "Name": "SpawnableCMP",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DSpawnableActorComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsPhysicsComponent",
+    "Name": "PhysicsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsPhysicsComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsRoamingComponent",
+    "Name": "RoamingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsRoamingComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsSkeletalMeshCompBudgeted",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsSkeletalMeshCompBudgeted'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'DsABP_ogre_slaughterer_v2_C'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Ogres/Ogre_slaughterer/DsABP_ogre_slaughterer_v2.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'mon_ogre_slaughterer_mesh_body'",
+        "ObjectPath": "DS/Content/Art/Character/Monster/DS_Ogres/Ogre_slaughterer/Meshs/mon_ogre_slaughterer_mesh_body.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'mon_ogre_slaughterer_mesh_body'",
+        "ObjectPath": "DS/Content/Art/Character/Monster/DS_Ogres/Ogre_slaughterer/Meshs/mon_ogre_slaughterer_mesh_body.1"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::AlwaysTickPoseAndRefreshBones",
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__DsMon_Ogre_slaughterer_Training_Ground_C:CollisionCylinder'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.1"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -150.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "DsSummonedComponent",
+    "Name": "SummonedComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsSummonedComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "DsTargetEffectComponent",
+    "Name": "TargetEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DsTargetEffectComponent'",
+    "Outer": {
+      "ObjectName": "DsMon_Ogre_slaughterer_Training_Ground_C'Default__DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.21"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'DsMon_Ogre_slaughterer_Training_Ground_C:SimpleConstructionScript_0'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'DsMon_Ogre_slaughterer_Training_Ground_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.34"
+      },
+      "VariableGuid": "BA4338A5-495A4604-4B9B48BC-1DAC9275",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'DsMon_Ogre_slaughterer_Training_Ground_C:SimpleConstructionScript_0'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.37"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DDefenceBoundCapsuleComponent'",
+        "ObjectPath": "/Script/DS"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DDefenceBoundCapsuleComponent'DsMon_Ogre_slaughterer_Training_Ground_C:DDefenceBoundCapsule_GEN_VARIABLE'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.3"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "158379CB-449E53B2-F05354B6-3F738B10",
+      "InternalVariableName": "DDefenceBoundCapsule"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DsMon_Ogre_slaughterer_Training_Ground_C'",
+      "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'DsMon_Ogre_slaughterer_Training_Ground_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.36"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'DsMon_Ogre_slaughterer_Training_Ground_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.36"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'DsMon_Ogre_slaughterer_Training_Ground_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "DS/Content/Design/DsCharacter/Monster/Training_Ground/DsMon_Ogre_slaughterer_Training_Ground.35"
+      }
+    }
+  }
+]
