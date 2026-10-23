@@ -1,6 +1,6 @@
 # Предварительный анализ боевой системы DragonSword: Awakening
 
-> **Навигация:** [README](README.md) · **Анализ боевой системы** · [Формулы урона](damage-research/DAMAGE_FORMULA.md) · [Перепроверка damage-research](damage-research/VERIFICATION.md) · Разборы героев: [Вероника](Veronica/VERONICA_SKILLS.md) · [Жером](Jerome/JEROME_SKILLS.md) · [Логан](Logan/LOGAN_SKILLS.md)
+> **Навигация:** [README](README.md) · **Анализ боевой системы** · [Формулы урона](damage-research/DAMAGE_FORMULA.md) · [Перепроверка damage-research](damage-research/VERIFICATION.md) · Разборы героев: [<img src="Veronica/Icon_Mark_Use_Veronica.png" width="32" /> Вероника](Veronica/VERONICA_SKILLS.md) · [<img src="Jerome/Icon_Mark_Use_Jerome.png" width="32" /> Жером](Jerome/JEROME_SKILLS.md) · [<img src="Logan/Icon_Mark_Use_Logan.png" width="32" /> Логан](Logan/LOGAN_SKILLS.md)
 
 Этот документ фиксирует выводы, которые можно подтвердить по текущим таблицам. Он намеренно не выдаёт предположительные joins или коэффициенты за окончательную формулу.
 
