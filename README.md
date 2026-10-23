@@ -4,7 +4,7 @@
 
 > **Статус документа:** схема построена по фактическим именам полей и примерам записей доступных таблиц. Там, где связь между таблицами ещё не доказана общим ключом, она помечена как гипотеза/требующая проверки. Числа `AttackWeight` и `DamageWeight` не следует автоматически считать процентами от ATK.
 
-> **Навигация:** **README** (таблицы и схема связей) · [Анализ боевой системы](COMBAT_DATA_ANALYSIS.md) · [Формулы урона](damage-research/DAMAGE_FORMULA.md) · [Перепроверка damage-research](damage-research/VERIFICATION.md) · Разборы героев: [Вероника](Veronica/VERONICA_SKILLS.md) · [Жером](Jerome/JEROME_SKILLS.md) · [Логан](Logan/LOGAN_SKILLS.md)
+> **Навигация:** **README** (таблицы и схема связей) · [Анализ боевой системы](COMBAT_DATA_ANALYSIS.md) · [Формулы урона](damage-research/DAMAGE_FORMULA.md) · [Перепроверка damage-research](damage-research/VERIFICATION.md) · Разборы героев: [<img src="Veronica/Icon_Mark_Use_Veronica.png" width="32" /> Вероника](Veronica/VERONICA_SKILLS.md) · [<img src="Jerome/Icon_Mark_Use_Jerome.png" width="32" /> Жером](Jerome/JEROME_SKILLS.md) · [<img src="Logan/Icon_Mark_Use_Logan.png" width="32" /> Логан](Logan/LOGAN_SKILLS.md)
 
 ## Содержание
 
