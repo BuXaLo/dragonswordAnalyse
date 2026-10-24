@@ -34,19 +34,9 @@
 
 Нет: исполняемого файла и дампа Ghidra (формулы характеристик, константы конструктора) и DataAsset (длительность Заморозки, интервал тиков).
 
-Таблицы из `table_list.txt`, которых ещё нет в `game-data/` и которые закрыли бы открытые вопросы:
+Выгружены и использованы: `ApplyMesGroupData`, `MesmerizedControlTypeData`, `StatMultiplayAdjustData`, `GameBuffCategoryData` (только категории иконок). Не разбирались (не нужны для формул урона по цели): `MonsterComboData`, `MonsterLevelData`, `MonsterScalingStatData`, `EquipmentStatData`, `SubStatPoolData`, `GemStatData`. Характеристики героя (атака, крит, игнор защиты и т. д.) берутся из панели игры как готовые значения, поэтому таблицы экипировки в разборе не используются.
 
-| Таблица | Что она закрыла бы |
-|---|---|
-| `StatMultiplayAdjustData` | масштаб мультиплеера: `MultiplayAdjust_ID` 101–105 и 110 у Усмирения, 201 у рейдов |
-| `MesmerizedControlTypeData`, `ApplyMesGroupData` | правила наложения статусов (`MesmerizedDataControlTypeID`, `ApplyMesGroupID`); смысл общей группы Огня и Яда |
-| `GameBuffCategoryData` | категории баффов и правила их сочетания (у срезов защиты встречаются категории 200001 и 200002) |
-| `MonsterComboData` | параметры атак боссов (вместе с `MonsterActionDamageData.csv`) |
-| `MonsterLevelData`, `MonsterLevelSettingData`, `MonsterScalingStatData`, `ScalingStatData` | статы монстров с `Stat_Type = Dynamic` (2267 записей) |
-| `EquipmentStatData`, `EquipmentMainStatData`, `SubStatGroupData`, `SubStatPoolData`, `GemStatData`, `MainStatGrowData`, `AscendStatData`, `StatAscendData` | откуда берутся характеристики героя (бонусы сетов, камни) |
-| `PartsStatData` | статы частей боссов (`PartsStatID_1…4`) |
-
-`MonsterStatData` и `MonsterCharacterData` для проверки множителей по статусам достаточны.
+`MonsterStatData`, `MonsterCharacterData` и `ApplyMesGroupData` для проверки множителей и связей между статусами достаточны.
 
 ## 3. Что подтвердилось
 
@@ -70,7 +60,7 @@
 
 ### 4.1 «Реакции стихий»
 
-Универсальных реакций «Огонь по Яду +50 %», «Шок по Воде +100 %» в таблицах нет. Эти значения лежат в `GameBuffData` как баффы отдельных монстров (`ATTACKED_MES_ADD_PER`) и усиливают набор шкалы статуса, а не урон (жуки-шлемоносцы: баффы 1194, 1200, 1201, 1202; Энт «мокрый»: 1164). Подробно — в [DAMAGE_FORMULA.md](DAMAGE_FORMULA.md), раздел 4.
+Универсальных реакций «Огонь по Яду +50 %», «Шок по Воде +100 %» в таблицах нет. Эти значения лежат в `GameBuffData` как баффы отдельных монстров (`ATTACKED_MES_ADD_PER`) и усиливают набор шкалы статуса, а не урон (жуки-шлемоносцы: баффы 1194, 1200, 1201, 1202; Энт «мокрый»: 1164). Подробно — в [DAMAGE_FORMULA.md](DAMAGE_FORMULA.md), раздел 4. Единственная связь между статусами в данных — перетекание шкал (`ApplyMesGroupData`, раздел 4.3): при наложении Огня, Яда, Шока и других шкалы контроля растут на +0.5 (группа 1, у всех боссов Усмирения и рейдов). Множителей урона от сочетания стихий нет.
 
 ## 5. Таблица боссов
 
