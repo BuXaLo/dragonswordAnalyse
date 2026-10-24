@@ -1,0 +1,504 @@
+﻿{
+  "Data": {
+    "1": {
+      "MonsterLevel": 1,
+      "ID": 1,
+      "MonsterRatio": 0.00857
+    },
+    "2": {
+      "MonsterLevel": 2,
+      "ID": 2,
+      "MonsterRatio": 0.01025
+    },
+    "3": {
+      "MonsterLevel": 3,
+      "ID": 3,
+      "MonsterRatio": 0.01179
+    },
+    "4": {
+      "MonsterLevel": 4,
+      "ID": 4,
+      "MonsterRatio": 0.0132
+    },
+    "5": {
+      "MonsterLevel": 5,
+      "ID": 5,
+      "MonsterRatio": 0.01446
+    },
+    "6": {
+      "MonsterLevel": 6,
+      "ID": 6,
+      "MonsterRatio": 0.0156
+    },
+    "7": {
+      "MonsterLevel": 7,
+      "ID": 7,
+      "MonsterRatio": 0.01659
+    },
+    "8": {
+      "MonsterLevel": 8,
+      "ID": 8,
+      "MonsterRatio": 0.01745
+    },
+    "9": {
+      "MonsterLevel": 9,
+      "ID": 9,
+      "MonsterRatio": 0.01816
+    },
+    "10": {
+      "MonsterLevel": 10,
+      "ID": 10,
+      "MonsterRatio": 0.0221
+    },
+    "11": {
+      "MonsterLevel": 11,
+      "ID": 11,
+      "MonsterRatio": 0.02532
+    },
+    "12": {
+      "MonsterLevel": 12,
+      "ID": 12,
+      "MonsterRatio": 0.02877
+    },
+    "13": {
+      "MonsterLevel": 13,
+      "ID": 13,
+      "MonsterRatio": 0.03243
+    },
+    "14": {
+      "MonsterLevel": 14,
+      "ID": 14,
+      "MonsterRatio": 0.03633
+    },
+    "15": {
+      "MonsterLevel": 15,
+      "ID": 15,
+      "MonsterRatio": 0.04046
+    },
+    "16": {
+      "MonsterLevel": 16,
+      "ID": 16,
+      "MonsterRatio": 0.04482
+    },
+    "17": {
+      "MonsterLevel": 17,
+      "ID": 17,
+      "MonsterRatio": 0.04942
+    },
+    "18": {
+      "MonsterLevel": 18,
+      "ID": 18,
+      "MonsterRatio": 0.05426
+    },
+    "19": {
+      "MonsterLevel": 19,
+      "ID": 19,
+      "MonsterRatio": 0.05934
+    },
+    "20": {
+      "MonsterLevel": 20,
+      "ID": 20,
+      "MonsterRatio": 0.07841
+    },
+    "21": {
+      "MonsterLevel": 21,
+      "ID": 21,
+      "MonsterRatio": 0.08872
+    },
+    "22": {
+      "MonsterLevel": 22,
+      "ID": 22,
+      "MonsterRatio": 0.09531
+    },
+    "23": {
+      "MonsterLevel": 23,
+      "ID": 23,
+      "MonsterRatio": 0.10216
+    },
+    "24": {
+      "MonsterLevel": 24,
+      "ID": 24,
+      "MonsterRatio": 0.10926
+    },
+    "25": {
+      "MonsterLevel": 25,
+      "ID": 25,
+      "MonsterRatio": 0.11663
+    },
+    "26": {
+      "MonsterLevel": 26,
+      "ID": 26,
+      "MonsterRatio": 0.12427
+    },
+    "27": {
+      "MonsterLevel": 27,
+      "ID": 27,
+      "MonsterRatio": 0.13218
+    },
+    "28": {
+      "MonsterLevel": 28,
+      "ID": 28,
+      "MonsterRatio": 0.14035
+    },
+    "29": {
+      "MonsterLevel": 29,
+      "ID": 29,
+      "MonsterRatio": 0.14883
+    },
+    "30": {
+      "MonsterLevel": 30,
+      "ID": 30,
+      "MonsterRatio": 0.18561
+    },
+    "31": {
+      "MonsterLevel": 31,
+      "ID": 31,
+      "MonsterRatio": 0.20268
+    },
+    "32": {
+      "MonsterLevel": 32,
+      "ID": 32,
+      "MonsterRatio": 0.21383
+    },
+    "33": {
+      "MonsterLevel": 33,
+      "ID": 33,
+      "MonsterRatio": 0.2257
+    },
+    "34": {
+      "MonsterLevel": 34,
+      "ID": 34,
+      "MonsterRatio": 0.23833
+    },
+    "35": {
+      "MonsterLevel": 35,
+      "ID": 35,
+      "MonsterRatio": 0.25174
+    },
+    "36": {
+      "MonsterLevel": 36,
+      "ID": 36,
+      "MonsterRatio": 0.26594
+    },
+    "37": {
+      "MonsterLevel": 37,
+      "ID": 37,
+      "MonsterRatio": 0.28103
+    },
+    "38": {
+      "MonsterLevel": 38,
+      "ID": 38,
+      "MonsterRatio": 0.29696
+    },
+    "39": {
+      "MonsterLevel": 39,
+      "ID": 39,
+      "MonsterRatio": 0.31384
+    },
+    "40": {
+      "MonsterLevel": 40,
+      "ID": 40,
+      "MonsterRatio": 0.37101
+    },
+    "41": {
+      "MonsterLevel": 41,
+      "ID": 41,
+      "MonsterRatio": 0.40226
+    },
+    "42": {
+      "MonsterLevel": 42,
+      "ID": 42,
+      "MonsterRatio": 0.42395
+    },
+    "43": {
+      "MonsterLevel": 43,
+      "ID": 43,
+      "MonsterRatio": 0.44679
+    },
+    "44": {
+      "MonsterLevel": 44,
+      "ID": 44,
+      "MonsterRatio": 0.47077
+    },
+    "45": {
+      "MonsterLevel": 45,
+      "ID": 45,
+      "MonsterRatio": 0.49596
+    },
+    "46": {
+      "MonsterLevel": 46,
+      "ID": 46,
+      "MonsterRatio": 0.52243
+    },
+    "47": {
+      "MonsterLevel": 47,
+      "ID": 47,
+      "MonsterRatio": 0.55016
+    },
+    "48": {
+      "MonsterLevel": 48,
+      "ID": 48,
+      "MonsterRatio": 0.57919
+    },
+    "49": {
+      "MonsterLevel": 49,
+      "ID": 49,
+      "MonsterRatio": 0.60962
+    },
+    "50": {
+      "MonsterLevel": 50,
+      "ID": 50,
+      "MonsterRatio": 0.66982
+    },
+    "51": {
+      "MonsterLevel": 51,
+      "ID": 51,
+      "MonsterRatio": 0.70015
+    },
+    "52": {
+      "MonsterLevel": 52,
+      "ID": 52,
+      "MonsterRatio": 0.71359
+    },
+    "53": {
+      "MonsterLevel": 53,
+      "ID": 53,
+      "MonsterRatio": 0.72718
+    },
+    "54": {
+      "MonsterLevel": 54,
+      "ID": 54,
+      "MonsterRatio": 0.74087
+    },
+    "55": {
+      "MonsterLevel": 55,
+      "ID": 55,
+      "MonsterRatio": 0.75473
+    },
+    "56": {
+      "MonsterLevel": 56,
+      "ID": 56,
+      "MonsterRatio": 0.76873
+    },
+    "57": {
+      "MonsterLevel": 57,
+      "ID": 57,
+      "MonsterRatio": 0.78287
+    },
+    "58": {
+      "MonsterLevel": 58,
+      "ID": 58,
+      "MonsterRatio": 0.79717
+    },
+    "59": {
+      "MonsterLevel": 59,
+      "ID": 59,
+      "MonsterRatio": 0.81161
+    },
+    "60": {
+      "MonsterLevel": 60,
+      "ID": 60,
+      "MonsterRatio": 0.8262
+    },
+    "61": {
+      "MonsterLevel": 61,
+      "ID": 61,
+      "MonsterRatio": 0.85986
+    },
+    "62": {
+      "MonsterLevel": 62,
+      "ID": 62,
+      "MonsterRatio": 0.87477
+    },
+    "63": {
+      "MonsterLevel": 63,
+      "ID": 63,
+      "MonsterRatio": 0.88984
+    },
+    "64": {
+      "MonsterLevel": 64,
+      "ID": 64,
+      "MonsterRatio": 0.90508
+    },
+    "65": {
+      "MonsterLevel": 65,
+      "ID": 65,
+      "MonsterRatio": 0.92047
+    },
+    "66": {
+      "MonsterLevel": 66,
+      "ID": 66,
+      "MonsterRatio": 0.93602
+    },
+    "67": {
+      "MonsterLevel": 67,
+      "ID": 67,
+      "MonsterRatio": 0.95177
+    },
+    "68": {
+      "MonsterLevel": 68,
+      "ID": 68,
+      "MonsterRatio": 0.96766
+    },
+    "69": {
+      "MonsterLevel": 69,
+      "ID": 69,
+      "MonsterRatio": 0.98373
+    },
+    "70": {
+      "MonsterLevel": 70,
+      "ID": 70,
+      "MonsterRatio": 1
+    },
+    "71": {
+      "MonsterLevel": 71,
+      "ID": 71,
+      "MonsterRatio": 1.04477
+    },
+    "72": {
+      "MonsterLevel": 72,
+      "ID": 72,
+      "MonsterRatio": 1.09067
+    },
+    "73": {
+      "MonsterLevel": 73,
+      "ID": 73,
+      "MonsterRatio": 1.1377
+    },
+    "74": {
+      "MonsterLevel": 74,
+      "ID": 74,
+      "MonsterRatio": 1.18587
+    },
+    "75": {
+      "MonsterLevel": 75,
+      "ID": 75,
+      "MonsterRatio": 1.2352
+    },
+    "76": {
+      "MonsterLevel": 76,
+      "ID": 76,
+      "MonsterRatio": 1.2857
+    },
+    "77": {
+      "MonsterLevel": 77,
+      "ID": 77,
+      "MonsterRatio": 1.33743
+    },
+    "78": {
+      "MonsterLevel": 78,
+      "ID": 78,
+      "MonsterRatio": 1.39037
+    },
+    "79": {
+      "MonsterLevel": 79,
+      "ID": 79,
+      "MonsterRatio": 1.44456
+    },
+    "80": {
+      "MonsterLevel": 80,
+      "ID": 80,
+      "MonsterRatio": 1.5
+    },
+    "81": {
+      "MonsterLevel": 81,
+      "ID": 81,
+      "MonsterRatio": 1.54822
+    },
+    "82": {
+      "MonsterLevel": 82,
+      "ID": 82,
+      "MonsterRatio": 1.59683
+    },
+    "83": {
+      "MonsterLevel": 83,
+      "ID": 83,
+      "MonsterRatio": 1.64584
+    },
+    "84": {
+      "MonsterLevel": 84,
+      "ID": 84,
+      "MonsterRatio": 1.69524
+    },
+    "85": {
+      "MonsterLevel": 85,
+      "ID": 85,
+      "MonsterRatio": 1.74504
+    },
+    "86": {
+      "MonsterLevel": 86,
+      "ID": 86,
+      "MonsterRatio": 1.79524
+    },
+    "87": {
+      "MonsterLevel": 87,
+      "ID": 87,
+      "MonsterRatio": 1.84584
+    },
+    "88": {
+      "MonsterLevel": 88,
+      "ID": 88,
+      "MonsterRatio": 1.89683
+    },
+    "89": {
+      "MonsterLevel": 89,
+      "ID": 89,
+      "MonsterRatio": 1.94821
+    },
+    "90": {
+      "MonsterLevel": 90,
+      "ID": 90,
+      "MonsterRatio": 2
+    },
+    "91": {
+      "MonsterLevel": 91,
+      "ID": 91,
+      "MonsterRatio": 2.04837
+    },
+    "92": {
+      "MonsterLevel": 92,
+      "ID": 92,
+      "MonsterRatio": 2.09711
+    },
+    "93": {
+      "MonsterLevel": 93,
+      "ID": 93,
+      "MonsterRatio": 2.1462
+    },
+    "94": {
+      "MonsterLevel": 94,
+      "ID": 94,
+      "MonsterRatio": 2.19566
+    },
+    "95": {
+      "MonsterLevel": 95,
+      "ID": 95,
+      "MonsterRatio": 2.24548
+    },
+    "96": {
+      "MonsterLevel": 96,
+      "ID": 96,
+      "MonsterRatio": 2.29566
+    },
+    "97": {
+      "MonsterLevel": 97,
+      "ID": 97,
+      "MonsterRatio": 2.3462
+    },
+    "98": {
+      "MonsterLevel": 98,
+      "ID": 98,
+      "MonsterRatio": 2.39711
+    },
+    "99": {
+      "MonsterLevel": 99,
+      "ID": 99,
+      "MonsterRatio": 2.44837
+    },
+    "100": {
+      "MonsterLevel": 100,
+      "ID": 100,
+      "MonsterRatio": 2.5
+    }
+  }
+}

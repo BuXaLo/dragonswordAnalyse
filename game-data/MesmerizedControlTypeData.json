@@ -1,0 +1,52 @@
+﻿{
+  "Data": {
+    "1": {
+      "TableUID": 1,
+      "MesRecoveryDelay": 40,
+      "MesRecoveryTime": 4.5,
+      "MesBlinkStartTime": 32
+    },
+    "2": {
+      "TableUID": 2,
+      "MesRecoveryDelay": 40,
+      "MesRecoveryTime": 4.5,
+      "MesBlinkStartTime": 32
+    },
+    "3": {
+      "TableUID": 3,
+      "MesRecoveryDelay": 40,
+      "MesRecoveryTime": 4.5,
+      "MesBlinkStartTime": 32
+    },
+    "4": {
+      "TableUID": 4,
+      "MesRecoveryDelay": 40,
+      "MesRecoveryTime": 4.5,
+      "MesBlinkStartTime": 32
+    },
+    "5": {
+      "TableUID": 5,
+      "MesRecoveryDelay": 40,
+      "MesRecoveryTime": 4.5,
+      "MesBlinkStartTime": 32
+    },
+    "6": {
+      "TableUID": 6,
+      "MesRecoveryDelay": 30,
+      "MesRecoveryTime": 4.5,
+      "MesBlinkStartTime": 22
+    },
+    "7": {
+      "TableUID": 7,
+      "MesRecoveryDelay": 30,
+      "MesRecoveryTime": 4.5,
+      "MesBlinkStartTime": 22
+    },
+    "8": {
+      "TableUID": 8,
+      "MesRecoveryDelay": 20,
+      "MesRecoveryTime": 4.5,
+      "MesBlinkStartTime": 12
+    }
+  }
+}

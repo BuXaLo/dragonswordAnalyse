@@ -1,0 +1,4989 @@
+﻿{
+  "Data": {
+    "50101": {
+      "ID": 50101,
+      "StatType": "Attack",
+      "RandomStatValue": [107, 96, 64, 54, 43]
+    },
+    "50102": {
+      "ID": 50102,
+      "StatType": "HP",
+      "RandomStatValue": [1153, 1038, 692, 577, 461]
+    },
+    "50103": {
+      "ID": 50103,
+      "StatType": "Defence",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "50201": {
+      "ID": 50201,
+      "StatType": "Attack",
+      "RandomStatValue": [107, 96, 64, 54, 43]
+    },
+    "50202": {
+      "ID": 50202,
+      "StatType": "HP",
+      "RandomStatValue": [1153, 1038, 692, 577, 461]
+    },
+    "50203": {
+      "ID": 50203,
+      "StatType": "Defence",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "50301": {
+      "ID": 50301,
+      "StatType": "Attack",
+      "RandomStatValue": [107, 96, 64, 54, 43]
+    },
+    "50302": {
+      "ID": 50302,
+      "StatType": "HP",
+      "RandomStatValue": [1153, 1038, 692, 577, 461]
+    },
+    "50303": {
+      "ID": 50303,
+      "StatType": "Defence",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "50401": {
+      "ID": 50401,
+      "StatType": "Attack",
+      "RandomStatValue": [107, 96, 64, 54, 43]
+    },
+    "50402": {
+      "ID": 50402,
+      "StatType": "HP",
+      "RandomStatValue": [1153, 1038, 692, 577, 461]
+    },
+    "50403": {
+      "ID": 50403,
+      "StatType": "Defence",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "50424": {
+      "ID": 50424,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50425": {
+      "ID": 50425,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50426": {
+      "ID": 50426,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50427": {
+      "ID": 50427,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50428": {
+      "ID": 50428,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50429": {
+      "ID": 50429,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50430": {
+      "ID": 50430,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50431": {
+      "ID": 50431,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50432": {
+      "ID": 50432,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50501": {
+      "ID": 50501,
+      "StatType": "Attack",
+      "RandomStatValue": [107, 96, 64, 54, 43]
+    },
+    "50502": {
+      "ID": 50502,
+      "StatType": "HP",
+      "RandomStatValue": [1153, 1038, 692, 577, 461]
+    },
+    "50503": {
+      "ID": 50503,
+      "StatType": "Defence",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "50524": {
+      "ID": 50524,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50525": {
+      "ID": 50525,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50526": {
+      "ID": 50526,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50527": {
+      "ID": 50527,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50528": {
+      "ID": 50528,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50529": {
+      "ID": 50529,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50530": {
+      "ID": 50530,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50531": {
+      "ID": 50531,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50532": {
+      "ID": 50532,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [71, 64, 43, 36, 28]
+    },
+    "50511": {
+      "ID": 50511,
+      "StatType": "Defence_Negation_Per",
+      "RandomStatValue": [0.16, 0.144, 0.096, 0.08, 0.064]
+    },
+    "50512": {
+      "ID": 50512,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [65, 59, 39, 33, 26]
+    },
+    "51101": {
+      "ID": 51101,
+      "StatType": "Attack",
+      "RandomStatValue": [96, 86, 58, 48, 38]
+    },
+    "51102": {
+      "ID": 51102,
+      "StatType": "HP",
+      "RandomStatValue": [1038, 934, 623, 519, 415]
+    },
+    "51103": {
+      "ID": 51103,
+      "StatType": "Defence",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "51201": {
+      "ID": 51201,
+      "StatType": "Attack",
+      "RandomStatValue": [96, 86, 58, 48, 38]
+    },
+    "51202": {
+      "ID": 51202,
+      "StatType": "HP",
+      "RandomStatValue": [1038, 934, 623, 519, 415]
+    },
+    "51203": {
+      "ID": 51203,
+      "StatType": "Defence",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "51301": {
+      "ID": 51301,
+      "StatType": "Attack",
+      "RandomStatValue": [96, 86, 58, 48, 38]
+    },
+    "51302": {
+      "ID": 51302,
+      "StatType": "HP",
+      "RandomStatValue": [1038, 934, 623, 519, 415]
+    },
+    "51303": {
+      "ID": 51303,
+      "StatType": "Defence",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "51401": {
+      "ID": 51401,
+      "StatType": "Attack",
+      "RandomStatValue": [96, 86, 58, 48, 38]
+    },
+    "51402": {
+      "ID": 51402,
+      "StatType": "HP",
+      "RandomStatValue": [1038, 934, 623, 519, 415]
+    },
+    "51403": {
+      "ID": 51403,
+      "StatType": "Defence",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "51424": {
+      "ID": 51424,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51425": {
+      "ID": 51425,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51426": {
+      "ID": 51426,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51427": {
+      "ID": 51427,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51428": {
+      "ID": 51428,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51429": {
+      "ID": 51429,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51430": {
+      "ID": 51430,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51431": {
+      "ID": 51431,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51432": {
+      "ID": 51432,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51501": {
+      "ID": 51501,
+      "StatType": "Attack",
+      "RandomStatValue": [96, 86, 58, 48, 38]
+    },
+    "51502": {
+      "ID": 51502,
+      "StatType": "HP",
+      "RandomStatValue": [1038, 934, 623, 519, 415]
+    },
+    "51503": {
+      "ID": 51503,
+      "StatType": "Defence",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "51524": {
+      "ID": 51524,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51525": {
+      "ID": 51525,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51526": {
+      "ID": 51526,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51527": {
+      "ID": 51527,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51528": {
+      "ID": 51528,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51529": {
+      "ID": 51529,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51530": {
+      "ID": 51530,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51531": {
+      "ID": 51531,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51532": {
+      "ID": 51532,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [64, 58, 38, 32, 26]
+    },
+    "51511": {
+      "ID": 51511,
+      "StatType": "Defence_Negation_Per",
+      "RandomStatValue": [0.15, 0.135, 0.09, 0.075, 0.06]
+    },
+    "51512": {
+      "ID": 51512,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "52101": {
+      "ID": 52101,
+      "StatType": "Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "52102": {
+      "ID": 52102,
+      "StatType": "HP",
+      "RandomStatValue": [865, 779, 519, 433, 346]
+    },
+    "52103": {
+      "ID": 52103,
+      "StatType": "Defence",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "52201": {
+      "ID": 52201,
+      "StatType": "Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "52202": {
+      "ID": 52202,
+      "StatType": "HP",
+      "RandomStatValue": [865, 779, 519, 433, 346]
+    },
+    "52203": {
+      "ID": 52203,
+      "StatType": "Defence",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "52301": {
+      "ID": 52301,
+      "StatType": "Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "52302": {
+      "ID": 52302,
+      "StatType": "HP",
+      "RandomStatValue": [865, 779, 519, 433, 346]
+    },
+    "52303": {
+      "ID": 52303,
+      "StatType": "Defence",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "52307": {
+      "ID": 52307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.11, 0.099, 0.066, 0.055, 0.044]
+    },
+    "52308": {
+      "ID": 52308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.13, 0.117, 0.078, 0.065, 0.052]
+    },
+    "52309": {
+      "ID": 52309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.12, 0.108, 0.072, 0.06, 0.048]
+    },
+    "52310": {
+      "ID": 52310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.14, 0.126, 0.084, 0.07, 0.056]
+    },
+    "52401": {
+      "ID": 52401,
+      "StatType": "Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "52402": {
+      "ID": 52402,
+      "StatType": "HP",
+      "RandomStatValue": [865, 779, 519, 433, 346]
+    },
+    "52403": {
+      "ID": 52403,
+      "StatType": "Defence",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "52407": {
+      "ID": 52407,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.11, 0.099, 0.066, 0.055, 0.044]
+    },
+    "52408": {
+      "ID": 52408,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.13, 0.117, 0.078, 0.065, 0.052]
+    },
+    "52409": {
+      "ID": 52409,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.12, 0.108, 0.072, 0.06, 0.048]
+    },
+    "52410": {
+      "ID": 52410,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.14, 0.126, 0.084, 0.07, 0.056]
+    },
+    "52501": {
+      "ID": 52501,
+      "StatType": "Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "52502": {
+      "ID": 52502,
+      "StatType": "HP",
+      "RandomStatValue": [865, 779, 519, 433, 346]
+    },
+    "52503": {
+      "ID": 52503,
+      "StatType": "Defence",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "52507": {
+      "ID": 52507,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.11, 0.099, 0.066, 0.055, 0.044]
+    },
+    "52508": {
+      "ID": 52508,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.13, 0.117, 0.078, 0.065, 0.052]
+    },
+    "52509": {
+      "ID": 52509,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.12, 0.108, 0.072, 0.06, 0.048]
+    },
+    "52510": {
+      "ID": 52510,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.14, 0.126, 0.084, 0.07, 0.056]
+    },
+    "53101": {
+      "ID": 53101,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "53102": {
+      "ID": 53102,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "53103": {
+      "ID": 53103,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "53201": {
+      "ID": 53201,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "53202": {
+      "ID": 53202,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "53203": {
+      "ID": 53203,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "53301": {
+      "ID": 53301,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "53302": {
+      "ID": 53302,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "53303": {
+      "ID": 53303,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "53307": {
+      "ID": 53307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "53308": {
+      "ID": 53308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "53309": {
+      "ID": 53309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "53310": {
+      "ID": 53310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.1, 0.09, 0.06, 0.05, 0.04]
+    },
+    "53401": {
+      "ID": 53401,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "53402": {
+      "ID": 53402,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "53403": {
+      "ID": 53403,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "53407": {
+      "ID": 53407,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "53408": {
+      "ID": 53408,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "53409": {
+      "ID": 53409,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "53410": {
+      "ID": 53410,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.1, 0.09, 0.06, 0.05, 0.04]
+    },
+    "53501": {
+      "ID": 53501,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "53502": {
+      "ID": 53502,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "53503": {
+      "ID": 53503,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "53507": {
+      "ID": 53507,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "53508": {
+      "ID": 53508,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "53509": {
+      "ID": 53509,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "53510": {
+      "ID": 53510,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.1, 0.09, 0.06, 0.05, 0.04]
+    },
+    "53511": {
+      "ID": 53511,
+      "StatType": "Defence_Negation_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "53512": {
+      "ID": 53512,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [35, 32, 21, 18, 14]
+    },
+    "54101": {
+      "ID": 54101,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "54102": {
+      "ID": 54102,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "54103": {
+      "ID": 54103,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "54201": {
+      "ID": 54201,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "54202": {
+      "ID": 54202,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "54203": {
+      "ID": 54203,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "54301": {
+      "ID": 54301,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "54302": {
+      "ID": 54302,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "54303": {
+      "ID": 54303,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "54307": {
+      "ID": 54307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "54308": {
+      "ID": 54308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "54309": {
+      "ID": 54309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "54310": {
+      "ID": 54310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.1, 0.09, 0.06, 0.05, 0.04]
+    },
+    "54401": {
+      "ID": 54401,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "54402": {
+      "ID": 54402,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "54403": {
+      "ID": 54403,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "54407": {
+      "ID": 54407,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "54408": {
+      "ID": 54408,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "54409": {
+      "ID": 54409,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "54410": {
+      "ID": 54410,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.1, 0.09, 0.06, 0.05, 0.04]
+    },
+    "54501": {
+      "ID": 54501,
+      "StatType": "Attack",
+      "RandomStatValue": [58, 52, 35, 29, 23]
+    },
+    "54502": {
+      "ID": 54502,
+      "StatType": "HP",
+      "RandomStatValue": [634, 571, 380, 317, 254]
+    },
+    "54503": {
+      "ID": 54503,
+      "StatType": "Defence",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "54507": {
+      "ID": 54507,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "54508": {
+      "ID": 54508,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "54509": {
+      "ID": 54509,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "54510": {
+      "ID": 54510,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.1, 0.09, 0.06, 0.05, 0.04]
+    },
+    "40101": {
+      "ID": 40101,
+      "StatType": "Attack",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "40102": {
+      "ID": 40102,
+      "StatType": "HP",
+      "RandomStatValue": [807, 726, 484, 404, 323]
+    },
+    "40103": {
+      "ID": 40103,
+      "StatType": "Defence",
+      "RandomStatValue": [52, 47, 31, 26, 21]
+    },
+    "40201": {
+      "ID": 40201,
+      "StatType": "Attack",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "40202": {
+      "ID": 40202,
+      "StatType": "HP",
+      "RandomStatValue": [807, 726, 484, 404, 323]
+    },
+    "40203": {
+      "ID": 40203,
+      "StatType": "Defence",
+      "RandomStatValue": [52, 47, 31, 26, 21]
+    },
+    "40301": {
+      "ID": 40301,
+      "StatType": "Attack",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "40302": {
+      "ID": 40302,
+      "StatType": "HP",
+      "RandomStatValue": [807, 726, 484, 404, 323]
+    },
+    "40303": {
+      "ID": 40303,
+      "StatType": "Defence",
+      "RandomStatValue": [52, 47, 31, 26, 21]
+    },
+    "40401": {
+      "ID": 40401,
+      "StatType": "Attack",
+      "RandomStatValue": [75, 68, 45, 38, 30]
+    },
+    "40402": {
+      "ID": 40402,
+      "StatType": "HP",
+      "RandomStatValue": [807, 726, 484, 404, 323]
+    },
+    "40403": {
+      "ID": 40403,
+      "StatType": "Defence",
+      "RandomStatValue": [52, 47, 31, 26, 21]
+    },
+    "40424": {
+      "ID": 40424,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "40425": {
+      "ID": 40425,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "40426": {
+      "ID": 40426,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "40427": {
+      "ID": 40427,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "40428": {
+      "ID": 40428,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "40429": {
+      "ID": 40429,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "40430": {
+      "ID": 40430,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "40431": {
+      "ID": 40431,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "40432": {
+      "ID": 40432,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "41101": {
+      "ID": 41101,
+      "StatType": "Attack",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "41102": {
+      "ID": 41102,
+      "StatType": "HP",
+      "RandomStatValue": [726, 653, 436, 363, 290]
+    },
+    "41103": {
+      "ID": 41103,
+      "StatType": "Defence",
+      "RandomStatValue": [47, 42, 28, 24, 19]
+    },
+    "41201": {
+      "ID": 41201,
+      "StatType": "Attack",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "41202": {
+      "ID": 41202,
+      "StatType": "HP",
+      "RandomStatValue": [726, 653, 436, 363, 290]
+    },
+    "41203": {
+      "ID": 41203,
+      "StatType": "Defence",
+      "RandomStatValue": [47, 42, 28, 24, 19]
+    },
+    "41301": {
+      "ID": 41301,
+      "StatType": "Attack",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "41302": {
+      "ID": 41302,
+      "StatType": "HP",
+      "RandomStatValue": [726, 653, 436, 363, 290]
+    },
+    "41303": {
+      "ID": 41303,
+      "StatType": "Defence",
+      "RandomStatValue": [47, 42, 28, 24, 19]
+    },
+    "41401": {
+      "ID": 41401,
+      "StatType": "Attack",
+      "RandomStatValue": [67, 60, 40, 34, 27]
+    },
+    "41402": {
+      "ID": 41402,
+      "StatType": "HP",
+      "RandomStatValue": [726, 653, 436, 363, 290]
+    },
+    "41403": {
+      "ID": 41403,
+      "StatType": "Defence",
+      "RandomStatValue": [47, 42, 28, 24, 19]
+    },
+    "41424": {
+      "ID": 41424,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "41425": {
+      "ID": 41425,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "41426": {
+      "ID": 41426,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "41427": {
+      "ID": 41427,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "41428": {
+      "ID": 41428,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "41429": {
+      "ID": 41429,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "41430": {
+      "ID": 41430,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "41431": {
+      "ID": 41431,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "41432": {
+      "ID": 41432,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [45, 41, 27, 23, 18]
+    },
+    "42101": {
+      "ID": 42101,
+      "StatType": "Attack",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "42102": {
+      "ID": 42102,
+      "StatType": "HP",
+      "RandomStatValue": [605, 545, 363, 303, 242]
+    },
+    "42103": {
+      "ID": 42103,
+      "StatType": "Defence",
+      "RandomStatValue": [39, 35, 23, 20, 16]
+    },
+    "42201": {
+      "ID": 42201,
+      "StatType": "Attack",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "42202": {
+      "ID": 42202,
+      "StatType": "HP",
+      "RandomStatValue": [605, 545, 363, 303, 242]
+    },
+    "42203": {
+      "ID": 42203,
+      "StatType": "Defence",
+      "RandomStatValue": [39, 35, 23, 20, 16]
+    },
+    "42301": {
+      "ID": 42301,
+      "StatType": "Attack",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "42302": {
+      "ID": 42302,
+      "StatType": "HP",
+      "RandomStatValue": [605, 545, 363, 303, 242]
+    },
+    "42303": {
+      "ID": 42303,
+      "StatType": "Defence",
+      "RandomStatValue": [39, 35, 23, 20, 16]
+    },
+    "42307": {
+      "ID": 42307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "42308": {
+      "ID": 42308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "42309": {
+      "ID": 42309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "42310": {
+      "ID": 42310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "42401": {
+      "ID": 42401,
+      "StatType": "Attack",
+      "RandomStatValue": [56, 50, 34, 28, 22]
+    },
+    "42402": {
+      "ID": 42402,
+      "StatType": "HP",
+      "RandomStatValue": [605, 545, 363, 303, 242]
+    },
+    "42403": {
+      "ID": 42403,
+      "StatType": "Defence",
+      "RandomStatValue": [39, 35, 23, 20, 16]
+    },
+    "42407": {
+      "ID": 42407,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "42408": {
+      "ID": 42408,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "42409": {
+      "ID": 42409,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.08, 0.072, 0.048, 0.04, 0.032]
+    },
+    "42410": {
+      "ID": 42410,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.09, 0.081, 0.054, 0.045, 0.036]
+    },
+    "43101": {
+      "ID": 43101,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "43102": {
+      "ID": 43102,
+      "StatType": "HP",
+      "RandomStatValue": [444, 400, 266, 222, 178]
+    },
+    "43103": {
+      "ID": 43103,
+      "StatType": "Defence",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "43201": {
+      "ID": 43201,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "43202": {
+      "ID": 43202,
+      "StatType": "HP",
+      "RandomStatValue": [444, 400, 266, 222, 178]
+    },
+    "43203": {
+      "ID": 43203,
+      "StatType": "Defence",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "43301": {
+      "ID": 43301,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "43302": {
+      "ID": 43302,
+      "StatType": "HP",
+      "RandomStatValue": [444, 400, 266, 222, 178]
+    },
+    "43303": {
+      "ID": 43303,
+      "StatType": "Defence",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "43307": {
+      "ID": 43307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "43308": {
+      "ID": 43308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "43309": {
+      "ID": 43309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "43310": {
+      "ID": 43310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.07, 0.063, 0.042, 0.035, 0.028]
+    },
+    "43401": {
+      "ID": 43401,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "43402": {
+      "ID": 43402,
+      "StatType": "HP",
+      "RandomStatValue": [444, 400, 266, 222, 178]
+    },
+    "43403": {
+      "ID": 43403,
+      "StatType": "Defence",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "43407": {
+      "ID": 43407,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "43408": {
+      "ID": 43408,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "43409": {
+      "ID": 43409,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "43410": {
+      "ID": 43410,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.07, 0.063, 0.042, 0.035, 0.028]
+    },
+    "44101": {
+      "ID": 44101,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "44102": {
+      "ID": 44102,
+      "StatType": "HP",
+      "RandomStatValue": [444, 400, 266, 222, 178]
+    },
+    "44103": {
+      "ID": 44103,
+      "StatType": "Defence",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "44201": {
+      "ID": 44201,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "44202": {
+      "ID": 44202,
+      "StatType": "HP",
+      "RandomStatValue": [444, 400, 266, 222, 178]
+    },
+    "44203": {
+      "ID": 44203,
+      "StatType": "Defence",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "44301": {
+      "ID": 44301,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "44302": {
+      "ID": 44302,
+      "StatType": "HP",
+      "RandomStatValue": [444, 400, 266, 222, 178]
+    },
+    "44303": {
+      "ID": 44303,
+      "StatType": "Defence",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "44307": {
+      "ID": 44307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "44308": {
+      "ID": 44308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "44309": {
+      "ID": 44309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "44310": {
+      "ID": 44310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.07, 0.063, 0.042, 0.035, 0.028]
+    },
+    "44401": {
+      "ID": 44401,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "44402": {
+      "ID": 44402,
+      "StatType": "HP",
+      "RandomStatValue": [444, 400, 266, 222, 178]
+    },
+    "44403": {
+      "ID": 44403,
+      "StatType": "Defence",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "44407": {
+      "ID": 44407,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "44408": {
+      "ID": 44408,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "44409": {
+      "ID": 44409,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "44410": {
+      "ID": 44410,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.07, 0.063, 0.042, 0.035, 0.028]
+    },
+    "30101": {
+      "ID": 30101,
+      "StatType": "Attack",
+      "RandomStatValue": [55, 50, 33, 28, 22]
+    },
+    "30102": {
+      "ID": 30102,
+      "StatType": "HP",
+      "RandomStatValue": [600, 540, 360, 300, 240]
+    },
+    "30103": {
+      "ID": 30103,
+      "StatType": "Defence",
+      "RandomStatValue": [39, 35, 23, 20, 16]
+    },
+    "30201": {
+      "ID": 30201,
+      "StatType": "Attack",
+      "RandomStatValue": [55, 50, 33, 28, 22]
+    },
+    "30202": {
+      "ID": 30202,
+      "StatType": "HP",
+      "RandomStatValue": [600, 540, 360, 300, 240]
+    },
+    "30203": {
+      "ID": 30203,
+      "StatType": "Defence",
+      "RandomStatValue": [39, 35, 23, 20, 16]
+    },
+    "30301": {
+      "ID": 30301,
+      "StatType": "Attack",
+      "RandomStatValue": [55, 50, 33, 28, 22]
+    },
+    "30302": {
+      "ID": 30302,
+      "StatType": "HP",
+      "RandomStatValue": [600, 540, 360, 300, 240]
+    },
+    "30303": {
+      "ID": 30303,
+      "StatType": "Defence",
+      "RandomStatValue": [39, 35, 23, 20, 16]
+    },
+    "31101": {
+      "ID": 31101,
+      "StatType": "Attack",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "31102": {
+      "ID": 31102,
+      "StatType": "HP",
+      "RandomStatValue": [540, 486, 324, 270, 216]
+    },
+    "31103": {
+      "ID": 31103,
+      "StatType": "Defence",
+      "RandomStatValue": [35, 32, 21, 18, 14]
+    },
+    "31201": {
+      "ID": 31201,
+      "StatType": "Attack",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "31202": {
+      "ID": 31202,
+      "StatType": "HP",
+      "RandomStatValue": [540, 486, 324, 270, 216]
+    },
+    "31203": {
+      "ID": 31203,
+      "StatType": "Defence",
+      "RandomStatValue": [35, 32, 21, 18, 14]
+    },
+    "31301": {
+      "ID": 31301,
+      "StatType": "Attack",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "31302": {
+      "ID": 31302,
+      "StatType": "HP",
+      "RandomStatValue": [540, 486, 324, 270, 216]
+    },
+    "31303": {
+      "ID": 31303,
+      "StatType": "Defence",
+      "RandomStatValue": [35, 32, 21, 18, 14]
+    },
+    "32101": {
+      "ID": 32101,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "32102": {
+      "ID": 32102,
+      "StatType": "HP",
+      "RandomStatValue": [450, 405, 270, 225, 180]
+    },
+    "32103": {
+      "ID": 32103,
+      "StatType": "Defence",
+      "RandomStatValue": [29, 26, 17, 15, 12]
+    },
+    "32201": {
+      "ID": 32201,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "32202": {
+      "ID": 32202,
+      "StatType": "HP",
+      "RandomStatValue": [450, 405, 270, 225, 180]
+    },
+    "32203": {
+      "ID": 32203,
+      "StatType": "Defence",
+      "RandomStatValue": [29, 26, 17, 15, 12]
+    },
+    "32301": {
+      "ID": 32301,
+      "StatType": "Attack",
+      "RandomStatValue": [41, 37, 25, 21, 16]
+    },
+    "32302": {
+      "ID": 32302,
+      "StatType": "HP",
+      "RandomStatValue": [450, 405, 270, 225, 180]
+    },
+    "32303": {
+      "ID": 32303,
+      "StatType": "Defence",
+      "RandomStatValue": [29, 26, 17, 15, 12]
+    },
+    "32307": {
+      "ID": 32307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "32308": {
+      "ID": 32308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "32309": {
+      "ID": 32309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.06, 0.054, 0.036, 0.03, 0.024]
+    },
+    "32310": {
+      "ID": 32310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.07, 0.063, 0.042, 0.035, 0.028]
+    },
+    "33101": {
+      "ID": 33101,
+      "StatType": "Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "33102": {
+      "ID": 33102,
+      "StatType": "HP",
+      "RandomStatValue": [330, 297, 198, 165, 132]
+    },
+    "33103": {
+      "ID": 33103,
+      "StatType": "Defence",
+      "RandomStatValue": [21, 19, 13, 11, 8]
+    },
+    "33201": {
+      "ID": 33201,
+      "StatType": "Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "33202": {
+      "ID": 33202,
+      "StatType": "HP",
+      "RandomStatValue": [330, 297, 198, 165, 132]
+    },
+    "33203": {
+      "ID": 33203,
+      "StatType": "Defence",
+      "RandomStatValue": [21, 19, 13, 11, 8]
+    },
+    "33301": {
+      "ID": 33301,
+      "StatType": "Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "33302": {
+      "ID": 33302,
+      "StatType": "HP",
+      "RandomStatValue": [330, 297, 198, 165, 132]
+    },
+    "33303": {
+      "ID": 33303,
+      "StatType": "Defence",
+      "RandomStatValue": [21, 19, 13, 11, 8]
+    },
+    "33307": {
+      "ID": 33307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.04, 0.036, 0.024, 0.02, 0.016]
+    },
+    "33308": {
+      "ID": 33308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.05, 0.045, 0.03, 0.025, 0.02]
+    },
+    "33309": {
+      "ID": 33309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.04, 0.036, 0.024, 0.02, 0.016]
+    },
+    "33310": {
+      "ID": 33310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.05, 0.045, 0.03, 0.025, 0.02]
+    },
+    "34101": {
+      "ID": 34101,
+      "StatType": "Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "34102": {
+      "ID": 34102,
+      "StatType": "HP",
+      "RandomStatValue": [330, 297, 198, 165, 132]
+    },
+    "34103": {
+      "ID": 34103,
+      "StatType": "Defence",
+      "RandomStatValue": [21, 19, 13, 11, 8]
+    },
+    "34201": {
+      "ID": 34201,
+      "StatType": "Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "34202": {
+      "ID": 34202,
+      "StatType": "HP",
+      "RandomStatValue": [330, 297, 198, 165, 132]
+    },
+    "34203": {
+      "ID": 34203,
+      "StatType": "Defence",
+      "RandomStatValue": [21, 19, 13, 11, 8]
+    },
+    "34301": {
+      "ID": 34301,
+      "StatType": "Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "34302": {
+      "ID": 34302,
+      "StatType": "HP",
+      "RandomStatValue": [330, 297, 198, 165, 132]
+    },
+    "34303": {
+      "ID": 34303,
+      "StatType": "Defence",
+      "RandomStatValue": [21, 19, 13, 11, 8]
+    },
+    "34307": {
+      "ID": 34307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.04, 0.036, 0.024, 0.02, 0.016]
+    },
+    "34308": {
+      "ID": 34308,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.05, 0.045, 0.03, 0.025, 0.02]
+    },
+    "34309": {
+      "ID": 34309,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.04, 0.036, 0.024, 0.02, 0.016]
+    },
+    "34310": {
+      "ID": 34310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.05, 0.045, 0.03, 0.025, 0.02]
+    },
+    "20101": {
+      "ID": 20101,
+      "StatType": "Attack",
+      "RandomStatValue": [37, 33, 22, 19, 15]
+    },
+    "20102": {
+      "ID": 20102,
+      "StatType": "HP",
+      "RandomStatValue": [403, 363, 242, 202, 161]
+    },
+    "20103": {
+      "ID": 20103,
+      "StatType": "Defence",
+      "RandomStatValue": [26, 23, 16, 13, 10]
+    },
+    "20201": {
+      "ID": 20201,
+      "StatType": "Attack",
+      "RandomStatValue": [37, 33, 22, 19, 15]
+    },
+    "20202": {
+      "ID": 20202,
+      "StatType": "HP",
+      "RandomStatValue": [403, 363, 242, 202, 161]
+    },
+    "20203": {
+      "ID": 20203,
+      "StatType": "Defence",
+      "RandomStatValue": [26, 23, 16, 13, 10]
+    },
+    "21101": {
+      "ID": 21101,
+      "StatType": "Attack",
+      "RandomStatValue": [33, 30, 20, 17, 13]
+    },
+    "21102": {
+      "ID": 21102,
+      "StatType": "HP",
+      "RandomStatValue": [363, 327, 218, 182, 145]
+    },
+    "21103": {
+      "ID": 21103,
+      "StatType": "Defence",
+      "RandomStatValue": [23, 21, 14, 12, 9]
+    },
+    "21201": {
+      "ID": 21201,
+      "StatType": "Attack",
+      "RandomStatValue": [33, 30, 20, 17, 13]
+    },
+    "21202": {
+      "ID": 21202,
+      "StatType": "HP",
+      "RandomStatValue": [363, 327, 218, 182, 145]
+    },
+    "21203": {
+      "ID": 21203,
+      "StatType": "Defence",
+      "RandomStatValue": [23, 21, 14, 12, 9]
+    },
+    "22101": {
+      "ID": 22101,
+      "StatType": "Attack",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "22102": {
+      "ID": 22102,
+      "StatType": "HP",
+      "RandomStatValue": [302, 272, 181, 151, 121]
+    },
+    "22103": {
+      "ID": 22103,
+      "StatType": "Defence",
+      "RandomStatValue": [19, 17, 11, 10, 8]
+    },
+    "22201": {
+      "ID": 22201,
+      "StatType": "Attack",
+      "RandomStatValue": [28, 25, 17, 14, 11]
+    },
+    "22202": {
+      "ID": 22202,
+      "StatType": "HP",
+      "RandomStatValue": [302, 272, 181, 151, 121]
+    },
+    "22203": {
+      "ID": 22203,
+      "StatType": "Defence",
+      "RandomStatValue": [19, 17, 11, 10, 8]
+    },
+    "23101": {
+      "ID": 23101,
+      "StatType": "Attack",
+      "RandomStatValue": [20, 18, 12, 10, 8]
+    },
+    "23102": {
+      "ID": 23102,
+      "StatType": "HP",
+      "RandomStatValue": [222, 200, 133, 111, 89]
+    },
+    "23103": {
+      "ID": 23103,
+      "StatType": "Defence",
+      "RandomStatValue": [14, 13, 8, 7, 6]
+    },
+    "23201": {
+      "ID": 23201,
+      "StatType": "Attack",
+      "RandomStatValue": [20, 18, 12, 10, 8]
+    },
+    "23202": {
+      "ID": 23202,
+      "StatType": "HP",
+      "RandomStatValue": [222, 200, 133, 111, 89]
+    },
+    "23203": {
+      "ID": 23203,
+      "StatType": "Defence",
+      "RandomStatValue": [14, 13, 8, 7, 6]
+    },
+    "24101": {
+      "ID": 24101,
+      "StatType": "Attack",
+      "RandomStatValue": [20, 18, 12, 10, 8]
+    },
+    "24102": {
+      "ID": 24102,
+      "StatType": "HP",
+      "RandomStatValue": [222, 200, 133, 111, 89]
+    },
+    "24103": {
+      "ID": 24103,
+      "StatType": "Defence",
+      "RandomStatValue": [14, 13, 8, 7, 6]
+    },
+    "24201": {
+      "ID": 24201,
+      "StatType": "Attack",
+      "RandomStatValue": [20, 18, 12, 10, 8]
+    },
+    "24202": {
+      "ID": 24202,
+      "StatType": "HP",
+      "RandomStatValue": [222, 200, 133, 111, 89]
+    },
+    "24203": {
+      "ID": 24203,
+      "StatType": "Defence",
+      "RandomStatValue": [14, 13, 8, 7, 6]
+    },
+    "10101": {
+      "ID": 10101,
+      "StatType": "Attack",
+      "RandomStatValue": [16, 14, 10, 8, 6]
+    },
+    "10102": {
+      "ID": 10102,
+      "StatType": "HP",
+      "RandomStatValue": [173, 156, 104, 87, 69]
+    },
+    "10103": {
+      "ID": 10103,
+      "StatType": "Defence",
+      "RandomStatValue": [11, 10, 7, 6, 4]
+    },
+    "11101": {
+      "ID": 11101,
+      "StatType": "Attack",
+      "RandomStatValue": [14, 13, 8, 7, 6]
+    },
+    "11102": {
+      "ID": 11102,
+      "StatType": "HP",
+      "RandomStatValue": [155, 140, 93, 78, 62]
+    },
+    "11103": {
+      "ID": 11103,
+      "StatType": "Defence",
+      "RandomStatValue": [10, 9, 6, 5, 4]
+    },
+    "12101": {
+      "ID": 12101,
+      "StatType": "Attack",
+      "RandomStatValue": [12, 11, 7, 6, 5]
+    },
+    "12102": {
+      "ID": 12102,
+      "StatType": "HP",
+      "RandomStatValue": [129, 116, 77, 65, 52]
+    },
+    "12103": {
+      "ID": 12103,
+      "StatType": "Defence",
+      "RandomStatValue": [8, 7, 5, 4, 3]
+    },
+    "13101": {
+      "ID": 13101,
+      "StatType": "Attack",
+      "RandomStatValue": [8, 7, 5, 4, 3]
+    },
+    "13102": {
+      "ID": 13102,
+      "StatType": "HP",
+      "RandomStatValue": [95, 86, 57, 48, 38]
+    },
+    "13103": {
+      "ID": 13103,
+      "StatType": "Defence",
+      "RandomStatValue": [6, 5, 4, 3, 2]
+    },
+    "14101": {
+      "ID": 14101,
+      "StatType": "Attack",
+      "RandomStatValue": [8, 7, 5, 4, 3]
+    },
+    "14102": {
+      "ID": 14102,
+      "StatType": "HP",
+      "RandomStatValue": [95, 86, 57, 48, 38]
+    },
+    "14103": {
+      "ID": 14103,
+      "StatType": "Defence",
+      "RandomStatValue": [6, 5, 4, 3, 2]
+    },
+    "1001": {
+      "ID": 1001,
+      "StatType": "HP",
+      "RandomStatValue": [115, 103, 69, 57, 46]
+    },
+    "1002": {
+      "ID": 1002,
+      "StatType": "Attack",
+      "RandomStatValue": [8, 7, 4, 4, 3]
+    },
+    "1003": {
+      "ID": 1003,
+      "StatType": "Defence",
+      "RandomStatValue": [8, 7, 4, 4, 3]
+    },
+    "1004": {
+      "ID": 1004,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "1005": {
+      "ID": 1005,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "1006": {
+      "ID": 1006,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "1007": {
+      "ID": 1007,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "1008": {
+      "ID": 1008,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "1009": {
+      "ID": 1009,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "1010": {
+      "ID": 1010,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "1011": {
+      "ID": 1011,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.023, 0.02, 0.013, 0.011, 0.009]
+    },
+    "1012": {
+      "ID": 1012,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [6, 5, 3, 3, 2]
+    },
+    "1013": {
+      "ID": 1013,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1014": {
+      "ID": 1014,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1015": {
+      "ID": 1015,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1016": {
+      "ID": 1016,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1017": {
+      "ID": 1017,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1018": {
+      "ID": 1018,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1019": {
+      "ID": 1019,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1020": {
+      "ID": 1020,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1021": {
+      "ID": 1021,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1022": {
+      "ID": 1022,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "1023": {
+      "ID": 1023,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1024": {
+      "ID": 1024,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1025": {
+      "ID": 1025,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1026": {
+      "ID": 1026,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1027": {
+      "ID": 1027,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1028": {
+      "ID": 1028,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1029": {
+      "ID": 1029,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1030": {
+      "ID": 1030,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1031": {
+      "ID": 1031,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1032": {
+      "ID": 1032,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "1101": {
+      "ID": 1101,
+      "StatType": "HP",
+      "RandomStatValue": [104, 93, 62, 52, 41]
+    },
+    "1102": {
+      "ID": 1102,
+      "StatType": "Attack",
+      "RandomStatValue": [7, 6, 4, 3, 2]
+    },
+    "1103": {
+      "ID": 1103,
+      "StatType": "Defence",
+      "RandomStatValue": [7, 6, 4, 3, 2]
+    },
+    "1104": {
+      "ID": 1104,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.014, 0.012, 0.008, 0.007, 0.005]
+    },
+    "1105": {
+      "ID": 1105,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.014, 0.012, 0.008, 0.007, 0.005]
+    },
+    "1106": {
+      "ID": 1106,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.014, 0.012, 0.008, 0.007, 0.005]
+    },
+    "1107": {
+      "ID": 1107,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.019, 0.017, 0.011, 0.009, 0.007]
+    },
+    "1108": {
+      "ID": 1108,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.019, 0.017, 0.011, 0.009, 0.007]
+    },
+    "1109": {
+      "ID": 1109,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.02, 0.018, 0.012, 0.01, 0.008]
+    },
+    "1110": {
+      "ID": 1110,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.02, 0.018, 0.012, 0.01, 0.008]
+    },
+    "1111": {
+      "ID": 1111,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.02, 0.018, 0.012, 0.01, 0.008]
+    },
+    "1112": {
+      "ID": 1112,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [5, 4, 3, 2, 2]
+    },
+    "1113": {
+      "ID": 1113,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1114": {
+      "ID": 1114,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1115": {
+      "ID": 1115,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1116": {
+      "ID": 1116,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1117": {
+      "ID": 1117,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1118": {
+      "ID": 1118,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1119": {
+      "ID": 1119,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1120": {
+      "ID": 1120,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1121": {
+      "ID": 1121,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1122": {
+      "ID": 1122,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "1123": {
+      "ID": 1123,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1124": {
+      "ID": 1124,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1125": {
+      "ID": 1125,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1126": {
+      "ID": 1126,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1127": {
+      "ID": 1127,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1128": {
+      "ID": 1128,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1129": {
+      "ID": 1129,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1130": {
+      "ID": 1130,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1131": {
+      "ID": 1131,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1132": {
+      "ID": 1132,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "1201": {
+      "ID": 1201,
+      "StatType": "HP",
+      "RandomStatValue": [86, 77, 51, 43, 34]
+    },
+    "1202": {
+      "ID": 1202,
+      "StatType": "Attack",
+      "RandomStatValue": [6, 5, 3, 3, 2]
+    },
+    "1203": {
+      "ID": 1203,
+      "StatType": "Defence",
+      "RandomStatValue": [6, 5, 3, 3, 2]
+    },
+    "1204": {
+      "ID": 1204,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.012, 0.01, 0.007, 0.006, 0.004]
+    },
+    "1205": {
+      "ID": 1205,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.012, 0.01, 0.007, 0.006, 0.004]
+    },
+    "1206": {
+      "ID": 1206,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.012, 0.01, 0.007, 0.006, 0.004]
+    },
+    "1207": {
+      "ID": 1207,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "1208": {
+      "ID": 1208,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "1209": {
+      "ID": 1209,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "1210": {
+      "ID": 1210,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "1211": {
+      "ID": 1211,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.017, 0.015, 0.01, 0.008, 0.006]
+    },
+    "1212": {
+      "ID": 1212,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [4, 3, 2, 2, 1]
+    },
+    "1213": {
+      "ID": 1213,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1214": {
+      "ID": 1214,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1215": {
+      "ID": 1215,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1216": {
+      "ID": 1216,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1217": {
+      "ID": 1217,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1218": {
+      "ID": 1218,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1219": {
+      "ID": 1219,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1220": {
+      "ID": 1220,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1221": {
+      "ID": 1221,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1222": {
+      "ID": 1222,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [16, 14, 9, 8, 6]
+    },
+    "1223": {
+      "ID": 1223,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1224": {
+      "ID": 1224,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1225": {
+      "ID": 1225,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1226": {
+      "ID": 1226,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1227": {
+      "ID": 1227,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1228": {
+      "ID": 1228,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1229": {
+      "ID": 1229,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1230": {
+      "ID": 1230,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1231": {
+      "ID": 1231,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1232": {
+      "ID": 1232,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [23, 20, 13, 11, 9]
+    },
+    "1301": {
+      "ID": 1301,
+      "StatType": "HP",
+      "RandomStatValue": [63, 56, 37, 31, 25]
+    },
+    "1302": {
+      "ID": 1302,
+      "StatType": "Attack",
+      "RandomStatValue": [4, 3, 2, 2, 1]
+    },
+    "1303": {
+      "ID": 1303,
+      "StatType": "Defence",
+      "RandomStatValue": [4, 3, 2, 2, 1]
+    },
+    "1304": {
+      "ID": 1304,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.009, 0.008, 0.005, 0.004, 0.003]
+    },
+    "1305": {
+      "ID": 1305,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.009, 0.008, 0.005, 0.004, 0.003]
+    },
+    "1306": {
+      "ID": 1306,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.009, 0.008, 0.005, 0.004, 0.003]
+    },
+    "1307": {
+      "ID": 1307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.012, 0.01, 0.007, 0.006, 0.004]
+    },
+    "1308": {
+      "ID": 1308,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.012, 0.01, 0.007, 0.006, 0.004]
+    },
+    "1309": {
+      "ID": 1309,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.012, 0.01, 0.007, 0.006, 0.004]
+    },
+    "1310": {
+      "ID": 1310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.012, 0.01, 0.007, 0.006, 0.004]
+    },
+    "1311": {
+      "ID": 1311,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.012, 0.01, 0.007, 0.006, 0.004]
+    },
+    "1312": {
+      "ID": 1312,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [3, 2, 1, 1, 1]
+    },
+    "1313": {
+      "ID": 1313,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1314": {
+      "ID": 1314,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1315": {
+      "ID": 1315,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1316": {
+      "ID": 1316,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1317": {
+      "ID": 1317,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1318": {
+      "ID": 1318,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1319": {
+      "ID": 1319,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1320": {
+      "ID": 1320,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1321": {
+      "ID": 1321,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1322": {
+      "ID": 1322,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "1323": {
+      "ID": 1323,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1324": {
+      "ID": 1324,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1325": {
+      "ID": 1325,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1326": {
+      "ID": 1326,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1327": {
+      "ID": 1327,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1328": {
+      "ID": 1328,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1329": {
+      "ID": 1329,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1330": {
+      "ID": 1330,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1331": {
+      "ID": 1331,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "1332": {
+      "ID": 1332,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [17, 15, 10, 8, 6]
+    },
+    "2001": {
+      "ID": 2001,
+      "StatType": "HP",
+      "RandomStatValue": [206, 185, 123, 103, 82]
+    },
+    "2002": {
+      "ID": 2002,
+      "StatType": "Attack",
+      "RandomStatValue": [14, 12, 8, 7, 5]
+    },
+    "2003": {
+      "ID": 2003,
+      "StatType": "Defence",
+      "RandomStatValue": [14, 12, 8, 7, 5]
+    },
+    "2004": {
+      "ID": 2004,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.029, 0.026, 0.017, 0.014, 0.011]
+    },
+    "2005": {
+      "ID": 2005,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.029, 0.026, 0.017, 0.014, 0.011]
+    },
+    "2006": {
+      "ID": 2006,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.029, 0.026, 0.017, 0.014, 0.011]
+    },
+    "2007": {
+      "ID": 2007,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.039, 0.035, 0.023, 0.019, 0.015]
+    },
+    "2008": {
+      "ID": 2008,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.039, 0.035, 0.023, 0.019, 0.015]
+    },
+    "2009": {
+      "ID": 2009,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.04, 0.036, 0.024, 0.02, 0.016]
+    },
+    "2010": {
+      "ID": 2010,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.04, 0.036, 0.024, 0.02, 0.016]
+    },
+    "2011": {
+      "ID": 2011,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.041, 0.036, 0.024, 0.02, 0.016]
+    },
+    "2012": {
+      "ID": 2012,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [10, 9, 6, 5, 4]
+    },
+    "2013": {
+      "ID": 2013,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2014": {
+      "ID": 2014,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2015": {
+      "ID": 2015,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2016": {
+      "ID": 2016,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2017": {
+      "ID": 2017,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2018": {
+      "ID": 2018,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2019": {
+      "ID": 2019,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2020": {
+      "ID": 2020,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2021": {
+      "ID": 2021,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2022": {
+      "ID": 2022,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [38, 34, 22, 19, 15]
+    },
+    "2023": {
+      "ID": 2023,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2024": {
+      "ID": 2024,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2025": {
+      "ID": 2025,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2026": {
+      "ID": 2026,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2027": {
+      "ID": 2027,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2028": {
+      "ID": 2028,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2029": {
+      "ID": 2029,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2030": {
+      "ID": 2030,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2031": {
+      "ID": 2031,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2032": {
+      "ID": 2032,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [56, 50, 33, 28, 22]
+    },
+    "2101": {
+      "ID": 2101,
+      "StatType": "HP",
+      "RandomStatValue": [185, 166, 111, 92, 74]
+    },
+    "2102": {
+      "ID": 2102,
+      "StatType": "Attack",
+      "RandomStatValue": [13, 11, 7, 6, 5]
+    },
+    "2103": {
+      "ID": 2103,
+      "StatType": "Defence",
+      "RandomStatValue": [13, 11, 7, 6, 5]
+    },
+    "2104": {
+      "ID": 2104,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.026, 0.023, 0.015, 0.013, 0.01]
+    },
+    "2105": {
+      "ID": 2105,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.026, 0.023, 0.015, 0.013, 0.01]
+    },
+    "2106": {
+      "ID": 2106,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.026, 0.023, 0.015, 0.013, 0.01]
+    },
+    "2107": {
+      "ID": 2107,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.035, 0.031, 0.021, 0.017, 0.014]
+    },
+    "2108": {
+      "ID": 2108,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.035, 0.031, 0.021, 0.017, 0.014]
+    },
+    "2109": {
+      "ID": 2109,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.036, 0.032, 0.021, 0.018, 0.014]
+    },
+    "2110": {
+      "ID": 2110,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.036, 0.032, 0.021, 0.018, 0.014]
+    },
+    "2111": {
+      "ID": 2111,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.037, 0.033, 0.022, 0.018, 0.014]
+    },
+    "2112": {
+      "ID": 2112,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [9, 8, 5, 4, 3]
+    },
+    "2113": {
+      "ID": 2113,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2114": {
+      "ID": 2114,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2115": {
+      "ID": 2115,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2116": {
+      "ID": 2116,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2117": {
+      "ID": 2117,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2118": {
+      "ID": 2118,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2119": {
+      "ID": 2119,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2120": {
+      "ID": 2120,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2121": {
+      "ID": 2121,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2122": {
+      "ID": 2122,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "2123": {
+      "ID": 2123,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2124": {
+      "ID": 2124,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2125": {
+      "ID": 2125,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2126": {
+      "ID": 2126,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2127": {
+      "ID": 2127,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2128": {
+      "ID": 2128,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2129": {
+      "ID": 2129,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2130": {
+      "ID": 2130,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2131": {
+      "ID": 2131,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2132": {
+      "ID": 2132,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [50, 45, 30, 25, 20]
+    },
+    "2201": {
+      "ID": 2201,
+      "StatType": "HP",
+      "RandomStatValue": [154, 138, 92, 77, 61]
+    },
+    "2202": {
+      "ID": 2202,
+      "StatType": "Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "2203": {
+      "ID": 2203,
+      "StatType": "Defence",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "2204": {
+      "ID": 2204,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "2205": {
+      "ID": 2205,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "2206": {
+      "ID": 2206,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "2207": {
+      "ID": 2207,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.029, 0.026, 0.017, 0.014, 0.011]
+    },
+    "2208": {
+      "ID": 2208,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.029, 0.026, 0.017, 0.014, 0.011]
+    },
+    "2209": {
+      "ID": 2209,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.03, 0.027, 0.018, 0.015, 0.012]
+    },
+    "2210": {
+      "ID": 2210,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.03, 0.027, 0.018, 0.015, 0.012]
+    },
+    "2211": {
+      "ID": 2211,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.031, 0.027, 0.018, 0.015, 0.012]
+    },
+    "2212": {
+      "ID": 2212,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [8, 7, 4, 4, 3]
+    },
+    "2213": {
+      "ID": 2213,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2214": {
+      "ID": 2214,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2215": {
+      "ID": 2215,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2216": {
+      "ID": 2216,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2217": {
+      "ID": 2217,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2218": {
+      "ID": 2218,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2219": {
+      "ID": 2219,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2220": {
+      "ID": 2220,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2221": {
+      "ID": 2221,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2222": {
+      "ID": 2222,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [28, 25, 16, 14, 11]
+    },
+    "2223": {
+      "ID": 2223,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2224": {
+      "ID": 2224,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2225": {
+      "ID": 2225,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2226": {
+      "ID": 2226,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2227": {
+      "ID": 2227,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2228": {
+      "ID": 2228,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2229": {
+      "ID": 2229,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2230": {
+      "ID": 2230,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2231": {
+      "ID": 2231,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2232": {
+      "ID": 2232,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [42, 37, 25, 21, 16]
+    },
+    "2301": {
+      "ID": 2301,
+      "StatType": "HP",
+      "RandomStatValue": [113, 101, 67, 56, 45]
+    },
+    "2302": {
+      "ID": 2302,
+      "StatType": "Attack",
+      "RandomStatValue": [8, 7, 4, 4, 3]
+    },
+    "2303": {
+      "ID": 2303,
+      "StatType": "Defence",
+      "RandomStatValue": [8, 7, 4, 4, 3]
+    },
+    "2304": {
+      "ID": 2304,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "2305": {
+      "ID": 2305,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "2306": {
+      "ID": 2306,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.016, 0.014, 0.009, 0.008, 0.006]
+    },
+    "2307": {
+      "ID": 2307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.021, 0.018, 0.012, 0.01, 0.008]
+    },
+    "2308": {
+      "ID": 2308,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.021, 0.018, 0.012, 0.01, 0.008]
+    },
+    "2309": {
+      "ID": 2309,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "2310": {
+      "ID": 2310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "2311": {
+      "ID": 2311,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.022, 0.019, 0.013, 0.011, 0.008]
+    },
+    "2312": {
+      "ID": 2312,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [6, 5, 3, 3, 2]
+    },
+    "2313": {
+      "ID": 2313,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2314": {
+      "ID": 2314,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2315": {
+      "ID": 2315,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2316": {
+      "ID": 2316,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2317": {
+      "ID": 2317,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2318": {
+      "ID": 2318,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2319": {
+      "ID": 2319,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2320": {
+      "ID": 2320,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2321": {
+      "ID": 2321,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2322": {
+      "ID": 2322,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "2323": {
+      "ID": 2323,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2324": {
+      "ID": 2324,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2325": {
+      "ID": 2325,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2326": {
+      "ID": 2326,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2327": {
+      "ID": 2327,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2328": {
+      "ID": 2328,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2329": {
+      "ID": 2329,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2330": {
+      "ID": 2330,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2331": {
+      "ID": 2331,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "2332": {
+      "ID": 2332,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [31, 27, 18, 15, 12]
+    },
+    "3001": {
+      "ID": 3001,
+      "StatType": "HP",
+      "RandomStatValue": [296, 266, 177, 148, 118]
+    },
+    "3002": {
+      "ID": 3002,
+      "StatType": "Attack",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "3003": {
+      "ID": 3003,
+      "StatType": "Defence",
+      "RandomStatValue": [21, 18, 12, 10, 8]
+    },
+    "3004": {
+      "ID": 3004,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.042, 0.037, 0.025, 0.021, 0.016]
+    },
+    "3005": {
+      "ID": 3005,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.042, 0.037, 0.025, 0.021, 0.016]
+    },
+    "3006": {
+      "ID": 3006,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.042, 0.037, 0.025, 0.021, 0.016]
+    },
+    "3007": {
+      "ID": 3007,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.056, 0.05, 0.033, 0.028, 0.022]
+    },
+    "3008": {
+      "ID": 3008,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.056, 0.05, 0.033, 0.028, 0.022]
+    },
+    "3009": {
+      "ID": 3009,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.057, 0.051, 0.034, 0.028, 0.022]
+    },
+    "3010": {
+      "ID": 3010,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.057, 0.051, 0.034, 0.028, 0.022]
+    },
+    "3011": {
+      "ID": 3011,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.059, 0.053, 0.035, 0.029, 0.023]
+    },
+    "3012": {
+      "ID": 3012,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [15, 13, 9, 7, 6]
+    },
+    "3013": {
+      "ID": 3013,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3014": {
+      "ID": 3014,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3015": {
+      "ID": 3015,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3016": {
+      "ID": 3016,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3017": {
+      "ID": 3017,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3018": {
+      "ID": 3018,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3019": {
+      "ID": 3019,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3020": {
+      "ID": 3020,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3021": {
+      "ID": 3021,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3022": {
+      "ID": 3022,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [55, 49, 33, 27, 22]
+    },
+    "3023": {
+      "ID": 3023,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3024": {
+      "ID": 3024,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3025": {
+      "ID": 3025,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3026": {
+      "ID": 3026,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3027": {
+      "ID": 3027,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3028": {
+      "ID": 3028,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3029": {
+      "ID": 3029,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3030": {
+      "ID": 3030,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3031": {
+      "ID": 3031,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3032": {
+      "ID": 3032,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "3101": {
+      "ID": 3101,
+      "StatType": "HP",
+      "RandomStatValue": [266, 239, 159, 133, 106]
+    },
+    "3102": {
+      "ID": 3102,
+      "StatType": "Attack",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "3103": {
+      "ID": 3103,
+      "StatType": "Defence",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "3104": {
+      "ID": 3104,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.038, 0.034, 0.022, 0.019, 0.015]
+    },
+    "3105": {
+      "ID": 3105,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.038, 0.034, 0.022, 0.019, 0.015]
+    },
+    "3106": {
+      "ID": 3106,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.038, 0.034, 0.022, 0.019, 0.015]
+    },
+    "3107": {
+      "ID": 3107,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.051, 0.045, 0.03, 0.025, 0.02]
+    },
+    "3108": {
+      "ID": 3108,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.051, 0.045, 0.03, 0.025, 0.02]
+    },
+    "3109": {
+      "ID": 3109,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.052, 0.046, 0.031, 0.026, 0.02]
+    },
+    "3110": {
+      "ID": 3110,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.052, 0.046, 0.031, 0.026, 0.02]
+    },
+    "3111": {
+      "ID": 3111,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.053, 0.047, 0.031, 0.026, 0.021]
+    },
+    "3112": {
+      "ID": 3112,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [14, 12, 8, 7, 5]
+    },
+    "3113": {
+      "ID": 3113,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3114": {
+      "ID": 3114,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3115": {
+      "ID": 3115,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3116": {
+      "ID": 3116,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3117": {
+      "ID": 3117,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3118": {
+      "ID": 3118,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3119": {
+      "ID": 3119,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3120": {
+      "ID": 3120,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3121": {
+      "ID": 3121,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3122": {
+      "ID": 3122,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "3123": {
+      "ID": 3123,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3124": {
+      "ID": 3124,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3125": {
+      "ID": 3125,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3126": {
+      "ID": 3126,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3127": {
+      "ID": 3127,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3128": {
+      "ID": 3128,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3129": {
+      "ID": 3129,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3130": {
+      "ID": 3130,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3131": {
+      "ID": 3131,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3132": {
+      "ID": 3132,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "3201": {
+      "ID": 3201,
+      "StatType": "HP",
+      "RandomStatValue": [222, 199, 133, 111, 88]
+    },
+    "3202": {
+      "ID": 3202,
+      "StatType": "Attack",
+      "RandomStatValue": [15, 13, 9, 7, 6]
+    },
+    "3203": {
+      "ID": 3203,
+      "StatType": "Defence",
+      "RandomStatValue": [15, 13, 9, 7, 6]
+    },
+    "3204": {
+      "ID": 3204,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.031, 0.027, 0.018, 0.015, 0.012]
+    },
+    "3205": {
+      "ID": 3205,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.031, 0.027, 0.018, 0.015, 0.012]
+    },
+    "3206": {
+      "ID": 3206,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.031, 0.027, 0.018, 0.015, 0.012]
+    },
+    "3207": {
+      "ID": 3207,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.042, 0.037, 0.025, 0.021, 0.016]
+    },
+    "3208": {
+      "ID": 3208,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.042, 0.037, 0.025, 0.021, 0.016]
+    },
+    "3209": {
+      "ID": 3209,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.043, 0.038, 0.025, 0.021, 0.017]
+    },
+    "3210": {
+      "ID": 3210,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.043, 0.038, 0.025, 0.021, 0.017]
+    },
+    "3211": {
+      "ID": 3211,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.044, 0.039, 0.026, 0.022, 0.017]
+    },
+    "3212": {
+      "ID": 3212,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "3213": {
+      "ID": 3213,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3214": {
+      "ID": 3214,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3215": {
+      "ID": 3215,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3216": {
+      "ID": 3216,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3217": {
+      "ID": 3217,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3218": {
+      "ID": 3218,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3219": {
+      "ID": 3219,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3220": {
+      "ID": 3220,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3221": {
+      "ID": 3221,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3222": {
+      "ID": 3222,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [41, 36, 24, 20, 16]
+    },
+    "3223": {
+      "ID": 3223,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3224": {
+      "ID": 3224,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3225": {
+      "ID": 3225,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3226": {
+      "ID": 3226,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3227": {
+      "ID": 3227,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3228": {
+      "ID": 3228,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3229": {
+      "ID": 3229,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3230": {
+      "ID": 3230,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3231": {
+      "ID": 3231,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3232": {
+      "ID": 3232,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [60, 54, 36, 30, 24]
+    },
+    "3301": {
+      "ID": 3301,
+      "StatType": "HP",
+      "RandomStatValue": [162, 145, 97, 81, 64]
+    },
+    "3302": {
+      "ID": 3302,
+      "StatType": "Attack",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "3303": {
+      "ID": 3303,
+      "StatType": "Defence",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "3304": {
+      "ID": 3304,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.023, 0.02, 0.013, 0.011, 0.009]
+    },
+    "3305": {
+      "ID": 3305,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.023, 0.02, 0.013, 0.011, 0.009]
+    },
+    "3306": {
+      "ID": 3306,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.023, 0.02, 0.013, 0.011, 0.009]
+    },
+    "3307": {
+      "ID": 3307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.031, 0.027, 0.018, 0.015, 0.012]
+    },
+    "3308": {
+      "ID": 3308,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.031, 0.027, 0.018, 0.015, 0.012]
+    },
+    "3309": {
+      "ID": 3309,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.031, 0.027, 0.018, 0.015, 0.012]
+    },
+    "3310": {
+      "ID": 3310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.031, 0.027, 0.018, 0.015, 0.012]
+    },
+    "3311": {
+      "ID": 3311,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.032, 0.028, 0.019, 0.016, 0.012]
+    },
+    "3312": {
+      "ID": 3312,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [8, 7, 4, 4, 3]
+    },
+    "3313": {
+      "ID": 3313,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3314": {
+      "ID": 3314,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3315": {
+      "ID": 3315,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3316": {
+      "ID": 3316,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3317": {
+      "ID": 3317,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3318": {
+      "ID": 3318,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3319": {
+      "ID": 3319,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3320": {
+      "ID": 3320,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3321": {
+      "ID": 3321,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3322": {
+      "ID": 3322,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "3323": {
+      "ID": 3323,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3324": {
+      "ID": 3324,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3325": {
+      "ID": 3325,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3326": {
+      "ID": 3326,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3327": {
+      "ID": 3327,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3328": {
+      "ID": 3328,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3329": {
+      "ID": 3329,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3330": {
+      "ID": 3330,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3331": {
+      "ID": 3331,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "3332": {
+      "ID": 3332,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [44, 39, 26, 22, 17]
+    },
+    "4001": {
+      "ID": 4001,
+      "StatType": "HP",
+      "RandomStatValue": [387, 348, 232, 193, 154]
+    },
+    "4002": {
+      "ID": 4002,
+      "StatType": "Attack",
+      "RandomStatValue": [27, 24, 16, 13, 10]
+    },
+    "4003": {
+      "ID": 4003,
+      "StatType": "Defence",
+      "RandomStatValue": [27, 24, 16, 13, 10]
+    },
+    "4004": {
+      "ID": 4004,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.055, 0.049, 0.033, 0.027, 0.022]
+    },
+    "4005": {
+      "ID": 4005,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.055, 0.049, 0.033, 0.027, 0.022]
+    },
+    "4006": {
+      "ID": 4006,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.055, 0.049, 0.033, 0.027, 0.022]
+    },
+    "4007": {
+      "ID": 4007,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.074, 0.066, 0.044, 0.037, 0.029]
+    },
+    "4008": {
+      "ID": 4008,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.074, 0.066, 0.044, 0.037, 0.029]
+    },
+    "4009": {
+      "ID": 4009,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.075, 0.067, 0.045, 0.037, 0.03]
+    },
+    "4010": {
+      "ID": 4010,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.075, 0.067, 0.045, 0.037, 0.03]
+    },
+    "4011": {
+      "ID": 4011,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.077, 0.069, 0.046, 0.038, 0.03]
+    },
+    "4012": {
+      "ID": 4012,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [20, 18, 12, 10, 8]
+    },
+    "4013": {
+      "ID": 4013,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4014": {
+      "ID": 4014,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4015": {
+      "ID": 4015,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4016": {
+      "ID": 4016,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4017": {
+      "ID": 4017,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4018": {
+      "ID": 4018,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4019": {
+      "ID": 4019,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4020": {
+      "ID": 4020,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4021": {
+      "ID": 4021,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4022": {
+      "ID": 4022,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [71, 63, 42, 35, 28]
+    },
+    "4023": {
+      "ID": 4023,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4024": {
+      "ID": 4024,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4025": {
+      "ID": 4025,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4026": {
+      "ID": 4026,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4027": {
+      "ID": 4027,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4028": {
+      "ID": 4028,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4029": {
+      "ID": 4029,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4030": {
+      "ID": 4030,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4031": {
+      "ID": 4031,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4032": {
+      "ID": 4032,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [105, 94, 63, 52, 42]
+    },
+    "4101": {
+      "ID": 4101,
+      "StatType": "HP",
+      "RandomStatValue": [348, 313, 208, 174, 139]
+    },
+    "4102": {
+      "ID": 4102,
+      "StatType": "Attack",
+      "RandomStatValue": [24, 21, 14, 12, 9]
+    },
+    "4103": {
+      "ID": 4103,
+      "StatType": "Defence",
+      "RandomStatValue": [24, 21, 14, 12, 9]
+    },
+    "4104": {
+      "ID": 4104,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.049, 0.044, 0.029, 0.024, 0.019]
+    },
+    "4105": {
+      "ID": 4105,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.049, 0.044, 0.029, 0.024, 0.019]
+    },
+    "4106": {
+      "ID": 4106,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.049, 0.044, 0.029, 0.024, 0.019]
+    },
+    "4107": {
+      "ID": 4107,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.066, 0.059, 0.039, 0.033, 0.026]
+    },
+    "4108": {
+      "ID": 4108,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.066, 0.059, 0.039, 0.033, 0.026]
+    },
+    "4109": {
+      "ID": 4109,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.068, 0.061, 0.04, 0.034, 0.027]
+    },
+    "4110": {
+      "ID": 4110,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.068, 0.061, 0.04, 0.034, 0.027]
+    },
+    "4111": {
+      "ID": 4111,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.07, 0.063, 0.042, 0.035, 0.028]
+    },
+    "4112": {
+      "ID": 4112,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [18, 16, 10, 9, 7]
+    },
+    "4113": {
+      "ID": 4113,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4114": {
+      "ID": 4114,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4115": {
+      "ID": 4115,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4116": {
+      "ID": 4116,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4117": {
+      "ID": 4117,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4118": {
+      "ID": 4118,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4119": {
+      "ID": 4119,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4120": {
+      "ID": 4120,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4121": {
+      "ID": 4121,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4122": {
+      "ID": 4122,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [64, 57, 38, 32, 25]
+    },
+    "4123": {
+      "ID": 4123,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4124": {
+      "ID": 4124,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4125": {
+      "ID": 4125,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4126": {
+      "ID": 4126,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4127": {
+      "ID": 4127,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4128": {
+      "ID": 4128,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4129": {
+      "ID": 4129,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4130": {
+      "ID": 4130,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4131": {
+      "ID": 4131,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4132": {
+      "ID": 4132,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [95, 85, 57, 47, 38]
+    },
+    "4201": {
+      "ID": 4201,
+      "StatType": "HP",
+      "RandomStatValue": [290, 261, 174, 145, 116]
+    },
+    "4202": {
+      "ID": 4202,
+      "StatType": "Attack",
+      "RandomStatValue": [20, 18, 12, 10, 8]
+    },
+    "4203": {
+      "ID": 4203,
+      "StatType": "Defence",
+      "RandomStatValue": [20, 18, 12, 10, 8]
+    },
+    "4204": {
+      "ID": 4204,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.041, 0.036, 0.024, 0.02, 0.016]
+    },
+    "4205": {
+      "ID": 4205,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.041, 0.036, 0.024, 0.02, 0.016]
+    },
+    "4206": {
+      "ID": 4206,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.041, 0.036, 0.024, 0.02, 0.016]
+    },
+    "4207": {
+      "ID": 4207,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.055, 0.049, 0.033, 0.027, 0.022]
+    },
+    "4208": {
+      "ID": 4208,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.055, 0.049, 0.033, 0.027, 0.022]
+    },
+    "4209": {
+      "ID": 4209,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.056, 0.05, 0.033, 0.028, 0.022]
+    },
+    "4210": {
+      "ID": 4210,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.056, 0.05, 0.033, 0.028, 0.022]
+    },
+    "4211": {
+      "ID": 4211,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.058, 0.052, 0.034, 0.029, 0.023]
+    },
+    "4212": {
+      "ID": 4212,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [15, 13, 9, 7, 6]
+    },
+    "4213": {
+      "ID": 4213,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4214": {
+      "ID": 4214,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4215": {
+      "ID": 4215,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4216": {
+      "ID": 4216,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4217": {
+      "ID": 4217,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4218": {
+      "ID": 4218,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4219": {
+      "ID": 4219,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4220": {
+      "ID": 4220,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4221": {
+      "ID": 4221,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4222": {
+      "ID": 4222,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [53, 47, 31, 26, 21]
+    },
+    "4223": {
+      "ID": 4223,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4224": {
+      "ID": 4224,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4225": {
+      "ID": 4225,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4226": {
+      "ID": 4226,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4227": {
+      "ID": 4227,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4228": {
+      "ID": 4228,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4229": {
+      "ID": 4229,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4230": {
+      "ID": 4230,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4231": {
+      "ID": 4231,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4232": {
+      "ID": 4232,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [79, 71, 47, 39, 31]
+    },
+    "4301": {
+      "ID": 4301,
+      "StatType": "HP",
+      "RandomStatValue": [213, 191, 127, 106, 85]
+    },
+    "4302": {
+      "ID": 4302,
+      "StatType": "Attack",
+      "RandomStatValue": [15, 13, 9, 7, 6]
+    },
+    "4303": {
+      "ID": 4303,
+      "StatType": "Defence",
+      "RandomStatValue": [15, 13, 9, 7, 6]
+    },
+    "4304": {
+      "ID": 4304,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.03, 0.027, 0.018, 0.015, 0.012]
+    },
+    "4305": {
+      "ID": 4305,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.03, 0.027, 0.018, 0.015, 0.012]
+    },
+    "4306": {
+      "ID": 4306,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.03, 0.027, 0.018, 0.015, 0.012]
+    },
+    "4307": {
+      "ID": 4307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.04, 0.036, 0.024, 0.02, 0.016]
+    },
+    "4308": {
+      "ID": 4308,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.04, 0.036, 0.024, 0.02, 0.016]
+    },
+    "4309": {
+      "ID": 4309,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.041, 0.036, 0.024, 0.02, 0.016]
+    },
+    "4310": {
+      "ID": 4310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.041, 0.036, 0.024, 0.02, 0.016]
+    },
+    "4311": {
+      "ID": 4311,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.042, 0.037, 0.025, 0.021, 0.016]
+    },
+    "4312": {
+      "ID": 4312,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [11, 9, 6, 5, 4]
+    },
+    "4313": {
+      "ID": 4313,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4314": {
+      "ID": 4314,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4315": {
+      "ID": 4315,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4316": {
+      "ID": 4316,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4317": {
+      "ID": 4317,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4318": {
+      "ID": 4318,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4319": {
+      "ID": 4319,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4320": {
+      "ID": 4320,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4321": {
+      "ID": 4321,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4322": {
+      "ID": 4322,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [39, 35, 23, 19, 15]
+    },
+    "4323": {
+      "ID": 4323,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4324": {
+      "ID": 4324,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4325": {
+      "ID": 4325,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4326": {
+      "ID": 4326,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4327": {
+      "ID": 4327,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4328": {
+      "ID": 4328,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4329": {
+      "ID": 4329,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4330": {
+      "ID": 4330,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4331": {
+      "ID": 4331,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "4332": {
+      "ID": 4332,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [58, 52, 34, 29, 23]
+    },
+    "5001": {
+      "ID": 5001,
+      "StatType": "HP",
+      "RandomStatValue": [480, 432, 288, 240, 192]
+    },
+    "5002": {
+      "ID": 5002,
+      "StatType": "Attack",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "5003": {
+      "ID": 5003,
+      "StatType": "Defence",
+      "RandomStatValue": [34, 30, 20, 17, 13]
+    },
+    "5004": {
+      "ID": 5004,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.068, 0.061, 0.04, 0.034, 0.027]
+    },
+    "5005": {
+      "ID": 5005,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.068, 0.061, 0.04, 0.034, 0.027]
+    },
+    "5006": {
+      "ID": 5006,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.068, 0.061, 0.04, 0.034, 0.027]
+    },
+    "5007": {
+      "ID": 5007,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.091, 0.081, 0.054, 0.045, 0.036]
+    },
+    "5008": {
+      "ID": 5008,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.091, 0.081, 0.054, 0.045, 0.036]
+    },
+    "5009": {
+      "ID": 5009,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.093, 0.083, 0.055, 0.046, 0.037]
+    },
+    "5010": {
+      "ID": 5010,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.093, 0.083, 0.055, 0.046, 0.037]
+    },
+    "5011": {
+      "ID": 5011,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.096, 0.086, 0.057, 0.048, 0.038]
+    },
+    "5012": {
+      "ID": 5012,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [25, 22, 15, 12, 10]
+    },
+    "5013": {
+      "ID": 5013,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5014": {
+      "ID": 5014,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5015": {
+      "ID": 5015,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5016": {
+      "ID": 5016,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5017": {
+      "ID": 5017,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5018": {
+      "ID": 5018,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5019": {
+      "ID": 5019,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5020": {
+      "ID": 5020,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5021": {
+      "ID": 5021,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5022": {
+      "ID": 5022,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [89, 80, 53, 44, 35]
+    },
+    "5023": {
+      "ID": 5023,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5024": {
+      "ID": 5024,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5025": {
+      "ID": 5025,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5026": {
+      "ID": 5026,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5027": {
+      "ID": 5027,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5028": {
+      "ID": 5028,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5029": {
+      "ID": 5029,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5030": {
+      "ID": 5030,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5031": {
+      "ID": 5031,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5032": {
+      "ID": 5032,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [131, 117, 78, 65, 52]
+    },
+    "5101": {
+      "ID": 5101,
+      "StatType": "HP",
+      "RandomStatValue": [432, 388, 259, 216, 172]
+    },
+    "5102": {
+      "ID": 5102,
+      "StatType": "Attack",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "5103": {
+      "ID": 5103,
+      "StatType": "Defence",
+      "RandomStatValue": [30, 27, 18, 15, 12]
+    },
+    "5104": {
+      "ID": 5104,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.061, 0.054, 0.036, 0.03, 0.024]
+    },
+    "5105": {
+      "ID": 5105,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.061, 0.054, 0.036, 0.03, 0.024]
+    },
+    "5106": {
+      "ID": 5106,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.061, 0.054, 0.036, 0.03, 0.024]
+    },
+    "5107": {
+      "ID": 5107,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.082, 0.073, 0.049, 0.041, 0.032]
+    },
+    "5108": {
+      "ID": 5108,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.082, 0.073, 0.049, 0.041, 0.032]
+    },
+    "5109": {
+      "ID": 5109,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.084, 0.075, 0.05, 0.042, 0.033]
+    },
+    "5110": {
+      "ID": 5110,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.084, 0.075, 0.05, 0.042, 0.033]
+    },
+    "5111": {
+      "ID": 5111,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.086, 0.077, 0.051, 0.043, 0.034]
+    },
+    "5112": {
+      "ID": 5112,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [22, 19, 13, 11, 8]
+    },
+    "5113": {
+      "ID": 5113,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5114": {
+      "ID": 5114,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5115": {
+      "ID": 5115,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5116": {
+      "ID": 5116,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5117": {
+      "ID": 5117,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5118": {
+      "ID": 5118,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5119": {
+      "ID": 5119,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5120": {
+      "ID": 5120,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5121": {
+      "ID": 5121,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5122": {
+      "ID": 5122,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [80, 72, 48, 40, 32]
+    },
+    "5123": {
+      "ID": 5123,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5124": {
+      "ID": 5124,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5125": {
+      "ID": 5125,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5126": {
+      "ID": 5126,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5127": {
+      "ID": 5127,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5128": {
+      "ID": 5128,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5129": {
+      "ID": 5129,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5130": {
+      "ID": 5130,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5131": {
+      "ID": 5131,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5132": {
+      "ID": 5132,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [118, 106, 70, 59, 47]
+    },
+    "5201": {
+      "ID": 5201,
+      "StatType": "HP",
+      "RandomStatValue": [360, 324, 216, 180, 144]
+    },
+    "5202": {
+      "ID": 5202,
+      "StatType": "Attack",
+      "RandomStatValue": [25, 22, 15, 12, 10]
+    },
+    "5203": {
+      "ID": 5203,
+      "StatType": "Defence",
+      "RandomStatValue": [25, 22, 15, 12, 10]
+    },
+    "5204": {
+      "ID": 5204,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.051, 0.045, 0.03, 0.025, 0.02]
+    },
+    "5205": {
+      "ID": 5205,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.051, 0.045, 0.03, 0.025, 0.02]
+    },
+    "5206": {
+      "ID": 5206,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.051, 0.045, 0.03, 0.025, 0.02]
+    },
+    "5207": {
+      "ID": 5207,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.068, 0.061, 0.04, 0.034, 0.027]
+    },
+    "5208": {
+      "ID": 5208,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.068, 0.061, 0.04, 0.034, 0.027]
+    },
+    "5209": {
+      "ID": 5209,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.07, 0.063, 0.042, 0.035, 0.028]
+    },
+    "5210": {
+      "ID": 5210,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.07, 0.063, 0.042, 0.035, 0.028]
+    },
+    "5211": {
+      "ID": 5211,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.072, 0.064, 0.043, 0.036, 0.028]
+    },
+    "5212": {
+      "ID": 5212,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [19, 17, 11, 9, 7]
+    },
+    "5213": {
+      "ID": 5213,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5214": {
+      "ID": 5214,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5215": {
+      "ID": 5215,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5216": {
+      "ID": 5216,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5217": {
+      "ID": 5217,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5218": {
+      "ID": 5218,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5219": {
+      "ID": 5219,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5220": {
+      "ID": 5220,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5221": {
+      "ID": 5221,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5222": {
+      "ID": 5222,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [66, 59, 39, 33, 26]
+    },
+    "5223": {
+      "ID": 5223,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5224": {
+      "ID": 5224,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5225": {
+      "ID": 5225,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5226": {
+      "ID": 5226,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5227": {
+      "ID": 5227,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5228": {
+      "ID": 5228,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5229": {
+      "ID": 5229,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5230": {
+      "ID": 5230,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5231": {
+      "ID": 5231,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5232": {
+      "ID": 5232,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [98, 88, 58, 49, 39]
+    },
+    "5301": {
+      "ID": 5301,
+      "StatType": "HP",
+      "RandomStatValue": [264, 237, 158, 132, 105]
+    },
+    "5302": {
+      "ID": 5302,
+      "StatType": "Attack",
+      "RandomStatValue": [18, 16, 10, 9, 7]
+    },
+    "5303": {
+      "ID": 5303,
+      "StatType": "Defence",
+      "RandomStatValue": [18, 16, 10, 9, 7]
+    },
+    "5304": {
+      "ID": 5304,
+      "StatType": "HP_Per",
+      "RandomStatValue": [0.037, 0.033, 0.022, 0.018, 0.014]
+    },
+    "5305": {
+      "ID": 5305,
+      "StatType": "Attack_Per",
+      "RandomStatValue": [0.037, 0.033, 0.022, 0.018, 0.014]
+    },
+    "5306": {
+      "ID": 5306,
+      "StatType": "Defence_Per",
+      "RandomStatValue": [0.037, 0.033, 0.022, 0.018, 0.014]
+    },
+    "5307": {
+      "ID": 5307,
+      "StatType": "Critical_Per",
+      "RandomStatValue": [0.05, 0.045, 0.03, 0.025, 0.02]
+    },
+    "5308": {
+      "ID": 5308,
+      "StatType": "CriticalResist_Per",
+      "RandomStatValue": [0.05, 0.045, 0.03, 0.025, 0.02]
+    },
+    "5309": {
+      "ID": 5309,
+      "StatType": "CriticalDmg_Per",
+      "RandomStatValue": [0.051, 0.045, 0.03, 0.025, 0.02]
+    },
+    "5310": {
+      "ID": 5310,
+      "StatType": "CriticalDefence_Per",
+      "RandomStatValue": [0.051, 0.045, 0.03, 0.025, 0.02]
+    },
+    "5311": {
+      "ID": 5311,
+      "StatType": "AllMes_Damage_Per",
+      "RandomStatValue": [0.053, 0.047, 0.031, 0.026, 0.021]
+    },
+    "5312": {
+      "ID": 5312,
+      "StatType": "Defence_Penetrate",
+      "RandomStatValue": [13, 11, 7, 6, 5]
+    },
+    "5313": {
+      "ID": 5313,
+      "StatType": "All_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5314": {
+      "ID": 5314,
+      "StatType": "Stun_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5315": {
+      "ID": 5315,
+      "StatType": "Down_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5316": {
+      "ID": 5316,
+      "StatType": "Air_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5317": {
+      "ID": 5317,
+      "StatType": "Bleed_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5318": {
+      "ID": 5318,
+      "StatType": "Fire_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5319": {
+      "ID": 5319,
+      "StatType": "Ice_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5320": {
+      "ID": 5320,
+      "StatType": "Shock_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5321": {
+      "ID": 5321,
+      "StatType": "Poison_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5322": {
+      "ID": 5322,
+      "StatType": "Break_Add_Attack",
+      "RandomStatValue": [49, 44, 29, 24, 19]
+    },
+    "5323": {
+      "ID": 5323,
+      "StatType": "All_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5324": {
+      "ID": 5324,
+      "StatType": "Stun_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5325": {
+      "ID": 5325,
+      "StatType": "Down_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5326": {
+      "ID": 5326,
+      "StatType": "Air_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5327": {
+      "ID": 5327,
+      "StatType": "Bleed_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5328": {
+      "ID": 5328,
+      "StatType": "Fire_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5329": {
+      "ID": 5329,
+      "StatType": "Ice_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5330": {
+      "ID": 5330,
+      "StatType": "Shock_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5331": {
+      "ID": 5331,
+      "StatType": "Poison_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    },
+    "5332": {
+      "ID": 5332,
+      "StatType": "Break_Add_Defence",
+      "RandomStatValue": [72, 64, 43, 36, 28]
+    }
+  }
+}

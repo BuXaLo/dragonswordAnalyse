@@ -1,0 +1,214 @@
+﻿{
+  "Data": {
+    "1310001": {
+      "ID": 1310001,
+      "StatList1": "Attack",
+      "StatList1Value": 45,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310002": {
+      "ID": 1310002,
+      "StatList1": "Attack_Per",
+      "StatList1Value": 0.05,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310003": {
+      "ID": 1310003,
+      "StatList1": "Defence",
+      "StatList1Value": 30,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310004": {
+      "ID": 1310004,
+      "StatList1": "Defence_Per",
+      "StatList1Value": 0.07,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310005": {
+      "ID": 1310005,
+      "StatList1": "MAXHP",
+      "StatList1Value": 500,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310006": {
+      "ID": 1310006,
+      "StatList1": "MAXHP_Per",
+      "StatList1Value": 0.07,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310101": {
+      "ID": 1310101,
+      "StatList1": "Attack",
+      "StatList1Value": 60,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310102": {
+      "ID": 1310102,
+      "StatList1": "Attack_Per",
+      "StatList1Value": 0.07,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310103": {
+      "ID": 1310103,
+      "StatList1": "Defence",
+      "StatList1Value": 40,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310104": {
+      "ID": 1310104,
+      "StatList1": "Defence_Per",
+      "StatList1Value": 0.1,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310105": {
+      "ID": 1310105,
+      "StatList1": "MAXHP",
+      "StatList1Value": 700,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310106": {
+      "ID": 1310106,
+      "StatList1": "MAXHP_Per",
+      "StatList1Value": 0.1,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310201": {
+      "ID": 1310201,
+      "StatList1": "Attack",
+      "StatList1Value": 85,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310202": {
+      "ID": 1310202,
+      "StatList1": "Attack_Per",
+      "StatList1Value": 0.1,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310203": {
+      "ID": 1310203,
+      "StatList1": "Defence",
+      "StatList1Value": 60,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310204": {
+      "ID": 1310204,
+      "StatList1": "Defence_Per",
+      "StatList1Value": 0.15,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310205": {
+      "ID": 1310205,
+      "StatList1": "MAXHP",
+      "StatList1Value": 1000,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310206": {
+      "ID": 1310206,
+      "StatList1": "MAXHP_Per",
+      "StatList1Value": 0.15,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310301": {
+      "ID": 1310301,
+      "StatList1": "Attack",
+      "StatList1Value": 85,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310302": {
+      "ID": 1310302,
+      "StatList1": "Attack_Per",
+      "StatList1Value": 0.1,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310303": {
+      "ID": 1310303,
+      "StatList1": "Defence",
+      "StatList1Value": 60,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310304": {
+      "ID": 1310304,
+      "StatList1": "Defence_Per",
+      "StatList1Value": 0.15,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310305": {
+      "ID": 1310305,
+      "StatList1": "MAXHP",
+      "StatList1Value": 1000,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310306": {
+      "ID": 1310306,
+      "StatList1": "MAXHP_Per",
+      "StatList1Value": 0.15,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310401": {
+      "ID": 1310401,
+      "StatList1": "Attack",
+      "StatList1Value": 85,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310402": {
+      "ID": 1310402,
+      "StatList1": "Attack_Per",
+      "StatList1Value": 0.1,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310403": {
+      "ID": 1310403,
+      "StatList1": "Defence",
+      "StatList1Value": 60,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310404": {
+      "ID": 1310404,
+      "StatList1": "Defence_Per",
+      "StatList1Value": 0.15,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310405": {
+      "ID": 1310405,
+      "StatList1": "MAXHP",
+      "StatList1Value": 1000,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    },
+    "1310406": {
+      "ID": 1310406,
+      "StatList1": "MAXHP_Per",
+      "StatList1Value": 0.15,
+      "StatList2": "TYPE_NONE",
+      "StatList2Value": 0.000000
+    }
+  }
+}

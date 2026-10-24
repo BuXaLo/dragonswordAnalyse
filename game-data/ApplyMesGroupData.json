@@ -1,0 +1,568 @@
+﻿{
+  "Data": {
+    "1": {
+      "Data": {
+        "SHOCK": {
+          "ApplyMes": "SHOCK",
+          "GroupID": 1,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "ICE": {
+          "ApplyMes": "ICE",
+          "GroupID": 1,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "FIRE": {
+          "ApplyMes": "FIRE",
+          "GroupID": 1,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "POISON": {
+          "ApplyMes": "POISON",
+          "GroupID": 1,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "BLEED": {
+          "ApplyMes": "BLEED",
+          "GroupID": 1,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        }
+      }
+    },
+    "2": {
+      "Data": {
+        "SHOCK": {
+          "ApplyMes": "SHOCK",
+          "GroupID": 2,
+          "Stun_Per": 0.3,
+          "Air_Per": 0.3,
+          "Down_Per": 0.3,
+          "Hold_Per": 0.3,
+          "Slow_Per": 0.3,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "ICE": {
+          "ApplyMes": "ICE",
+          "GroupID": 2,
+          "Stun_Per": 0.3,
+          "Air_Per": 0.3,
+          "Down_Per": 0.3,
+          "Hold_Per": 0.3,
+          "Slow_Per": 0.3,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "FIRE": {
+          "ApplyMes": "FIRE",
+          "GroupID": 2,
+          "Stun_Per": 0.3,
+          "Air_Per": 0.3,
+          "Down_Per": 0.3,
+          "Hold_Per": 0.3,
+          "Slow_Per": 0.3,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "POISON": {
+          "ApplyMes": "POISON",
+          "GroupID": 2,
+          "Stun_Per": 0.3,
+          "Air_Per": 0.3,
+          "Down_Per": 0.3,
+          "Hold_Per": 0.3,
+          "Slow_Per": 0.3,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "BLEED": {
+          "ApplyMes": "BLEED",
+          "GroupID": 2,
+          "Stun_Per": 0.3,
+          "Air_Per": 0.3,
+          "Down_Per": 0.3,
+          "Hold_Per": 0.3,
+          "Slow_Per": 0.3,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        }
+      }
+    },
+    "3": {
+      "Data": {
+        "STUN": {
+          "ApplyMes": "STUN",
+          "GroupID": 3,
+          "Stun_Per": 0,
+          "Air_Per": 0,
+          "Down_Per": 0,
+          "Hold_Per": 0,
+          "Slow_Per": 0,
+          "Shock_Per": 0.3,
+          "Ice_Per": 0.3,
+          "Fire_Per": 0.3,
+          "Poison_Per": 0.3,
+          "Bleed_Per": 0.3
+        },
+        "AIR": {
+          "ApplyMes": "AIR",
+          "GroupID": 3,
+          "Stun_Per": 0,
+          "Air_Per": 0,
+          "Down_Per": 0,
+          "Hold_Per": 0,
+          "Slow_Per": 0,
+          "Shock_Per": 0.3,
+          "Ice_Per": 0.3,
+          "Fire_Per": 0.3,
+          "Poison_Per": 0.3,
+          "Bleed_Per": 0.3
+        },
+        "DOWN": {
+          "ApplyMes": "DOWN",
+          "GroupID": 3,
+          "Stun_Per": 0,
+          "Air_Per": 0,
+          "Down_Per": 0,
+          "Hold_Per": 0,
+          "Slow_Per": 0,
+          "Shock_Per": 0.3,
+          "Ice_Per": 0.3,
+          "Fire_Per": 0.3,
+          "Poison_Per": 0.3,
+          "Bleed_Per": 0.3
+        },
+        "HOLD": {
+          "ApplyMes": "HOLD",
+          "GroupID": 3,
+          "Stun_Per": 0,
+          "Air_Per": 0,
+          "Down_Per": 0,
+          "Hold_Per": 0,
+          "Slow_Per": 0,
+          "Shock_Per": 0.3,
+          "Ice_Per": 0.3,
+          "Fire_Per": 0.3,
+          "Poison_Per": 0.3,
+          "Bleed_Per": 0.3
+        },
+        "SLOW": {
+          "ApplyMes": "SLOW",
+          "GroupID": 3,
+          "Stun_Per": 0,
+          "Air_Per": 0,
+          "Down_Per": 0,
+          "Hold_Per": 0,
+          "Slow_Per": 0,
+          "Shock_Per": 0.3,
+          "Ice_Per": 0.3,
+          "Fire_Per": 0.3,
+          "Poison_Per": 0.3,
+          "Bleed_Per": 0.3
+        }
+      }
+    },
+    "4": {
+      "Data": {
+        "STUN": {
+          "ApplyMes": "STUN",
+          "GroupID": 4,
+          "Stun_Per": 0,
+          "Air_Per": -0.5,
+          "Down_Per": -0.5,
+          "Hold_Per": -0.5,
+          "Slow_Per": -0.5,
+          "Shock_Per": 0.5,
+          "Ice_Per": 0.5,
+          "Fire_Per": 0.5,
+          "Poison_Per": 0.5,
+          "Bleed_Per": 0.5
+        },
+        "DOWN": {
+          "ApplyMes": "DOWN",
+          "GroupID": 4,
+          "Stun_Per": -0.5,
+          "Air_Per": -0.5,
+          "Down_Per": 0,
+          "Hold_Per": -0.5,
+          "Slow_Per": -0.5,
+          "Shock_Per": 0.5,
+          "Ice_Per": 0.5,
+          "Fire_Per": 0.5,
+          "Poison_Per": 0.5,
+          "Bleed_Per": 0.5
+        },
+        "AIR": {
+          "ApplyMes": "AIR",
+          "GroupID": 4,
+          "Stun_Per": -0.5,
+          "Air_Per": 0,
+          "Down_Per": -0.5,
+          "Hold_Per": -0.5,
+          "Slow_Per": -0.5,
+          "Shock_Per": 0.5,
+          "Ice_Per": 0.5,
+          "Fire_Per": 0.5,
+          "Poison_Per": 0.5,
+          "Bleed_Per": 0.5
+        },
+        "HOLD": {
+          "ApplyMes": "HOLD",
+          "GroupID": 4,
+          "Stun_Per": -0.5,
+          "Air_Per": -0.5,
+          "Down_Per": -0.5,
+          "Hold_Per": 0,
+          "Slow_Per": -0.5,
+          "Shock_Per": 0.5,
+          "Ice_Per": 0.5,
+          "Fire_Per": 0.5,
+          "Poison_Per": 0.5,
+          "Bleed_Per": 0.5
+        },
+        "SLOW": {
+          "ApplyMes": "SLOW",
+          "GroupID": 4,
+          "Stun_Per": -0.5,
+          "Air_Per": -0.5,
+          "Down_Per": -0.5,
+          "Hold_Per": -0.5,
+          "Slow_Per": 0,
+          "Shock_Per": 0.5,
+          "Ice_Per": 0.5,
+          "Fire_Per": 0.5,
+          "Poison_Per": 0.5,
+          "Bleed_Per": 0.5
+        }
+      }
+    },
+    "5": {
+      "Data": {
+        "POISON": {
+          "ApplyMes": "POISON",
+          "GroupID": 5,
+          "Stun_Per": 0,
+          "Air_Per": 0,
+          "Down_Per": 0,
+          "Hold_Per": 0,
+          "Slow_Per": 0,
+          "Shock_Per": 0,
+          "Ice_Per": 0.5,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "SHOCK": {
+          "ApplyMes": "SHOCK",
+          "GroupID": 5,
+          "Stun_Per": 0,
+          "Air_Per": 0,
+          "Down_Per": 0,
+          "Hold_Per": 0,
+          "Slow_Per": 0,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": -0.5,
+          "Bleed_Per": 0
+        },
+        "BLEED": {
+          "ApplyMes": "BLEED",
+          "GroupID": 5,
+          "Stun_Per": 0,
+          "Air_Per": 0,
+          "Down_Per": 0,
+          "Hold_Per": 0,
+          "Slow_Per": 0,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0.5
+        }
+      }
+    },
+    "10": {
+      "Data": {
+        "SHOCK": {
+          "ApplyMes": "SHOCK",
+          "GroupID": 10,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "ICE": {
+          "ApplyMes": "ICE",
+          "GroupID": 10,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "FIRE": {
+          "ApplyMes": "FIRE",
+          "GroupID": 10,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "POISON": {
+          "ApplyMes": "POISON",
+          "GroupID": 10,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "BLEED": {
+          "ApplyMes": "BLEED",
+          "GroupID": 10,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        }
+      }
+    },
+    "101": {
+      "Data": {
+        "SHOCK": {
+          "ApplyMes": "SHOCK",
+          "GroupID": 101,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "ICE": {
+          "ApplyMes": "ICE",
+          "GroupID": 101,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "FIRE": {
+          "ApplyMes": "FIRE",
+          "GroupID": 101,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "POISON": {
+          "ApplyMes": "POISON",
+          "GroupID": 101,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "BLEED": {
+          "ApplyMes": "BLEED",
+          "GroupID": 101,
+          "Stun_Per": 0.5,
+          "Air_Per": 0.5,
+          "Down_Per": 0.5,
+          "Hold_Per": 0.5,
+          "Slow_Per": 0.5,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        }
+      }
+    },
+    "1001": {
+      "Data": {
+        "SHOCK": {
+          "ApplyMes": "SHOCK",
+          "GroupID": 1001,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "ICE": {
+          "ApplyMes": "ICE",
+          "GroupID": 1001,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "FIRE": {
+          "ApplyMes": "FIRE",
+          "GroupID": 1001,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "POISON": {
+          "ApplyMes": "POISON",
+          "GroupID": 1001,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        },
+        "BLEED": {
+          "ApplyMes": "BLEED",
+          "GroupID": 1001,
+          "Stun_Per": 1,
+          "Air_Per": 1,
+          "Down_Per": 1,
+          "Hold_Per": 1,
+          "Slow_Per": 1,
+          "Shock_Per": 0,
+          "Ice_Per": 0,
+          "Fire_Per": 0,
+          "Poison_Per": 0,
+          "Bleed_Per": 0
+        }
+      }
+    }
+  }
+}

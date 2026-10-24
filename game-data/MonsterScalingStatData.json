@@ -1,0 +1,100 @@
+﻿{
+  "Data": {
+    "4": {
+      "ID": 4,
+      "AttackScalingGroupID": 4,
+      "HPScalingGroupID": 4,
+      "DefenceScalingGroupID": 4
+    },
+    "111": {
+      "ID": 111,
+      "AttackScalingGroupID": 1,
+      "HPScalingGroupID": 1,
+      "DefenceScalingGroupID": 1
+    },
+    "1000": {
+      "ID": 1000,
+      "AttackScalingGroupID": 1000,
+      "HPScalingGroupID": 1000,
+      "DefenceScalingGroupID": 1000
+    },
+    "2000": {
+      "ID": 2000,
+      "AttackScalingGroupID": 2000,
+      "HPScalingGroupID": 2000,
+      "DefenceScalingGroupID": 2000
+    },
+    "3000": {
+      "ID": 3000,
+      "AttackScalingGroupID": 3000,
+      "HPScalingGroupID": 3000,
+      "DefenceScalingGroupID": 3000
+    },
+    "11000": {
+      "ID": 11000,
+      "AttackScalingGroupID": 11000,
+      "HPScalingGroupID": 11000,
+      "DefenceScalingGroupID": 11000
+    },
+    "12000": {
+      "ID": 12000,
+      "AttackScalingGroupID": 12000,
+      "HPScalingGroupID": 12000,
+      "DefenceScalingGroupID": 12000
+    },
+    "13000": {
+      "ID": 13000,
+      "AttackScalingGroupID": 13000,
+      "HPScalingGroupID": 13000,
+      "DefenceScalingGroupID": 13000
+    },
+    "21000": {
+      "ID": 21000,
+      "AttackScalingGroupID": 21000,
+      "HPScalingGroupID": 21000,
+      "DefenceScalingGroupID": 21000
+    },
+    "22000": {
+      "ID": 22000,
+      "AttackScalingGroupID": 22000,
+      "HPScalingGroupID": 22000,
+      "DefenceScalingGroupID": 22000
+    },
+    "23000": {
+      "ID": 23000,
+      "AttackScalingGroupID": 23000,
+      "HPScalingGroupID": 23000,
+      "DefenceScalingGroupID": 23000
+    },
+    "30000": {
+      "ID": 30000,
+      "AttackScalingGroupID": 30000,
+      "HPScalingGroupID": 30000,
+      "DefenceScalingGroupID": 30000
+    },
+    "90000": {
+      "ID": 90000,
+      "AttackScalingGroupID": 90000,
+      "HPScalingGroupID": 90000,
+      "DefenceScalingGroupID": 90000
+    },
+    "91000": {
+      "ID": 91000,
+      "AttackScalingGroupID": 91000,
+      "HPScalingGroupID": 91000,
+      "DefenceScalingGroupID": 91000
+    },
+    "92000": {
+      "ID": 92000,
+      "AttackScalingGroupID": 92000,
+      "HPScalingGroupID": 92000,
+      "DefenceScalingGroupID": 92000
+    },
+    "99999": {
+      "ID": 99999,
+      "AttackScalingGroupID": 99999,
+      "HPScalingGroupID": 99999,
+      "DefenceScalingGroupID": 99999
+    }
+  }
+}

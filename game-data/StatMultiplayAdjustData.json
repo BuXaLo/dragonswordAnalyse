@@ -1,0 +1,189 @@
+﻿{
+  "Data": {
+    "1": {
+      "ID": 1,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 1,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.078, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        },
+        "3": {
+          "Number": 3,
+          "ID": 1,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.195, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        },
+        "4": {
+          "Number": 4,
+          "ID": 1,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.39, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    },
+    "2": {
+      "ID": 2,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 2,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.195, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        },
+        "3": {
+          "Number": 3,
+          "ID": 2,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.39, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        },
+        "4": {
+          "Number": 4,
+          "ID": 2,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.78, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    },
+    "101": {
+      "ID": 101,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 101,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "SuperArmorValue", "StunMesResist_Per", "AirMesResist_Per", "DownMesResist_Per", "ShockMesResist_Per", "IceMesResist_Per", "FireMesResist_Per", "PoisonMesResist_Per", "BleedMesResist_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.39, 75, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    },
+    "102": {
+      "ID": 102,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 102,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "SuperArmorValue", "StunMesResist_Per", "AirMesResist_Per", "DownMesResist_Per", "ShockMesResist_Per", "IceMesResist_Per", "FireMesResist_Per", "PoisonMesResist_Per", "BleedMesResist_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.468, 100, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    },
+    "103": {
+      "ID": 103,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 103,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "SuperArmorValue", "StunMesResist_Per", "AirMesResist_Per", "DownMesResist_Per", "ShockMesResist_Per", "IceMesResist_Per", "FireMesResist_Per", "PoisonMesResist_Per", "BleedMesResist_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.546, 150, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    },
+    "104": {
+      "ID": 104,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 104,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "SuperArmorValue", "StunMesResist_Per", "AirMesResist_Per", "DownMesResist_Per", "ShockMesResist_Per", "IceMesResist_Per", "FireMesResist_Per", "PoisonMesResist_Per", "BleedMesResist_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.624, 200, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    },
+    "105": {
+      "ID": 105,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 105,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "SuperArmorValue", "StunMesResist_Per", "AirMesResist_Per", "DownMesResist_Per", "ShockMesResist_Per", "IceMesResist_Per", "FireMesResist_Per", "PoisonMesResist_Per", "BleedMesResist_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.78, 250, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    },
+    "110": {
+      "ID": 110,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 110,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "SuperArmorValue", "StunMesResist_Per", "AirMesResist_Per", "DownMesResist_Per", "ShockMesResist_Per", "IceMesResist_Per", "FireMesResist_Per", "PoisonMesResist_Per", "BleedMesResist_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.78, 150, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    },
+    "201": {
+      "ID": 201,
+      "NumberMap": {
+        "2": {
+          "Number": 2,
+          "ID": 201,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "SuperArmorValue", "StunMesResist_Per", "AirMesResist_Per", "DownMesResist_Per", "ShockMesResist_Per", "IceMesResist_Per", "FireMesResist_Per", "PoisonMesResist_Per", "BleedMesResist_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [0.585, 150, 0.25, 0.25, 0.25, 0.25, 0.25, 0.175, 0.2, 0.25, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        },
+        "3": {
+          "Number": 3,
+          "ID": 201,
+          "Default_Value": 10000,
+          "HP_Value_Ratio": 0,
+          "Attack_Value_Ratio": 0,
+          "Defence_Value_Ratio": 0,
+          "StatList": ["MAXHP_Per", "SuperArmorValue", "StunMesResist_Per", "AirMesResist_Per", "DownMesResist_Per", "ShockMesResist_Per", "IceMesResist_Per", "FireMesResist_Per", "PoisonMesResist_Per", "BleedMesResist_Per", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE", "TYPE_NONE"],
+          "StatList_Value_Ratio": [1.17, 250, 0.5, 0.5, 0.5, 0.5, 0.5, 0.35, 0.4, 0.5, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+        }
+      }
+    }
+  }
+}
